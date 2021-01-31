@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'wet';
+  src: local('wet'),
+       local('wet Regular'),
+       local('wet-Regular'),
+       url(wet.woff) format("woff");
+}
