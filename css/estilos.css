@@ -243,6 +243,10 @@ body {
     border-right: 1px solid #7cbfbf;
   }
 
+  .productos .productos-item:hover{
+    background-color: #7cbfbf2e;
+  }
+
   .productos .productos-item:hover::before{
     left: 0%;
     width: 100%;
