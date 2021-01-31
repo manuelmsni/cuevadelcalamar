@@ -11,6 +11,8 @@
 
   <!-- Fuentes -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Josefin+Slab:wght@100;300;400&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
@@ -42,19 +44,22 @@
             <a class="nav-link" href="#contact">Contacto</a>
           </li>
         </ul>
+        
         <ul class="navbar-nav ml-auto">
+          <!--
           <li class="nav-item">
             <a class="nav-link" href="#">Registrarse</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Iniciar Sesión</a>
           </li>
+         --> 
         </ul>
       </div>
     </div>
   </nav>
 
- <!-- ======= Portada  ======= -->
+ <!-- ======= Portada ======= -->
 
   <section id="hero" class="d-flex align-items-center" href="#primera-seccion" onClick="location.href='#primera-seccion'">
   <div id="rotate" class="layer-bg layer" data-depth="0.60" data-type="parallax"></div>
@@ -80,13 +85,81 @@
   <hr size="8px" color="#91dfbd" />
 
 
+<!-- ======= Productos======= -->
 
-     <!-- ======= Seccion 1======= -->
-  <section id="primera-seccion" class="d-flex">
+<section id="productos" class="productos">
+  <div class="container">
+
+    <div class="row" data-aos="fade-in">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="productos-flters">
+          <li data-filter="*" class="filter-active">Todos</li>
+          <li data-filter=".filter-app">Señuelos</li>
+          <li data-filter=".filter-card">Cuerpos</li>
+          <li data-filter=".filter-web">Materiales</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row productos-container" data-aos="fade-up">
+
+      <div class="col-lg-3 col-md-6 productos-item filter-app">
+        <div class="productos-wrap">
+          <img src="img/productos/señuelos/1/azul.png" class="img-fluid" alt="">
+          <div class="productos-links">
+            <a href="img/productos/señuelos/1/azul.png" data-gall="productosGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+            <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 productos-item filter-web">
+        <div class="productos-wrap">
+          <img src="img/productos/señuelos/2/azul.png" class="img-fluid" alt="">
+          <div class="productos-links">
+            <a href="img/productos/señuelos/2/azul.png" data-gall="productosGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+            <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 productos-item filter-app">
+        <div class="productos-wrap">
+          <img src="img/productos/señuelos/3/azul.png" class="img-fluid" alt="">
+          <div class="productos-links">
+            <a href="img/productos/señuelos/3/azul.png" data-gall="productosGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+            <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 productos-item filter-app">
+        <div class="productos-wrap">
+          <img src="img/productos/señuelos/4/azul.png" class="img-fluid" alt="">
+          <div class="productos-links">
+            <a href="img/productos/señuelos/4/azul.png" data-gall="productosGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+            <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+      </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+     <!-- ======= INFORMACIÓN======= -->
+  <section id="Información" class="d-flex">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-md-6">
         
-      </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+        Somos apasionados de la pesca y nos dedicamos a fabricar nuestros propios señuelos.
+        Como pescadores nuestra prioridad es confeccionar productos sencillos y de calidad.
+        
+        Todos nuestros peces son elaborados poniendo nuestro mejor empeño.
+        
+        En la cueva del calamar encontrarás todo lo que necesitas para largas sesiones de pesca.
 
       </div>
 
