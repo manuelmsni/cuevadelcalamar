@@ -207,13 +207,22 @@ body {
   }
 
   #contact-form input[type='submit'] {
-    background: #202020;
-    border: 0;
-    color: #ffffff;
+    background: #fff;
+    border: 1px solid #7cbfbf;
   }
 
   #contact-form input[type='submit']:hover {
-    background: #29ca8e;
+    background: #7cbfbf;
     color: #ffffff;
   }
+
+  /*---------------------------------------
+      PIE DE PÁGINA            
+  -----------------------------------------*/
+.footer {
+  background: #7cbfbf;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
   
