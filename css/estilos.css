@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Lato';
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 h1,
@@ -12,7 +12,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
+  font-family: 'Nanum Gothic', sans-serif;
+  color:#7cbfbf;
 }
 
 .btn-xl {
@@ -59,7 +60,7 @@ body {
 	 padding: 0;
 	 margin: 0;
 	 background-color: #fff;
-	 font-family: 'Segoe UI ,Playfair Display, serif';
+	 font-family: 'Nanum Gothic', sans-serif;
 	 color: #fff;
 }
 
@@ -178,3 +179,41 @@ body {
 	 padding: 50px 0 20px 0;
    background-color: #fff;
 }
+
+/*---------------------------------------
+      CONTACTO             
+  -----------------------------------------*/
+
+  #contact-form .col-md-12,
+  #contact-form .col-md-4 {
+    padding-left: 0;
+  }
+
+  #contact-form .form-control {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #7cbfbf;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 10px 0;
+  }
+
+  #contact-form .form-control:focus {
+    border-bottom-color: #202020;
+  }
+
+  #contact-form input {
+    height: 50px;
+  }
+
+  #contact-form input[type='submit'] {
+    background: #202020;
+    border: 0;
+    color: #ffffff;
+  }
+
+  #contact-form input[type='submit']:hover {
+    background: #29ca8e;
+    color: #ffffff;
+  }
+  
