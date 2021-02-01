@@ -1,3 +1,14 @@
+
+  // Imagen del Preloader
+  $(window).on('load', function() {
+    if ($('#preloader').length) {
+      $('#preloader').delay(100).fadeOut('slow', function() {
+        $(this).remove();
+      });
+    }
+  });
+
+// Efecto Parallax
 (function() {
   window.addEventListener('scroll', function(event) {
     var depth, layer, layers, movement, topDistance, translate3d, _i, _len;
@@ -18,6 +29,7 @@
 
 }).call(this);
 
+// Rotar pez de txipi header
 window.onscroll = function () {
   scrollRotate();
 };
@@ -26,3 +38,19 @@ function scrollRotate() {
   let image = document.getElementById("rotate");
   image.style.transform = "rotate(" + window.pageYOffset/30 + "deg)";
 }
+
+  // Porfolio isotope and filter
+  $(window).on('load', function() {
+    var productosIsotope = $('.productos-container').isotope({
+      itemSelector: '.productos-item',
+      layoutMode: 'fitRows'
+    });
+    $('#productos-flters li').on('click', function() {
+      $("#productos-flters li").removeClass('filter-active');
+      $(this).addClass('filter-active');
+      productosIsotope.isotope({
+        filter: $(this).data('filter')
+      });
+      aos_init();
+    });
+  });
