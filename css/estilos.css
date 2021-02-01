@@ -310,28 +310,48 @@ body {
     color:#7cbfbf ;
   }
 
-  .color-checkbox{
-    display: block;
+  #POT12-img{
+    content:url("../img/productos/señuelos/1/azul.png");
+}
+
+  #POT12C0002:checked #POT12-img{
+    content:url("../img/productos/señuelos/1/0002.png");
   }
 
   .C0001 {
-    color: #e0d20a;
+    color:#e0d20a;
+    border: 1px solid #757575;
 }
 
   .C0002 {
-    color: #ff8d0b;
+    color:#ff8d0b;
+    border: 1px solid #757575;
 }
 
 .C0004 {
-  color: #12b7f8;
+  color:#12b7f8;
+  border: 1px solid #757575;
 }
-.checkbox {
-display: none;
-}
-.checkbox input[type=checkbox]:checked +.label-cliente{
-    background: #2d89ef;
 
+
+
+
+.C0031 {
+  background: rgb(255,226,6);
+  border: 1px solid #757575;
+  background: linear-gradient(180deg,  rgba(248,75,228,1) 0%, rgba(255,226,6,1) 80%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
+
+.C4613 {
+  background: rgb(23,204,214);
+  border: 1px solid #757575;
+  background: linear-gradient(180deg, rgba(23,204,214,1) 16%, rgba(32,226,112,1) 35%, rgba(255,226,6,1) 52%, rgba(248,75,228,1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
 /*---------------------------------------
       INFORMACIÓN           
   -----------------------------------------*/

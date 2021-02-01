@@ -64,7 +64,7 @@
 
   <section id="hero" class="d-flex align-items-center" href="#primera-seccion" onClick="location.href='#primera-seccion'">
   <div id="rotate" class="layer-bg layer" data-depth="0.60" data-type="parallax"></div>
-  <div class="layer-1 layer" data-depth="-0.15" data-type="parallax"></div>
+  <div id="rotate2" class="layer-1 layer" data-depth="0.55" data-type="parallax"></div>
   <div class="layer-2 layer" data-depth="0.25" data-type="parallax"></div>
   <div class="layer-3 layer" data-depth="0.65" data-type="parallax"></div>
          <div id="titulopagina" class="col-lg-6 mx-auto d-block" data-depth="-0.55" data-type="parallax"> 
@@ -107,7 +107,9 @@
 
       <div class="col-lg-3 col-md-6 productos-item filter-s">
         <div class="productos-wrap">
-          <img src="img/productos/señuelos/1/azul.png" class="img-fluid" alt="">
+          <div class="productos-wrap">
+            <img id="POT12-img" class="img-fluid" alt="">
+          </div>
         </div>
         <div class="productos-stock">
           <table class="">
@@ -121,19 +123,23 @@
         </div>
         <div class="productos-links">
           <p>Señuelo de 12cm [20g]</p>
-          <table>
+          <table style="width: 100%;">
             <thead>
               <tr>
-                <th style="text-align: left;">Colores: </th>
-                <th><input type="checkbox" id="POT12C0002" class="color-checkbox" name="POT12" /><label class="C0002" for="POT12C0002"><i class="icofont-water-drop"></i></label></th>
-                <th><input type="checkbox" id="POT12C0001" class="color-checkbox" name="POT12" /><label class="C0001" for="POT12C0001"><i class="icofont-water-drop"></i></label></i></th>
-                <th><input type="checkbox" id="POT12C0004" class="color-checkbox" name="POT12" /><label class="C0004" for="POT12C0004"><i class="icofont-water-drop"></i></label></th>
+                <th style="text-align: left; width: 70px;">Colores: </th>
+                <th style="width: 15px;"><input type="checkbox" id="POT12C0002" class="color-checkbox" name="POT12C0002" /><label class="C0002" for="POT12C0002">█</label></th>
+                <th style="width: 15px;"><input type="checkbox" id="POT12C0001" class="color-checkbox" name="POT12" /><label class="C0001" for="POT12C0001">█</label></th>
+                <th style="width: 15px;"><input type="checkbox" id="POT12C0004" class="color-checkbox" name="POT12" /><label class="C0004" for="POT12C0004">█</label></th>
+                <th style="width: 15px;"><input type="checkbox" id="POT12CC0031" class="color-checkbox" name="POT12" /><label class="C0031" for="POT12CC0031">█</label></th>
+                <th style="width: 15px;"><input type="checkbox" id="POT12C4613" class="color-checkbox" name="POT12" /><label class="C4613" for="POT12C4613">█</label></th>
+                <th class="tg-0lax" rowspan="2" style="font-size: 23px; text-align: right;"> 12€ </th>
               </tr>
               <tr>
                 <th style="text-align: left;">Stock: </th>
                 <td>1</td>
                 <td>0</td>
                 <td>3</td>
+                <td>0</td>
               </tr>
             </thead>
             </table>
