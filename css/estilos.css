@@ -20,6 +20,10 @@ h6 {
   color:#7cbfbf;
 }
 
+th{
+  font-weight: 100;
+}
+
 .btn-xl {
   text-transform: uppercase;
   padding: 1.5rem 3rem;
@@ -136,8 +140,8 @@ body {
 	 margin-bottom: 30px;
 }
  p {
-	 color: #ede0d5;
-	 font-size: 18px;
+	 color: #7cbfbf;
+	 font-size: 16px;
 	 line-height: 150%;
 }
  #hero, .layer {
@@ -291,10 +295,17 @@ body {
     z-index: 100;
     border: 1px solid #7cbfbf;
     width: 100%;
+    padding: 3px 5px 3px 5px;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
   }
 
   .productos .productos-item:hover .productos-links{
     display: block;
+  }
+
+  .productos-links table{
+    color:#7cbfbf ;
   }
 /*---------------------------------------
       INFORMACIÓN           
