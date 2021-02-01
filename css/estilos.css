@@ -309,6 +309,29 @@ body {
   .productos-links table{
     color:#7cbfbf ;
   }
+
+  .color-checkbox{
+    display: block;
+  }
+
+  .C0001 {
+    color: #e0d20a;
+}
+
+  .C0002 {
+    color: #ff8d0b;
+}
+
+.C0004 {
+  color: #12b7f8;
+}
+.checkbox {
+display: none;
+}
+.checkbox input[type=checkbox]:checked +.label-cliente{
+    background: #2d89ef;
+
+}
 /*---------------------------------------
       INFORMACIÓN           
   -----------------------------------------*/
