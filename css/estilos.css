@@ -188,6 +188,33 @@ body {
    background-color: #fff;
 }
 
+/*---------------------------------------
+      Menú izquierda          
+  -----------------------------------------*/
+
+  #hamburguesa {
+    position: fixed;
+    z-index: 100000;
+    left: 2px;
+    top: 72px;
+    height: 2rem;
+    width: 2rem;
+    padding: 2px;
+  }
+
+  #menu-izquierda{
+    z-index: 10010;
+    position: fixed;
+    left: 0px;
+    top:70px;
+    width: 20rem;
+    height: 100%;
+    border-right: 1px solid #7cbfbf;
+    background-color: white;
+    overflow: hidden;
+    display: none;
+  }
+
 
 /*---------------------------------------
       PRODUCTOS          
@@ -212,7 +239,16 @@ body {
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
     border: 1px solid #7cbfbf;
-    background: #fff;
+  }
+
+  .productos #productos-flters .menu-div:hover {
+    color: #fff;
+    background: #7cbfbf;
+
+  }
+
+  .menu-subdiv {
+    background: #f1fcfc;
   }
 
   .señuelos-submenu{

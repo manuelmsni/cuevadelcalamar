@@ -47,7 +47,18 @@ function scrollRotate2() {
   image.style.transform = "rotate(" + window.pageYOffset/-30 + "deg)";
 }
 
-  // filtro de productos
+//abrir y cerrar menu de la izquierda
+
+function showMenu() {
+  var x = document.getElementById("menu-izquierda");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+// filtro de productos
   $(window).on('load', function() {
     var productosIsotope = $('.productos-container').isotope({
       itemSelector: '.productos-item',
@@ -62,3 +73,4 @@ function scrollRotate2() {
       aos_init();
     });
   });
+
