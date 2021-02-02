@@ -20,6 +20,14 @@ h6 {
   color:#7cbfbf;
 }
 
+@font-face {
+  font-family: 'wet';
+  src: local('wet'),
+       local('wet Regular'),
+       local('wet-Regular'),
+       url(../fuentes/wet.woff) format("woff");
+}
+
 th{
   font-weight: 100;
 }
@@ -84,9 +92,9 @@ body {
 #titulopagina h1 {
   margin: 0;
   font-size: 6vw;
-  font-family: 'Josefin Slab', cursive;
+  font-family: 'wet', cursive;
   text-transform: uppercase;
-  background: rgb(67, 163, 163);
+  background: rgb(221, 221, 221);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
   background-size: 400% 300%;
   animation: BgGradient 5s ease infinite;
@@ -136,7 +144,7 @@ body {
 }
  .layer-1 {
 	 background-image: url('../img/header1.png');
-	 background-position: center top;
+	 background-position: left top;
          background-repeat: no-repeat;
          background-size: cover;
          z-index: -2;
@@ -149,8 +157,8 @@ body {
          z-index: -3;
 }
  .layer-3 {
-	 background-image: url('../img/header3.png');
-	 background-position: center top;
+	 background-image: url('../img/header3.jpg');
+	 background-position: left top;
          background-repeat: no-repeat;
          background-size: cover;
          z-index: -4;
