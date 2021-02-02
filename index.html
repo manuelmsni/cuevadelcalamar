@@ -91,21 +91,29 @@
 <section id="productos" class="productos">
   <div class="container">
 
-    <div class="row" data-aos="fade-in">
-      <div class="col-lg-12 d-flex justify-content-center">
-        <ul id="productos-flters">
-          <li data-filter="*" class="filter-active">Todos</li>
-          <li data-filter=".filter-s">Señuelos</li>
-          <li data-filter=".filter-c">Cuerpos</li>
-          <li data-filter=".filter-m">Materiales</li>
-          <li data-filter=".filter-m">Útiles</li>
-        </ul>
+    <div class="row justify-content-center" data-aos="fade-in">
+      <div class="row col-lg-12 d-flex justify-content-center">
+        <div id="productos-flters" class="row col-lg-12">
+          <div data-filter="*" class="filter-active menu-div col-md">Todos</div>
+          <div class="invis col-md señuelos">
+            <div data-filter=".filter-s" class="menu-div">Señuelos</div>
+            <div class="señuelos-submenu">
+              <div data-filter=".filter-p-3" class="menu-div">Poteras de 3cm</div>
+              <div data-filter=".filter-p-5" class="menu-div">Poteras de 5cm</div>
+              <div data-filter=".filter-p-6-5" class="menu-div">Poteras de 6,5cm</div>
+              <div data-filter=".filter-p-8" class="menu-div">Poteras de 8cm</div>
+            </div>
+          </div>
+          <div data-filter=".filter-c" class="menu-div  col-md">Cuerpos</div>
+          <div data-filter=".filter-m" class="menu-div  col-md">Materiales</div>
+          <div data-filter=".filter-m" class="menu-div  col-md">Útiles</div>
+        </div>
       </div>
     </div>
 
     <div class="row productos-container" data-aos="fade-up">
 
-      <div class="col-lg-3 col-md-6 productos-item filter-s">
+      <div class="col-lg-3 col-md-6 productos-item filter-s filter-p-3">
         <div class="productos-wrap">
           <div class="productos-wrap">
             <img id="POT12-img" class="img-fluid" alt="">
@@ -147,7 +155,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 productos-item filter-s">
+      <div class="col-lg-3 col-md-6 productos-item filter-s filter-p-5">
         <div class="productos-wrap">
           <img src="img/productos/señuelos/2/azul.png" class="img-fluid" alt="">
         </div>
@@ -182,7 +190,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 productos-item filter-s">
+      <div class="col-lg-3 col-md-6 productos-item filter-s filter-p-6-5">
         <div class="productos-wrap">
           <img src="img/productos/señuelos/3/azul.png" class="img-fluid" alt="">
         </div>
@@ -217,7 +225,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 productos-item filter-s">
+      <div class="col-lg-3 col-md-6 productos-item filter-s filter-p-8">
         <div class="productos-wrap">
           <img src="img/productos/señuelos/4/azul.png" class="img-fluid" alt="">
         </div>

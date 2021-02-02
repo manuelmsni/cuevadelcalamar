@@ -47,14 +47,14 @@ function scrollRotate2() {
   image.style.transform = "rotate(" + window.pageYOffset/-30 + "deg)";
 }
 
-  // Porfolio isotope and filter
+  // filtro de productos
   $(window).on('load', function() {
     var productosIsotope = $('.productos-container').isotope({
       itemSelector: '.productos-item',
       layoutMode: 'fitRows'
     });
-    $('#productos-flters li').on('click', function() {
-      $("#productos-flters li").removeClass('filter-active');
+    $('#productos-flters .menu-div').on('click', function() {
+      $("#productos-flters .menu-div").removeClass('filter-active');
       $(this).addClass('filter-active');
       productosIsotope.isotope({
         filter: $(this).data('filter')
