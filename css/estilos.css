@@ -132,25 +132,28 @@ body {
 	 background-position: left top;
          background-repeat: no-repeat;
          background-size: cover;
+         z-index: -1;
 }
  .layer-1 {
 	 background-image: url('../img/header1.png');
 	 background-position: center top;
          background-repeat: no-repeat;
          background-size: cover;
+         z-index: -2;
 }
  .layer-2 {
 	 background-image: url('../img/header2.png');
 	 background-position: center top;
          background-repeat: no-repeat;
          background-size: cover;
+         z-index: -3;
 }
  .layer-3 {
-         margin-top: 28vh;
 	 background-image: url('../img/header3.png');
 	 background-position: center top;
          background-repeat: no-repeat;
          background-size: cover;
+         z-index: -4;
 }
 
  @media only screen and (max-width: 768px) {
@@ -189,6 +192,7 @@ body {
     background-color: white;
     overflow: hidden;
     display: none;
+    transition: 0.4s;
   }
 
 
@@ -289,6 +293,7 @@ body {
     margin-bottom: 30px;
     padding-right: 0px;
     padding-left: 0px;
+    transition: 0.3s;
   }
 
   .productos .productos-item::before {
@@ -301,6 +306,7 @@ body {
     content: '';
     border-top: 1px solid #7cbfbf;
     border-left: 1px solid #7cbfbf;
+    transition: 0.4s;
   }
   .productos .productos-item::after {
     position: absolute;
@@ -312,6 +318,7 @@ body {
     content: '';
     border-top: 1px solid #7cbfbf;
     border-right: 1px solid #7cbfbf;
+    transition: 0.4s;
   }
 
   .productos .productos-item:hover{
@@ -335,6 +342,7 @@ body {
     padding: 3px 5px 3px 6px;
     border-right: 1px solid #fff;
     background-color: #fff;
+    transition: 0.4s;
   }
   
   .productos .productos-item:hover .productos-stock{
@@ -344,6 +352,7 @@ body {
   .productos-stock table{
     width: 100%;
     background-color: #7cbfbf;
+    transition: 0.4s;
   }
 
   .productos .productos-item:hover .productos-stock table{
@@ -361,10 +370,13 @@ body {
     padding: 3px 5px 3px 5px;
     text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
+    opacity: 0;
+    transition: 0.6s;
   }
 
   .productos .productos-item:hover .productos-links{
     display: block;
+    opacity: 1;
   }
 
   .productos-links table{
