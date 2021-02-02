@@ -51,11 +51,11 @@ th{
   font-size: 1rem;
   letter-spacing: 0.1rem;
   color:#7cbfbf;
+  margin-left: 3rem;
 }
 .navbar-custom .navbar-brand:hover {
   color:#619b9b;
 }
-
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
@@ -92,27 +92,6 @@ body {
   animation: BgGradient 5s ease infinite;
   -webkit-background-clip: text;  
   -webkit-text-fill-color: transparent;  
-}
-
-@keyframes BgGradient {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
-}
-
-@font-face {
-  font-family: 'wet';
-  src: local('../fonts/wet'),
-       local('../fonts/wet Regular'),
-       local('../fonts/wet-Regular'),
-       url(../fonts/wet.woff) format("woff");
-}
-@font-face {
-  font-family: 'type';
-  src: local('../fonts/type'),
-       local('../fonts/type Regular'),
-       local('../fonts/type-Regular'),
-       url(../fonts/type.woff) format("woff");
 }
  #content {
 	 background-color: #fff;
@@ -193,13 +172,10 @@ body {
   -----------------------------------------*/
 
   #hamburguesa {
-    position: fixed;
-    z-index: 100000;
-    left: 2px;
-    top: 72px;
     height: 2rem;
     width: 2rem;
     padding: 2px;
+    left:0px;
   }
 
   #menu-izquierda{
