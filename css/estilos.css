@@ -156,17 +156,6 @@ body {
          z-index: -4;
 }
 
- @media only screen and (max-width: 768px) {
-	 #hero {
-		 display: none;
-	}
-	 #hero-mobile {
-     display: block;
-  }
-  #menu-izquierda {
-    width: 75%;
-  }
-}
  #primera-seccion {
    height: 400px;
 	 padding: 50px 0 20px 0;
@@ -194,7 +183,7 @@ body {
     width: 2rem;
     padding: 2px;
     left:-500px;
-    top:5rem;
+    top:70px;
     transition: 0.4s;
   }
 
