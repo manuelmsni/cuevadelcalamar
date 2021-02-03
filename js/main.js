@@ -31,16 +31,8 @@
 
 // Rotar pez de txipi header
 window.onscroll = function () {
-  scrollRotate();
   scrollRotate2();
 };
-
-function scrollRotate() {
-  let image = document.getElementById("rotate");
-  image.style.transform = "rotate(" + window.pageYOffset/30 + "deg)";
-}
-
-// Rotar calamar header
 
 function scrollRotate2() {
   let image = document.getElementById("rotate2");
