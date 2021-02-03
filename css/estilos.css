@@ -169,8 +169,11 @@ body {
 		 display: none;
 	}
 	 #hero-mobile {
-		 display: block;
-	}
+     display: block;
+  }
+  #menu-izquierda {
+    width: 75%;
+  }
 }
  #primera-seccion {
    height: 400px;
