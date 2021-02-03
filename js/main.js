@@ -29,7 +29,7 @@
 
 }).call(this);
 
-// Rotar pez de txipi header
+// Rotar pez de txipi con la caña en el header
 window.onscroll = function () {
   scrollRotate2();
 };
