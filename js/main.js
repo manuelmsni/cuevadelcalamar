@@ -62,5 +62,22 @@ function showMenu() {
     x.style.left = "-500px";
   }
 }
+function showCloseMenu() {
+  var x = document.getElementById("cerrar-menu-izquierda");
+  if (x.style.left != "366px") {
+    x.style.left = "366px";
+  } else {
+    x.style.left = "-500px";
+  }
+}
+function showOscurecerMenu() {
+  var x = document.getElementById("menu-izquierda-oscurecer");
+  if (x.style.left != "0px") {
+    x.style.left = "0px";
+  } else {
+    x.style.left = "-100%";
+  }
+}
+
 
 

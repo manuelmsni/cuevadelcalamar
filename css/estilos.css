@@ -16,16 +16,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'arial', sans-serif;
   color:#7cbfbf;
-}
-
-@font-face {
-  font-family: 'wet';
-  src: local('wet'),
-       local('wet Regular'),
-       local('wet-Regular'),
-       url(../fuentes/wet.woff) format("woff");
 }
 
 th{
@@ -195,6 +187,17 @@ body {
     top:1rem;
   }
 
+  #cerrar-menu-izquierda {
+    z-index: 10010;
+    position: fixed;
+    height: 2rem;
+    width: 2rem;
+    padding: 2px;
+    left:-500px;
+    top:5rem;
+    transition: 0.4s;
+  }
+
   #menu-izquierda{
     z-index: 10010;
     position: fixed;
@@ -206,6 +209,17 @@ body {
     background-color: white;
     overflow: hidden;
     transition: 0.4s;
+  }
+
+  #menu-izquierda-oscurecer{
+    z-index: 10009;
+    position: fixed;
+    left: -100%;
+    top:68px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    overflow: hidden;
   }
 
 
