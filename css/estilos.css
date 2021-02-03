@@ -142,6 +142,13 @@ body {
          background-size: cover;
          z-index: -1;
 }
+.layer-1::after {
+  background-image: url('../img/header0.png');
+  background-position: left top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -2;
+}
  .layer-1 {
 	 background-image: url('../img/header1.png');
 	 background-position: left top;
