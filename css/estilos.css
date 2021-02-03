@@ -50,26 +50,26 @@ th{
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #7cbfbf;
-  background-color: #fff;
+  border-bottom: 1px solid #232F3E;
+  background-color:#131921;
 }
 
 .navbar-custom .navbar-brand {
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 0.1rem;
-  color:#7cbfbf;
-  margin-left: 3rem;
+  color:#ffffff;
+  margin-left: 0rem;
 }
 .navbar-custom .navbar-brand:hover {
-  color:#619b9b;
+  color:#ffffff;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
-  color:#7cbfbf;
+  color:#ffffff;
 }
 
 body {
@@ -142,13 +142,6 @@ body {
          background-size: cover;
          z-index: -1;
 }
-.layer-1::after {
-  background-image: url('../img/header0.png');
-  background-position: left top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: -2;
-}
  .layer-1 {
 	 background-image: url('../img/header1.png');
 	 background-position: left top;
@@ -193,10 +186,13 @@ body {
   -----------------------------------------*/
 
   #hamburguesa {
+    z-index: 10010;
+    position: fixed;
     height: 2rem;
     width: 2rem;
     padding: 2px;
-    left:0px;
+    left:1rem;
+    top:1rem;
   }
 
   #menu-izquierda{
@@ -206,7 +202,7 @@ body {
     top:68px;
     width: 365px;
     height: 100%;
-    border-right: 1px solid #7cbfbf;
+    border-right: 1px solid #354d69;
     background-color: white;
     overflow: hidden;
     transition: 0.4s;
