@@ -192,14 +192,13 @@ body {
   #menu-izquierda{
     z-index: 10010;
     position: fixed;
-    left: 0px;
+    left: -500px;
     top:68px;
-    width: 20rem;
+    width: 365px;
     height: 100%;
     border-right: 1px solid #7cbfbf;
     background-color: white;
     overflow: hidden;
-    display: none;
     transition: 0.4s;
   }
 

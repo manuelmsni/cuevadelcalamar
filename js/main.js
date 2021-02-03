@@ -51,10 +51,10 @@ function scrollRotate2() {
 
 function showMenu() {
   var x = document.getElementById("menu-izquierda");
-  if (x.style.display === "none") {
-    x.style.display = "block";
+  if (x.style.left === "-500px") {
+    x.style.left = "0px";
   } else {
-    x.style.display = "none";
+    x.style.left = "-500px";
   }
 }
 
