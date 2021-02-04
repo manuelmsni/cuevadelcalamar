@@ -35,7 +35,7 @@ th{
   background-color:#131921;
 }
 
-.navbar-custom .navbar-brand {
+.navbar-brand {
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 0.1rem;
@@ -189,11 +189,20 @@ body {
     transition: 0.4s;
   }
 
+  #menu-izquierda td {
+    border: 1px solid #232F3E;
+    background: #131921;
+  }
+
+  #menu-izquierda td a{
+    color: #fff;
+  }
+
   #menu-izquierda-oscurecer{
     z-index: 10009;
     position: fixed;
     left: -100%;
-    top:68px;
+    top:66px;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,.8);
@@ -476,9 +485,15 @@ body {
       PIE DE PÁGINA            
   -----------------------------------------*/
 .footer {
-  background: #7cbfbf;
+  background: #131921;
   color: #ffffff;
-  padding-top: 10px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid #232F3E;
+}
+
+.footer p {
+color:#fff;
 }
 
 .footer .container li {
