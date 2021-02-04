@@ -2,10 +2,6 @@
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: 'Nanum Gothic', sans-serif;
-}
-
 section {
   padding-top:2rem ;
 }
@@ -112,6 +108,30 @@ body {
 	 font-size: 16px;
 	 line-height: 150%;
 }
+
+@media (max-width: 992px) {
+  p {
+    font-size: 24px;
+    line-height: 150%;
+ }
+ a {
+  font-size: 24px;
+  line-height: 150%;
+}
+.navbar-brand {
+  font-size: 2rem;
+  line-height: 150%;
+  margin-left: 5rem;
+}
+#hamburguesa {
+  height: 4rem;
+  width: 4rem;
+}
+ #menu-izquierda{
+   width: 75%;
+ }
+}
+
  #hero, .layer {
 	 min-height: 100vh;
 }
@@ -208,7 +228,6 @@ body {
     background-color: rgba(0,0,0,.8);
     overflow: hidden;
   }
-
 
 /*---------------------------------------
       PRODUCTOS          
