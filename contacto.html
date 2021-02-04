@@ -32,39 +32,65 @@
 
 <body>
 
-   <!-- ======= Barra de navegación ======= -->
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#hero">La cueva del Calamar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#productos">Productos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Información</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
-          </li>
-        </ul>
-        
-        <ul class="navbar-nav ml-auto">
-          <!--
-          <li class="nav-item">
-            <a class="nav-link" href="#">Registrarse</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Iniciar Sesión</a>
-          </li>
-         --> 
-        </ul>
-      </div>
+ <!-- ======= Barra de navegación ======= -->
+ <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+  <div class="container" style="margin-left: 0px;">
+    <a class="navbar-brand" href="index.html#hero">La cueva del Calamar</a>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#productos">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#info">Información</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+      
+      <ul class="navbar-nav ml-auto">
+        <!--
+        <li class="nav-item">
+          <a class="nav-link" href="#">Registrarse</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Iniciar Sesión</a>
+        </li>
+       --> 
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
+<!-- ======= Menú izquierda ======= -->
+
+<div id="hamburguesa">
+<button onclick="showMenu(); showCloseMenu(); showOscurecerMenu()" style="border: 1px solid #a8a8a8;"><img src="img/hamburguesa.png"></button>
+</div>
+
+<div id="cerrar-menu-izquierda">
+<button onclick="showMenu(); showCloseMenu(); showOscurecerMenu()"><img src="img/cerrar.png"></button>
+</div>
+
+<div id="menu-izquierda">
+<table style="width: 100%;">
+  <tr>
+    <td>
+      <a class="nav-link" href="index.html#productos" onclick="showMenu(); showCloseMenu(); showOscurecerMenu()">Productos</a>
+    </td>
+    <td>
+      <a class="nav-link" href="index.html#info" onclick="showMenu(); showCloseMenu(); showOscurecerMenu()">Información</a>
+    </td>
+    <td>
+      <a class="nav-link" href="contacto.html">Contacto</a>
+    </td>
+ </tr>
+</table>
+</div>
+
+<div id="menu-izquierda-oscurecer">
+</div>
 
 <hr size="8px" color="#91dfbd" />
 
