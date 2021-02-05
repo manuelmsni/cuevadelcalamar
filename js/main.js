@@ -48,8 +48,14 @@ $(document).ready(function () {
 });
 
 function scrollRotate2() {
+  var speed = -30;
+  if(screen.width < 900) {
+      speed = -60;
+  } else {
+      speed = -30;
+  }
   let image = document.getElementById("rotate2");
-  image.style.transform = "rotate(" + window.pageYOffset/-30 + "deg)";
+  image.style.transform = "rotate(" + window.pageYOffset/speed + "deg)";
 }
 
 //abrir y cerrar menu de la izquierda
