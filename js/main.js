@@ -79,4 +79,11 @@ function showOscurecerMenu() {
   }
 }
 
+  // Ventana modal en construcción
+  $( document ).ready(function() {
+    $('#myModal').modal('toggle');
+});
+
+
+
 
