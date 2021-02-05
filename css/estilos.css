@@ -147,6 +147,15 @@ body {
    #menu-izquierda-oscurecer{
    margin-top: 40px;
    }
+
+   #hamb{
+     height: 60px;
+     width: 60px;
+   }
+   #cerr{
+    height: 60px;
+    width: 60px;
+  }
 }
 
  #hero, .layer {
