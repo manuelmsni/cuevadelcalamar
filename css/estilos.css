@@ -152,6 +152,15 @@ body {
    margin-top: 40px;
    }
 
+   .productos-stock td{
+    font-size: 24px;
+   }
+
+   .menu-div p{
+    font-size: 24px;
+    margin-bottom: 0px;
+   }
+
    #hamb{
      height: 60px;
      width: 60px;
@@ -163,6 +172,10 @@ body {
   #hero, .layer {
     max-height: 70vh;
  }
+ .navbar-toggler-icon {
+  width: 3em;
+  height: 3em;
+}
 }
 
  #hero, .layer {
@@ -266,6 +279,9 @@ body {
 /*---------------------------------------
       PRODUCTOS          
   -----------------------------------------*/
+  .menu-div p{
+    margin-bottom: 0px;
+   }
 
   .productos #productos-flters {
     padding: 0;
@@ -449,8 +465,11 @@ body {
     color:#232F3E ;
   }
 
-  #POT12-img{
-    content:url("../img/productos/señuelos/1/azul.png");
+  #POT9-1-img{
+    content:url("../img/productos/señuelos/9cm-1/azul.png");
+}
+  #POT9-2-img{
+  content:url("../img/productos/señuelos/9cm-2/azul.png");
 }
 
   #POT12C0002:checked #POT12-img{
