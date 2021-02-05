@@ -59,7 +59,7 @@ function showMenu() {
   if (x.style.left != "0px") {
     x.style.left = "0px";
   } else {
-    x.style.left = "-500px";
+    x.style.left = "-1000px";
   }
 }
 function showCloseMenu() {
@@ -78,6 +78,5 @@ function showOscurecerMenu() {
     x.style.left = "-100%";
   }
 }
-
 
 

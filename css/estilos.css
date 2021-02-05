@@ -111,41 +111,46 @@ body {
 }
 
 @media (max-width: 992px) {
-  p {
+   p {
     font-size: 24px;
     line-height: 150%;
- }
- a {
-  font-size: 24px;
-  line-height: 150%;
-}
-.navbar-custom {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-.navbar-brand {
-  font-size: 2rem;
-  line-height: 150%;
-  margin-left: 8rem;
-}
-/*
-.productos-container{
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 100% !important;
-}
-*/
-#hamburguesa {
-  height: 4rem;
-  width: 4rem;
-}
- #menu-izquierda{
-   width: 75%;
- }
+   }
+   a {
+   font-size: 24px;
+   line-height: 150%;
+   }
+   .navbar-custom {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   }
+   .navbar-brand {
+    font-size: 2rem;
+    line-height: 150%;
+    margin-left: 8rem;
+   }
+
+   #menu-izquierda{
+   min-width: 75%;
+   margin-top: 40px;
+   }
+
+   #menu-izquierda td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+   #cerrar-menu-izquierda {
+    margin-left: 40%;
+    margin-top: 40px;
+   }
+
+   #menu-izquierda-oscurecer{
+   margin-top: 40px;
+   }
 }
 
  #hero, .layer {
-	 min-height: 100vh;
+	 min-height: 80vh;
 }
 
  .layer-bg {
@@ -211,7 +216,7 @@ body {
   #menu-izquierda{
     z-index: 10010;
     position: fixed;
-    left: -500px;
+    left: -1000px;
     top:68px;
     width: 365px;
     height: 100%;
@@ -224,6 +229,7 @@ body {
   #menu-izquierda td {
     border: 1px solid #232F3E;
     background: #131921;
+    text-align: center;
   }
 
   #menu-izquierda td a{
