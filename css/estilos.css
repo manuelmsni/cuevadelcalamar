@@ -143,6 +143,11 @@ body {
     margin-left: 40%;
     margin-top: 40px;
    }
+   
+   #hamburguesa {
+    margin-left:1rem;
+    margin-top:0.5rem;
+  }
 
    #menu-izquierda-oscurecer{
    margin-top: 40px;
