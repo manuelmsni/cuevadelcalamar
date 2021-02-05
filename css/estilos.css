@@ -105,7 +105,7 @@ body {
 	 margin-bottom: 30px;
 }
  p {
-	 color: #7cbfbf;
+	 color: #232F3E;
 	 font-size: 16px;
 	 line-height: 150%;
 }
@@ -128,12 +128,13 @@ body {
   line-height: 150%;
   margin-left: 8rem;
 }
-.productos .container{
+/*
+.productos-container{
   margin-left: 0px;
   margin-right: 0px;
   width: 100% !important;
 }
-
+*/
 #hamburguesa {
   height: 4rem;
   width: 4rem;
@@ -316,10 +317,10 @@ body {
     font-weight: 600;
     line-height: 1;
     text-transform: uppercase;
-    color: #7cbfbf;
+    color:#232F3E;
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
-    border: 1px solid #7cbfbf;
+    border: 1px solid#232F3E;
     background: #fff;
     width: 100%;
   }
@@ -347,8 +348,8 @@ body {
     height: 50px;
     z-index: 2;
     content: '';
-    border-top: 1px solid #7cbfbf;
-    border-left: 1px solid #7cbfbf;
+    border-top: 1px solid #232F3E;
+    border-left: 1px solid#232F3E;
     transition: 0.4s;
   }
   .productos .productos-item::after {
@@ -359,8 +360,8 @@ body {
     height: 50px;
     z-index: 2;
     content: '';
-    border-top: 1px solid #7cbfbf;
-    border-right: 1px solid #7cbfbf;
+    border-top: 1px solid #232F3E;
+    border-right: 1px solid#232F3E;
     transition: 0.4s;
   }
 
@@ -389,18 +390,18 @@ body {
   }
   
   .productos .productos-item:hover .productos-stock{
-    border: 1px solid #7cbfbf;
+    border: 1px solid #232F3E;
   }
 
   .productos-stock table{
     width: 100%;
-    background-color: #7cbfbf;
+    background-color:#232F3E;
     transition: 0.4s;
   }
 
   .productos .productos-item:hover .productos-stock table{
     background-color: #fff;
-    color:#7cbfbf ;
+    color: #232F3E ;
   }
 
   .productos-links{
@@ -408,7 +409,7 @@ body {
     position: absolute;
     background-color: #E7F3F3;
     z-index: 100;
-    border: 1px solid #7cbfbf;
+    border: 1px solid #232F3E;
     width: 100%;
     padding: 3px 5px 3px 5px;
     text-align: center;
@@ -423,7 +424,7 @@ body {
   }
 
   .productos-links table{
-    color:#7cbfbf ;
+    color:#232F3E ;
   }
 
   #POT12-img{
