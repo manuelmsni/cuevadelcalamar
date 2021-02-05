@@ -161,10 +161,13 @@ body {
     height: 60px;
     width: 60px;
   }
+  #hero, .layer {
+    max-height: 80vh;
+ }
 }
 
  #hero, .layer {
-	 min-height: 80vh;
+	 height: 100vh;
 }
 
  .layer-bg {
