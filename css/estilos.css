@@ -140,7 +140,7 @@ body {
 
    #cerrar-menu-izquierda {
     margin-left: 40%;
-    margin-top: 40px;
+    margin-top: 50px;
    }
    
    #hamburguesa {
@@ -149,7 +149,7 @@ body {
   }
 
    #menu-izquierda-oscurecer{
-   margin-top: 40px;
+   margin-top: 50px;
    }
 
    .productos-stock td{
@@ -175,6 +175,9 @@ body {
  .navbar-toggler-icon {
   width: 5em;
   height: 5em;
+}
+.social-nav {
+  font-size: 22px;
 }
 }
 
@@ -479,17 +482,42 @@ body {
   .C0001 {
     color:#e0d20a;
     border: 1px solid #757575;
-}
+  }
 
   .C0002 {
     color:#ff8d0b;
     border: 1px solid #757575;
-}
+  }
 
-.C0004 {
-  color:#12b7f8;
-  border: 1px solid #757575;
-}
+ .C0003 {
+    color:#de13e6;
+    border: 1px solid #757575;
+  }
+
+ .C0004 {
+    color:#12b7f8;
+    border: 1px solid #757575;
+  }
+
+  .C0005 {
+    color:#ff2d26;
+    border: 1px solid #757575;
+  }
+
+  .C0006 {
+    color:#12f84c;
+    border: 1px solid #757575;
+  }
+
+  .C0007 {
+    color:#ffffff;
+    border: 1px solid #757575;
+  }
+
+  .C0008 {
+    color:#000000;
+    border: 1px solid #757575;
+  }
 
 
 
@@ -580,4 +608,48 @@ color:#fff;
 .footer .container li a {
     color: #fff;
 }
-  
+
+.borderpride {
+  animation: BorderPride 4s ease infinite;
+}
+
+@keyframes BorderPride {
+  0% {border-color: #FFD800}
+  25% {border-color: #FF3C35;}
+  50% {border-color: #A33EFF;}
+  75% {border-color: #42B0FF;}
+  85% {border-color: #60FFAA;}
+  100% {border-color: #FFD800;}
+}
+.pride {
+  animation: ColorPride 4s ease infinite;
+}
+
+@keyframes ColorPride {
+  0% {color: #FFD800}
+  25% {color: #FF3C35;}
+  50% {color: #A33EFF;}
+  75% {color: #42B0FF;}
+  85% {color: #60FFAA;}
+  100% {color: #FFD800;}
+}
+
+.bgpride {
+  animation: BgPride 4s ease infinite;
+}
+
+@keyframes BgPride {
+  0% {background: #FFD800}
+  25% {background: #FF3C35;}
+  50% {background: #A33EFF;}
+  75% {background: #42B0FF;}
+  85% {background: #60FFAA;}
+  100% {background: #FFD800;}
+}
+
+.insta{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
