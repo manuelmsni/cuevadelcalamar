@@ -151,9 +151,6 @@ body {
    #menu-izquierda-oscurecer{
    margin-top: 50px;
    }
-   .productos-links i{
-    font: normal normal normal 29px/1 FontAwesome;
-   }
 
    .productos-stock td{
     font-size: 24px;
@@ -475,18 +472,13 @@ body {
   }
 
   .productos-links i{
-    font: normal normal normal 22px/1 FontAwesome;
+    font-size: 22px;
    }
 
-  #POT9-1-img{
-    content:url("../img/productos/señuelos/9cm-1/azul.png");
-}
-  #POT9-2-img{
-  content:url("../img/productos/señuelos/9cm-2/azul.png");
-}
-
-  #POT12C0002:checked #POT12-img{
-    content:url("../img/productos/señuelos/1/0002.png");
+   @media (max-width: 992px) {
+    .productos-links i{
+      font-size:29px;
+     }
   }
 
   .C0001 {
