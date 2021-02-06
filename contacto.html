@@ -32,42 +32,54 @@
 
 <body>
 
- <!-- ======= Barra de navegación ======= -->
- <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-  <div class="container" style="margin-left: 0px;">
-    <a class="navbar-brand" href="index.html#hero">La cueva del Calamar</a>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#productos">Productos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#info">Información</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacto.html">Contacto</a>
-        </li>
-      </ul>
+   <!-- ======= Barra de navegación ======= -->
+   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container align-items-center" style="margin-left: 0px;margin-right: 0px; width: 100%;">
+      <button onclick="showMenu(); showCloseMenu(); showOscurecerMenu()" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: transparent; border: 0px;"><span class="navbar-toggler-icon"></span></button> 
+      <a class="navbar-brand" href="index.html#hero">La cueva del Calamar</a>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#productos">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#info">Información</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        
+        <ul class="navbar-nav ml-auto">
+          <!--
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registrarse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Iniciar Sesión</a>
+          </li>
+         --> 
+        </ul>
+        <div>
+          <ul class="navbar-nav">
+            <li style="margin-right: 1rem;" >
+              <i class="icofont-instagram" style="font-size: 21px;" onclick="window.open('https://www.instagram.com/lacuevadelcalamar','mywindow');"></i>
+            </li>
+            <li style="margin-right: 1rem;">
+              <i class="icofont-whatsapp" style="font-size: 22px" onclick="window.open('https://api.whatsapp.com/send?phone=34696816551','mywindow');"></i>
+            </li>
+            <li>
+              <i class="icofont-envelope" style="font-size: 22px" onclick="window.open('mailto:cuevadelcalamar@gmail.com','mywindow');"></i>
+            </li>
+          </ul>
+      </div>
       
-      <ul class="navbar-nav ml-auto">
-        <!--
-        <li class="nav-item">
-          <a class="nav-link" href="#">Registrarse</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Iniciar Sesión</a>
-        </li>
-       --> 
-      </ul>
+      
+      
     </div>
-  </div>
-</nav>
+  </nav>
 
 <!-- ======= Menú izquierda ======= -->
-
-<div id="hamburguesa">
-<button onclick="showMenu(); showCloseMenu(); showOscurecerMenu()" style="border: 1px solid #a8a8a8;"><img src="img/hamburguesa.png"></button>
-</div>
 
 <div id="cerrar-menu-izquierda">
 <button onclick="showMenu(); showCloseMenu(); showOscurecerMenu()"><img src="img/cerrar.png"></button>
@@ -101,18 +113,35 @@
      <section id="contact"></section>
        <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div class="section-title">
-              <h1>Ponte en contacto con nosotros</h1>
-            </div>
-            <p>No dudes en ponerte en contacto con nosotros para hacer tu pedido, recuerda que además de los señuelos que aparecen en la página nos puedes hacer un pedido de peces personalizados a tu gusto.</p>
+          <div class="section-title col-md-12">
+            <h1>Ponte en contacto con nosotros</h1>
           </div>
-
+          <div class="col-md-7 contact-info">
+            <p> Disponemos de la siguiente selección de colores: </p>
+            <p>
+              <i class="icofont-bucket2 C0001 i-c" style="font: normal normal normal 29px/1 FontAwesome;"></i>
+              <i class="icofont-bucket2 C0002 i-c" style="font: normal normal normal 29px/1 FontAwesome;"></i>
+              <i class="icofont-bucket2 C0003 i-c" style="font: normal normal normal 29px/1 FontAwesome;"></i>
+              <i class="icofont-bucket2 C0004 i-c" style="font: normal normal normal 29px/1 FontAwesome;"></i>
+              <i class="icofont-bucket2 C0005 i-c" style="font: normal normal normal 29px/1 FontAwesome;"></i>
+              <i class="icofont-bucket2 C0006 i-c" style="font: normal normal normal 29px/1 FontAwesome;"></i>
+              <i class="icofont-bucket2 C0007 i-c" style="font: normal normal normal 29px/1 FontAwesome;"></i>
+              <i class="icofont-bucket2 C0008 i-cn" style="font: normal normal normal 29px/1 FontAwesome;"></i>
+            </p>
+            <p>Puedes elegir cualquier <a href="index.html#productos">modelo del catálogo</a> junto con una combinación de entre los colores disponibles y te haremos un señuelo personalizado.</p>
+            <p>Para realizar cualquier pedido, envíanos un mensaje a:</p>
+            <p><a href="mailto:cuevadelcalamar@gmail.com"><i class="icofont-envelope" style="font-size: 22px" onclick="window.open('mailto:cuevadelcalamar@gmail.com','mywindow');"></i> cuevadelcalamar@gmail.com</a></p>
+            <p>También te atenderemos en nuestro instagram:</p>
+            <p><a href="https://www.instagram.com/lacuevadelcalamar" target="_blank"><i class="icofont-instagram insta" style="font-size: 21px;" onclick="window.open('https://www.instagram.com/lacuevadelcalamar','mywindow');"></i> La Cueva del Calamar</a></p>
+          </div>
+          <div class="col-md-5">
+            <img src="img/contacto.jpg" class="img-fluid">
+          </div>
         </div>
    </div>
 </section>   
 
-     <!-- ======= Contacto ======= -->
+     <!-- ======= Contacto ======= 
      <section id="contact">
       <div class="container">
            <div class="row">
@@ -136,6 +165,7 @@
            </div>
       </div>
  </section>   
+-->
 
 <br/><br/><br/>
 
