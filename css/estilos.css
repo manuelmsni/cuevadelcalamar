@@ -647,6 +647,11 @@ background: #0000001c;
 #contact-colors i{
   font: normal normal normal 29px/1 FontAwesome;
 }
+.footer#fcontacto{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
 
 /*---------------------------------------
      Efectos y animaciones            
