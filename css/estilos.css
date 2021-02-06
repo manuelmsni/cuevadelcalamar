@@ -653,3 +653,10 @@ color:#fff;
   -webkit-text-fill-color: transparent;
 }
 
+@font-face {
+  font-family: 'cagatintas';
+  src: local('cagatintas'),
+       local('cagatintas Regular'),
+       local('cagatintas-Regular'),
+       url(../fuentes/cagatintas.woff) format("woff");
+}
