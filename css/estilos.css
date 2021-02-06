@@ -182,6 +182,9 @@ body {
 .social-nav {
   font-size: 22px;
 }
+#contact-container{
+  margin-left: 1rem;
+}
 }
 
  #hero, .layer {
