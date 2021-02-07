@@ -130,7 +130,7 @@ body {
 
    #menu-izquierda{
    min-width: 75%;
-   margin-top: 40px;
+   margin-top: 70px;
    }
 
    #menu-izquierda td {
@@ -140,7 +140,7 @@ body {
 
    #cerrar-menu-izquierda {
     margin-left: 40%;
-    margin-top: 50px;
+    margin-top: 75px;
    }
    
    #hamburguesa {
@@ -149,7 +149,7 @@ body {
   }
 
    #menu-izquierda-oscurecer{
-   margin-top: 50px;
+   margin-top: 70px;
    }
 
    .productos-stock td{
@@ -249,7 +249,7 @@ body {
     height: 2rem;
     width: 2rem;
     padding: 2px;
-    left:-500px;
+    left:-1000px;
     top:70px;
     transition: 0.4s;
   }

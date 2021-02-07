@@ -73,7 +73,7 @@ function showCloseMenu() {
   if (x.style.left != "366px") {
     x.style.left = "366px";
   } else {
-    x.style.left = "-500px";
+    x.style.left = "-1000px";
   }
 }
 function showOscurecerMenu() {
