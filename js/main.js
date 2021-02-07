@@ -1,3 +1,5 @@
+
+
 $(document).ready(function () {
   // Imagen del Preloader
   $(window).on('load', function() {
@@ -91,5 +93,10 @@ function showOscurecerMenu() {
 });
 
 
-
+function SrcSet(ImageId, ThisElementSRC)
+{
+  var element = document.getElementById(ImageId);
+  element.src = ThisElementSRC;
+}
+        
 
