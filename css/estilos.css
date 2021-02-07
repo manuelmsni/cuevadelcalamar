@@ -316,11 +316,12 @@ body {
   }
 
   .productos #productos-flters .menu-div:hover {
-    color: #fff;
     background: #131921;
 
   }
-
+  .productos #productos-flters .menu-div:hover p{
+    color: #fff;
+  }
   .menu-subdiv {
     background: #f1fcfc;
   }
