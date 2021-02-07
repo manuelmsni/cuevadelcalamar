@@ -533,6 +533,22 @@ body {
     border: 1px solid #0000001c;
   }
 
+  .Ct7-0034 {
+    background: radial-gradient(circle at 30% 107%, #fd52d8 0%, #fd52d8 30%, #ffffff 45%,#10a4df 60%,#10a4df 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .Ct1-0043 {
+    background: radial-gradient(circle at 30% 107%, #ff2d26 0%, #ff8d0b 30%, #e0d20a 45%,#10a4df 60%,#10a4df 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+ .i-cd{
+  border: 1px solid #0000001c;
+ }
+
   .i-c{
     background: #0000001c;
   }
