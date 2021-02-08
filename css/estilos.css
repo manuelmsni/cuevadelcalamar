@@ -506,7 +506,7 @@ body {
   }
 
  .C0003 {
-    color:#fd52d8;
+    color:#FF0A74;
     border: 1px solid #0000001c;
   }
 
@@ -541,7 +541,7 @@ body {
   }
 
   .Ct7-0034 {
-    background: radial-gradient(circle at 30% 107%, #fd52d8 0%, #fd52d8 30%, #ffffff 45%,#10a4df 60%,#10a4df 90%);
+    background: radial-gradient(circle at 30% 107%, #FF0A74 0%, #FF0A74 30%, #ffffff 45%,#10a4df 60%,#10a4df 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 1px solid #0000001c;
@@ -555,7 +555,7 @@ body {
   }
 
   .Ct7-0032 {
-    background: radial-gradient(circle at 30% 107%, #fd52d8 0%, #fd52d8 30%, #ffffff 45%,#ff8d0b 60%,#ff8d0b 90%);
+    background: radial-gradient(circle at 30% 107%, #FF0A74 0%, #FF0A74 30%, #ffffff 45%,#ff8d0b 60%,#ff8d0b 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 1px solid #0000001c;
