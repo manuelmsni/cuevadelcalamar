@@ -110,86 +110,6 @@ body {
 	 line-height: 150%;
 }
 
-@media (max-width: 992px) {
-   p {
-    font-size: 24px;
-    line-height: 150%;
-   }
-   a {
-   font-size: 24px;
-   line-height: 150%;
-   }
-   .navbar-custom {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-   }
-   .navbar-brand {
-    font-size: 2rem;
-    line-height: 150%;
-   }
-
-   #menu-izquierda{
-   min-width: 75%;
-   margin-top: 70px;
-   }
-
-   #menu-izquierda td {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-   #cerrar-menu-izquierda {
-    margin-left: 40%;
-    margin-top: 75px;
-   }
-   
-   #hamburguesa {
-    margin-left:1rem;
-    margin-top:0.5rem;
-  }
-
-   #menu-izquierda-oscurecer{
-   margin-top: 70px;
-   }
-
-   .productos-stock td{
-    font-size: 24px;
-   }
-
-   .menu-div p{
-    font-size: 24px;
-    margin-bottom: 0px;
-   }
-
-   #hamb{
-     height: 60px;
-     width: 60px;
-   }
-   #cerr{
-    height: 60px;
-    width: 60px;
-  }
-  #hero, .layer {
-    max-height: 70vh;
- }
- .navbar-toggler-icon {
-  width: 5em;
-  height: 5em;
-}
-.social-nav {
-  font-size: 22px;
-}
-#contact-container{
-  margin-left: 1rem;
-}
-.modal-dialog{
-  margin: 4%;
-}
-.modal-content {
-  width: 180%;
-}
-}
-
  #hero, .layer {
 	 height: 100vh;
 }
@@ -489,11 +409,10 @@ body {
     font-size: 22px;
    }
 
-   @media (max-width: 992px) {
-    .productos-links i{
-      font-size:39px;
-     }
-  }
+   .productos-links .price{
+    font-size: 20px;
+    text-align: right;
+   }
 
   .C0001 {
     color:#e0d20a;
@@ -735,4 +654,90 @@ background: #0000001c;
        local('cagatintas Regular'),
        local('cagatintas-Regular'),
        url(../fuentes/cagatintas.woff) format("woff");
+}
+
+@media (max-width: 992px) {
+  p {
+   font-size: 24px;
+   line-height: 150%;
+  }
+  a {
+  font-size: 24px;
+  line-height: 150%;
+  }
+  .navbar-custom {
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+  }
+  .navbar-brand {
+   font-size: 2rem;
+   line-height: 150%;
+  }
+
+  #menu-izquierda{
+  min-width: 75%;
+  margin-top: 70px;
+  }
+
+  #menu-izquierda td {
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+ }
+
+  #cerrar-menu-izquierda {
+   margin-left: 40%;
+   margin-top: 75px;
+  }
+  
+  #hamburguesa {
+   margin-left:1rem;
+   margin-top:0.5rem;
+ }
+
+  #menu-izquierda-oscurecer{
+  margin-top: 70px;
+  }
+
+  .productos-stock td{
+   font-size: 24px;
+  }
+
+  .menu-div p{
+   font-size: 24px;
+   margin-bottom: 0px;
+  }
+
+  #hamb{
+    height: 60px;
+    width: 60px;
+  }
+  #cerr{
+   height: 60px;
+   width: 60px;
+ }
+ #hero, .layer {
+   max-height: 70vh;
+}
+.navbar-toggler-icon {
+ width: 5em;
+ height: 5em;
+}
+.social-nav {
+ font-size: 22px;
+}
+#contact-container{
+ margin-left: 1rem;
+}
+.modal-dialog{
+ margin: 4%;
+}
+.modal-content {
+ width: 180%;
+}
+.productos-links i{
+  font-size:39px;
+ }
+ .productos-links .price{
+ font-size: 34px;
+}
 }
