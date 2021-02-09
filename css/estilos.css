@@ -497,72 +497,61 @@ body {
 
   .C0001 {
     color:#e0d20a;
-    border: 1px solid #0000001c;
   }
 
   .C0002 {
     color:#ff8d0b;
-    border: 1px solid #0000001c;
   }
 
  .C0003 {
     color:#FF0A74;
-    border: 1px solid #0000001c;
   }
 
  .C0004 {
     color:#10a4df;
-    border: 1px solid #0000001c;
   }
 
   .C0005 {
     color:#ff2d26;
-    border: 1px solid #0000001c;
   }
 
   .C0006 {
     color:#11d442;
-    border: 1px solid #0000001c;
   }
 
   .C0007 {
     color:#ffffff;
-    border: 1px solid #0000001c;
   }
 
   .C0008 {
     color:#000000;
-    border: 1px solid #0000001c;
   }
 
   .C0009 {
     color:#761ddb;
-    border: 1px solid #0000001c;
   }
 
   .Ct7-0034 {
     background: radial-gradient(circle at 30% 107%, #FF0A74 0%, #FF0A74 30%, #ffffff 45%,#10a4df 60%,#10a4df 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border: 1px solid #0000001c;
   }
 
   .Ct1-0043 {
     background: radial-gradient(circle at 30% 107%, #ff2d26 0%, #ff8d0b 30%, #e0d20a 45%,#10a4df 60%,#10a4df 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border: 1px solid #0000001c;
   }
 
   .Ct7-0032 {
     background: radial-gradient(circle at 30% 107%, #FF0A74 0%, #FF0A74 30%, #ffffff 45%,#ff8d0b 60%,#ff8d0b 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border: 1px solid #0000001c;
   }
 
  .i-cd{
   box-shadow: inset 0 0 5px 5px  rgba(32, 32, 32, 0.158);
+  border: 1px solid #B7C0C0;
  }
 
  .i-cd:hover{
@@ -571,6 +560,7 @@ body {
 
   .i-c{
     background: #0000001c;
+    border: 1px solid #B7C0C0;
   }
   .i-c:hover {
   border: 1px solid rgb(0, 0, 0);
@@ -578,6 +568,7 @@ body {
   }
   .i-cn{
     background: #0000001c;
+    border: 1px solid #B7C0C0;
   }
   .i-cn:hover {
     border: 1px solid rgb(0, 0, 0);
