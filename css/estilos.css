@@ -211,6 +211,8 @@ body {
 /*---------------------------------------
       PRODUCTOS          
   -----------------------------------------*/
+  
+  
   .menu-div p{
     margin-bottom: 0px;
    }
@@ -739,5 +741,10 @@ background: #0000001c;
  }
  .productos-links .price{
  font-size: 34px;
+}
+#productos .container{
+  margin-left: 0.7%;
+  margin-right: 0.7%;
+  width:98.6%;
 }
 }
