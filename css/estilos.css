@@ -17,6 +17,10 @@ h6 {
   color:#131921;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 th{
   font-weight: 100;
 }
