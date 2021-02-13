@@ -654,6 +654,17 @@ background: #0000001c;
   -webkit-text-fill-color: transparent;
 }
 
+.info-title h1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    width: 122px;
+    height: 66px;
+    background: url(../img/tentáculo.png) no-repeat;
+}
+
 @font-face {
   font-family: 'cagatintas';
   src: local('cagatintas'),
@@ -721,6 +732,9 @@ background: #0000001c;
    height: 60px;
    width: 60px;
  }
+ #hero{
+   margin-top: 8rem;
+ }
  #hero, .layer {
    max-height: 70vh;
 }
@@ -750,5 +764,9 @@ background: #0000001c;
   margin-left: 0.7%;
   margin-right: 0.7%;
   width:98.6%;
+}
+#info{
+  margin-top: 5rem;
+  margin-right: 2rem;
 }
 }
