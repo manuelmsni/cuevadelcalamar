@@ -663,8 +663,8 @@ background: #0000001c;
 }
 
 @font-face {
-  font-family: 'cagatintas';
-  src: local('cagatintas'),
+  font-family: 'contorno';
+  src: local('contorno'),
        local('contorno Regular'),
        local('contorno-Regular'),
        url(../fuentes/contorno.woff) format("woff");
