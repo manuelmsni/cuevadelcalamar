@@ -748,12 +748,14 @@ background: #0000001c;
 #contact-container{
  margin-left: 1rem;
 }
+/*
 .modal-dialog{
  margin: 4%;
 }
 .modal-content {
  width: 180%;
 }
+*/
 .productos-links i{
   font-size:39px;
  }
@@ -769,4 +771,12 @@ background: #0000001c;
   margin-top: 5rem;
   margin-right: 2rem;
 }
+}
+
+@media (max-width: 767px) {
+  .container{
+    min-width: 100%;
+    margin:0px:
+  }
+
 }
