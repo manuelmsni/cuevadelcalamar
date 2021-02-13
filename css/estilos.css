@@ -520,8 +520,27 @@ body {
 /*---------------------------------------
       INFORMACIÓN           
   -----------------------------------------*/
+.info-title {
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
 
-
+.info-tentacle {
+  width: 600px;
+  display: block;
+  margin: auto;
+}
+.info-title h1{
+text-align: center;
+position: absolute;
+top: 45%;
+left: 50%;
+transform: translate(-50%, -120%);
+text-transform: uppercase;
+font-family: contorno;
+color: #131921;
+font-size: 3rem;
+}
   
 /*---------------------------------------
       CONTACTO             
