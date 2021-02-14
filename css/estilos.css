@@ -547,6 +547,7 @@ font-size: clamp(1.8rem, 3.7vw, 3rem);
   background: url('https://cuevadelcalamar.com/img/fondo-info.png');
   margin-top: 1rem;
   text-align: justify;
+  margin-bottom: 1rem;
   }
 
   .info-info a{
