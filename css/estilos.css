@@ -550,6 +550,7 @@ font-size: clamp(1.8rem, 3.7vw, 3rem);
 
   .info-info a{
   color: #000;
+  font-weight: bold;
   }
   
 /*---------------------------------------
