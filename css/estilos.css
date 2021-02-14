@@ -526,7 +526,7 @@ body {
 }
 
 .info-tentacle {
-  width: 600px;
+  width: min(600px, calc(40% + 140px));
   display: block;
   margin: auto;
 }
@@ -539,7 +539,7 @@ transform: translate(-50%, -120%);
 text-transform: uppercase;
 font-family: contorno;
 color: #9ea2a7;
-font-size: 3rem;
+font-size: clamp(1.8rem, 3.7vw, 3rem);
 }
   
 /*---------------------------------------
