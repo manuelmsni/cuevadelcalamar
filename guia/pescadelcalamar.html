@@ -116,8 +116,8 @@
           </div>
           <div class="col-md-12 guia-info">
             <p>La pesca del calamar es un arte antiguo, su origen se remonta a hace más de 300 años en la costas de las remotas islas de japón.</p>
-            <p class="g-shower-1" style="text-align:center;">¿Quieres saber más? <a class=”g-d-1” >Pincha aquí</a></p>
-            <div class="g-hidden-1">
+            <p class="g-shower-1" style="text-align:center;">¿Quieres saber más? <a class=”g-s-1” >Pincha aquí</a></p>
+            <div class="g-h-1">
               
             </div>
             <p class="g-hidder-1" style="text-align:center;"><a class=”g-d-1” >&#129045; Ocultar &#129045;</a></p>
@@ -145,6 +145,27 @@
              </div>
         </div>
    </footer>
+          
+<script type="text/javascript">
+  $(document).ready(function(){
+    
+    $('g-s-1').click(showGh1); 
+
+    function showGh1()
+    {
+    $(".g-s-1, .g-hidder-1").fadeIn('slow');
+    $(".g-shower-1").css("display", "none");
+    }
+
+    $('g-d-1').click(hideGh1); 
+
+    function hideGh1()
+    {
+    $(".g-shower-1").fadeIn('slow');
+    $(".g-s-1, .g-hidder-1").css("display", "none");
+    }
+  });
+</script>
 
 </body>
 
