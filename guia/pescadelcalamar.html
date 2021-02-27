@@ -34,6 +34,29 @@
   <script src="https://cuevadelcalamar.com/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://cuevadelcalamar.com/js/main.js"></script>
   <script src="https://cuevadelcalamar.com/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script type="text/javascript">
+    
+    $(document).ready(function(){
+    
+        $('g-s-1').click(showGh1); 
+
+        function showGh1()
+          {
+          $(".g-s-1, .g-hidder-1").fadeIn('slow');
+          $(".g-shower-1").css("display", "none");
+          }
+
+        $('g-d-1').click(hideGh1); 
+
+        function hideGh1()
+          {
+          $(".g-shower-1").fadeIn('slow');
+          $(".g-s-1, .g-hidder-1").css("display", "none");
+          }
+      
+    });
+    
+</script>
 
 </head>
 
@@ -146,27 +169,6 @@
              </div>
         </div>
    </footer>
-          
-<script type="text/javascript">
-  $(document).ready(function(){
-    
-    $('g-s-1').click(showGh1); 
-
-    function showGh1()
-    {
-    $(".g-s-1, .g-hidder-1").fadeIn('slow');
-    $(".g-shower-1").css("display", "none");
-    }
-
-    $('g-d-1').click(hideGh1); 
-
-    function hideGh1()
-    {
-    $(".g-shower-1").fadeIn('slow');
-    $(".g-s-1, .g-hidder-1").css("display", "none");
-    }
-  });
-</script>
 
 </body>
 
