@@ -28,7 +28,7 @@ function showOscurecerMenu() {
 //mostrar y ocultar elementos
 
 function showGh1() {
- $("#g-s-1, #g-hidder-1").fadeIn('slow');
+ $("#g-h-1, #g-hidder-1").fadeIn('slow');
  $("#g-shower-1").css("display", "none");
  }
 
