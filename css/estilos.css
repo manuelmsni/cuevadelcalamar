@@ -558,6 +558,17 @@ font-size: clamp(1.8rem, 3.7vw, 3rem);
 /*---------------------------------------
       Guia          
   -----------------------------------------*/
+.guia-title {
+width:100%;
+position: absolute;
+top: 145%;
+left: 50%;
+transform: translate(-50%, 75%);
+z-index:20;
+color:#fff;
+text-transform: uppercase;
+font-family: contorno;
+}
 .guia-info {
   padding: 1rem;
   border: 1px solid #beccdb;
