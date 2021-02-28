@@ -376,9 +376,17 @@ body {
     background-color: #fff;
     transition: 0.4s;
   }
+
+.h2-prod-title{
+  color: #fff;font-size: 1rem;font-weight: 400;line-height: 1.5;margin:0px;	
+}
   
   .productos .productos-item:hover .productos-stock{
     border: 1px solid #232F3E;
+  }
+
+  .productos .productos-item:hover .h2-prod-title{
+    color: #232F3E;
   }
 
   .productos-stock table{
@@ -827,6 +835,9 @@ background: #0000001c;
 }
 #contact-container{
  margin-left: 1rem;
+}
+.h2-prod-title{
+  font-size: 24px;
 }
 .productos-links i{
   font-size:39px;
