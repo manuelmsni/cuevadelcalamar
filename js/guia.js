@@ -34,5 +34,5 @@ function showGh1() {
 
 function hideGh1() {
   $("#g-shower-1").fadeIn('slow');
-  $("#g-s-1, #g-hidder-1").css("display", "none");
+  $("#g-h-1, #g-hidder-1").css("display", "none");
   }
