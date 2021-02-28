@@ -819,7 +819,7 @@ background: #0000001c;
   margin-top: 5rem;
   margin-right: 2rem;
 }
-.guia-intro h2 {
+.guia-intro > h2 {
   font-size: 24px;	
  }
 }
