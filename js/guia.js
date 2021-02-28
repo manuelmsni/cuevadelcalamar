@@ -25,6 +25,8 @@ function showOscurecerMenu() {
   }
 }
 
+//mostrar y ocultar elementos
+
 $('g-s-1').click(showGh1); 
 
 function showGh1() {
