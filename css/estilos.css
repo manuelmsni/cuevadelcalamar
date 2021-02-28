@@ -575,6 +575,10 @@ font-size: clamp(1.8rem, 3.7vw, 3rem);
   text-align: justify;
   margin-bottom: 1rem;
   }
+
+.guia-intro > * {
+  display: inline-block;
+  }
   
 .h2-p {
   font-size: 16px;
