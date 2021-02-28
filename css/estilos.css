@@ -153,6 +153,10 @@ body {
    background-color: #fff;
 }
 
+.modal-title {
+ font-size: 1.5rem;
+}
+
 /*---------------------------------------
       Menú izquierda          
   -----------------------------------------*/
