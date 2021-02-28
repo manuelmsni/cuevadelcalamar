@@ -570,11 +570,17 @@ font-size: clamp(1.8rem, 3.7vw, 3rem);
 .guia-intro {
   padding: 1rem;
   border: 1px solid #beccdb;
-  background: #1319210d;
+  background: #13192106;
   margin-top: 1rem;
   text-align: justify;
   margin-bottom: 1rem;
   }
+  
+.guia-intro h2 {
+  font-size: 16px;
+  line-height: 150%;	
+  }
+  
   
 /*---------------------------------------
       CONTACTO             
@@ -813,6 +819,9 @@ background: #0000001c;
   margin-top: 5rem;
   margin-right: 2rem;
 }
+.guia-intro h2 {
+  font-size: 24px;	
+ }
 }
 
 @media (max-width: 767px) {
