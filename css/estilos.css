@@ -577,7 +577,7 @@ font-size: clamp(1.8rem, 3.7vw, 3rem);
   }
 
 .guia-intro-inline > * {
-  display: inline-block;
+  display: inline;
   }
   
 .h2-p {
