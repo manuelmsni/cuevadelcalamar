@@ -1,3 +1,8 @@
+  // Ventana modal en construcción
+  $( document ).ready(function() {
+    $('#myModal').modal('toggle');
+});
+
 //abrir y cerrar menu de la izquierda
 
 function showMenu() {
