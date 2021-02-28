@@ -540,6 +540,10 @@ text-transform: uppercase;
 font-family: contorno;
 color: #9ea2a7;
 font-size: clamp(1.8rem, 3.7vw, 3rem);
+margin-bottom: .5rem;
+font-weight: 500;
+line-height: 1.2;
+margin-top:0;
 }
 .info-info {
   padding: 1rem;
