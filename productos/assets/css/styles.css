@@ -361,7 +361,11 @@ color:#fff;
   font-size: 24px;	
  }
 }
-
+@media (min-width: 1241px) {
+  #content{
+    margin-top:66px;
+  }
+}
 @media (max-width: 1240px) {
   .container{
     min-width: 100%;
