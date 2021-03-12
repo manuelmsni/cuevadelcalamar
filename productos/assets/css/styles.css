@@ -361,7 +361,7 @@ color:#fff;
   font-size: 24px;	
  }
 }
-@media (min-width: 1241px) {
+@media (max-width: 1241px) {
   #content{
     margin-top:66px;
   }
