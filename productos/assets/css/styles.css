@@ -1,0 +1,372 @@
+
+ html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+section {
+  padding-top:2rem ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'arial', sans-serif;
+  color:#131921;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+th{
+  font-weight: 100;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #232F3E;
+  background-color:#131921;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  color:#ffffff;
+  margin-left: 1rem;
+}
+.navbar-custom .navbar-brand:hover {
+  color:#ffffff;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+  color:#ffffff;
+}
+
+body {
+	 padding: 0;
+	 margin: 0;
+	 background-color: #fff;
+   font-family: Arial,Helvetica,sans-serif;
+	 color: #fff;
+}
+ .text-header {
+	 font-size: 50px;
+	 text-align: center;
+}
+ h1 {
+	 line-height: 120%;
+	 margin-bottom: 30px;
+}
+ p {
+	 color: #232F3E;
+	 font-size: 16px;
+	 line-height: 150%;
+}
+
+/*---------------------------------------
+      Menú izquierda          
+  -----------------------------------------*/
+
+  #hamburguesa {
+    z-index: 10010;
+    position: fixed;
+    height: 2rem;
+    width: 2rem;
+    padding: 2px;
+    left:1rem;
+    top:1rem;
+  }
+
+  #cerrar-menu-izquierda {
+    z-index: 10010;
+    position: fixed;
+    height: 2rem;
+    width: 2rem;
+    padding: 2px;
+    left:-1000px;
+    top:70px;
+    transition: 0.4s;
+  }
+
+  #menu-izquierda{
+    z-index: 10010;
+    position: fixed;
+    left: -1000px;
+    top:68px;
+    width: 365px;
+    height: 100%;
+    border-right: 1px solid #354d69;
+    background-color: white;
+    overflow: hidden;
+    transition: 0.4s;
+  }
+
+  #menu-izquierda td {
+    border: 1px solid #232F3E;
+    background: #131921;
+    text-align: center;
+  }
+
+  #menu-izquierda td a{
+    color: #fff;
+  }
+
+  #menu-izquierda-oscurecer{
+    z-index: 10009;
+    position: fixed;
+    left: -100%;
+    top:66px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    overflow: hidden;
+  }
+
+/*---------------------------------------
+      PRODUCTOS          
+  -----------------------------------------*/
+ 
+  .C0001 {
+    color:#e0d20a;
+  }
+
+  .C0002 {
+    color:#ff8d0b;
+  }
+
+ .C0003 {
+    color:#FF0A74;
+  }
+
+ .C0004 {
+    color:#10a4df;
+  }
+
+  .C0005 {
+    color:#ff2d26;
+  }
+
+  .C0006 {
+    color:#11d442;
+  }
+
+  .C0007 {
+    color:#ffffff;
+  }
+
+  .C0008 {
+    color:#000000;
+  }
+
+  .C0009 {
+    color:#761ddb;
+  }
+
+  .Ct7-0034 {
+    background: radial-gradient(circle at 30% 107%, #FF0A74 0%, #FF0A74 30%, #ffffff 45%,#10a4df 60%,#10a4df 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .Ct1-0043 {
+    background: radial-gradient(circle at 30% 107%, #ff2d26 0%, #ff8d0b 30%, #e0d20a 45%,#10a4df 60%,#10a4df 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .Ct7-0032 {
+    background: radial-gradient(circle at 30% 107%, #FF0A74 0%, #FF0A74 30%, #ffffff 45%,#ff8d0b 60%,#ff8d0b 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+ .i-cd{
+  box-shadow: inset 0 0 5px 5px  rgba(32, 32, 32, 0.158);
+  border: 1px solid #B7C0C0;
+ }
+
+ .i-cd:hover{
+   box-shadow: inset 0 0 5px 5px  rgb(32, 32, 32);
+ }
+
+  .i-c{
+    background: #0000001c;
+    border: 1px solid #B7C0C0;
+  }
+  .i-c:hover {
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(32, 32, 32);
+  }
+  .i-cn{
+    background: #0000001c;
+    border: 1px solid #B7C0C0;
+  }
+  .i-cn:hover {
+    border: 1px solid rgb(0, 0, 0);
+    background: #fff;
+    }
+
+
+.C0031 {
+  background: rgb(255,226,6);
+  border: 1px solid #757575;
+  background: linear-gradient(180deg,  rgba(248,75,228,1) 0%, rgba(255,226,6,1) 80%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.C4613 {
+  background: rgb(23,204,214);
+  border: 1px solid #757575;
+  background: linear-gradient(180deg, rgba(23,204,214,1) 16%, rgba(32,226,112,1) 35%, rgba(255,226,6,1) 52%, rgba(248,75,228,1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+  /*---------------------------------------
+      PIE DE PÁGINA            
+  -----------------------------------------*/
+.footer {
+  background: #131921;
+  color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid #232F3E;
+}
+
+.footer p {
+color:#fff;
+}
+
+.footer .container li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0px 15px 0px 15px;
+  font-size: 30px;
+  line-height: 1;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer .container li a {
+    color: #fff;
+}
+
+@font-face {
+  font-family: 'cagatintas';
+  src: local('cagatintas'),
+       local('cagatintas Regular'),
+       local('cagatintas-Regular'),
+       url(../fuentes/cagatintas.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'contorno';
+  src: local('contorno'),
+       local('contorno Regular'),
+       local('contorno-Regular'),
+       url(../fuentes/contorno.woff) format("woff");
+}
+
+@media (max-width: 992px) {
+  p {
+   font-size: 24px;
+   line-height: 150%;
+  }
+  a {
+  font-size: 24px;
+  line-height: 150%;
+  }
+  .navbar-custom {
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+  }
+  .navbar-brand {
+   font-size: 2rem;
+   line-height: 150%;
+  }
+
+  #menu-izquierda{
+  min-width: 75%;
+  margin-top: 70px;
+  }
+
+  #menu-izquierda td {
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+ }
+
+  #cerrar-menu-izquierda {
+   margin-left: 40%;
+   margin-top: 75px;
+  }
+  
+  #hamburguesa {
+   margin-left:1rem;
+   margin-top:0.5rem;
+ }
+
+  #menu-izquierda-oscurecer{
+  margin-top: 70px;
+  }
+
+  .productos-stock td{
+   font-size: 24px;
+  }
+
+  .menu-div p{
+   font-size: 24px;
+   margin-bottom: 0px;
+  }
+
+  #hamb{
+    height: 60px;
+    width: 60px;
+  }
+  #cerr{
+   height: 60px;
+   width: 60px;
+ }
+ 
+.navbar-toggler-icon {
+ width: 5em;
+ height: 5em;
+}
+.social-nav {
+ font-size: 22px;
+}
+
+.h2-p {
+  font-size: 24px;	
+ }
+}
+
+@media (max-width: 767px) {
+  .container{
+    min-width: 100%;
+    margin:0px:
+  }
+
+@media (max-width: 591px) {
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+@media (max-width: 496px) {
+  .navbar-brand{
+    font-size: 1rem;
+  }
+
+}
