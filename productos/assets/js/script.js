@@ -70,6 +70,7 @@ let slider = tns({
   items: 1,
   slideBy: 'page',
   autoplay: true,
+  mousedrag: true,
   responsive: {
     640: {
       items: 2
