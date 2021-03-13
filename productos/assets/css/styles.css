@@ -244,6 +244,14 @@ body {
     margin-top:0px;
   }
 
+ .img-swaper {
+    height:50px; 
+    width:50px;
+    background:black; 
+    margin-left:5px; 
+    margin-right:5px;
+  }
+
   /*---------------------------------------
       PIE DE PÁGINA            
   -----------------------------------------*/
