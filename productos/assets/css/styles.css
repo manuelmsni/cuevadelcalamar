@@ -369,13 +369,7 @@ color:#fff;
     margin:0px:
   }
   #content{
-    margin-top:146px;
-  }
-}
-
-@media (max-width: 1241px) {
-  #content{
-    margin-top:66px;
+    margin-top:80px;
   }
 }
 
