@@ -67,19 +67,19 @@ function hideGh1() {
 
 let slider = tns({
   container: '.my-slider',
-  items: 1,
+  items: 3,
   slideBy: 'page',
   autoplay: true,
   mousedrag: true,
   responsive: {
     640: {
-      items: 2
-    },
-    1000: {
       items: 3
     },
-    1400: {
+    1000: {
       items: 4
+    },
+    1400: {
+      items: 6
     }
   }
 });
