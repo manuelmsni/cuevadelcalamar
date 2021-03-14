@@ -125,3 +125,7 @@ function magnify(imgID, zoom) {
     return {x : x, y : y};
   }
 }
+
+  document.querySelector('.nextslide').onclick = function () {  function () { slider.goTo('next'); };  };
+    
+  document.querySelector('.prevslide').onclick = function () {  function () { slider.goTo('prev'); };  };    
