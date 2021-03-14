@@ -260,6 +260,11 @@ body {
     margin-top: 0;
    }
 
+  .info-tentacle {
+    width: min(600px, calc(40% + 140px));
+    display: block;
+    margin: auto;
+  }
 
  .tns-item {
     height:50px; 
