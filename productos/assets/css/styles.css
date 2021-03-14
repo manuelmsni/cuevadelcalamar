@@ -244,7 +244,7 @@ body {
     margin-top:0px;
   }
 
- .img-swaper {
+ .tns-item {
     height:50px; 
     width:50px;
     background:black; 
@@ -264,6 +264,10 @@ body {
   /*Set the size of the magnifier glass:*/
   width: 100px;
   height: 100px;
+}
+.capa {
+  position: relative;
+  
 }
   /*---------------------------------------
       PIE DE PÁGINA            
