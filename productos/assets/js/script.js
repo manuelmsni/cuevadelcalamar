@@ -129,6 +129,6 @@ function magnify(imgID, zoom) {
 $('.nextslide').click(ns);
 function ns() { slider.goTo('next'); };
 
-$('.nextslide').click(ps);
+$('.prevslide').click(ps);
 function ps() { slider.goTo('prev'); };
 
