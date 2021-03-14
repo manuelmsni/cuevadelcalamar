@@ -52,10 +52,18 @@
     nav:false,
      });    
   };
-                                                                                          
+  
+ $('.nextslide').click(nexts);
+ function nexts() { slider.goTo('next'); };
+
+ $('.prevslide').click(prevs);
+ function prevs() { slider.goTo('prev'); };  
+    
   /* Execute the magnify function: */
   magnify("myimage", 3);
   /* Specify the id of the image, and the strength of the magnifier glass: */
+    
+    
  </script>   
     
 </head>
