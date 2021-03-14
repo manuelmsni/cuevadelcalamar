@@ -125,3 +125,6 @@ function magnify(imgID, zoom) {
     return {x : x, y : y};
   }
 }
+
+ function nexts() { slider.goTo('next'); };  
+ function prevs() { slider.goTo('prev'); };  
