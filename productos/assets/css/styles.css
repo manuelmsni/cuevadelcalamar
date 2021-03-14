@@ -266,8 +266,41 @@ body {
   height: 100px;
 }
 .capa {
-  position: relative;
-  
+  position: relative; 
+}
+
+.controls {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.controls li {
+    text-align: -webkit-match-parent;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: -30px;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.controls .prev {
+    left: 0;
+}
+.controls .next {
+    right: 0;
 }
   /*---------------------------------------
       PIE DE PÁGINA            
