@@ -43,6 +43,7 @@
   window.onload = function() {
     let slider = tns({
     container: '.my-slider',
+    controls:false,
     items: 5,
     slideBy: 'page',
     autoplay: false,
@@ -50,6 +51,11 @@
     swipeAngle: false,
     nav:false,
      });
+    
+    document.querySelector('.nextslide').onclick = function () {  function () { slider.goTo('next'); };  };
+    
+    document.querySelector('.prevslide').onclick = function () {  function () { slider.goTo('prev'); };  };
+    
   };
 
                                                                                           
