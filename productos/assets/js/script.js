@@ -125,10 +125,3 @@ function magnify(imgID, zoom) {
     return {x : x, y : y};
   }
 }
-
-$('.nextslide').click(nexts);
-function nexts() { slider.goTo('next'); };
-
-$('.prevslide').click(prevs);
-function prevs() { slider.goTo('prev'); };
-
