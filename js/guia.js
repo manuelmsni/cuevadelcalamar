@@ -1,33 +1,10 @@
+$(document).ready(function () {
   // Ventana modal en construcción
-  $( document ).ready(function() {
-    $('#myModal').modal('toggle');
+  $('#myModal').modal('toggle');
 });
 
-  //Cambiar title al cambiar de pestaña
-  jQuery(document).ready(function () {
-      titleCameBack();
-  });
-  function titleCameBack() {
-      jQuery(function () {
-          var message = "¡Te echamos de menos!";
-          var original;
-
-          jQuery(window).focus(function () {
-              if (original) {
-                  document.title = original;
-              }
-          }).blur(function () {
-              var title = jQuery('title').text();
-              if (title != message) {
-                  original = title;
-              }
-              document.title = message;
-          });
-      });
-  }	
 
 //abrir y cerrar menu de la izquierda
-
 function showMenu() {
   var x = document.getElementById("menu-izquierda");
   if (x.style.left != "0px") {
@@ -56,37 +33,37 @@ function showOscurecerMenu() {
 //mostrar y ocultar elementos
 
 function showGh1() {
- $("#g-h-1, #g-hidder-1").fadeIn('slow');
- $("#g-shower-1").css("display", "none");
- }
+  $("#g-h-1, #g-hidder-1").fadeIn('slow');
+  $("#g-shower-1").css("display", "none");
+}
 
 function hideGh1() {
   $("#g-shower-1").fadeIn('slow');
   $("#g-h-1, #g-hidder-1").css("display", "none");
-  }
+}
 
 
-$(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
-      loop:true,
-      margin:10,
-      responsiveClass:true,
-      responsive:{
-          0:{
-              items:1,
-              nav:true
-          },
-          600:{
-              items:3,
-              nav:false
-          },
-          1000:{
-              items:5,
-              nav:true,
-              loop:false
-          }
-      }
-})
-});
+// $(document).ready(function () {
+//   $('.owl-carousel').owlCarousel({
+//     loop: true,
+//     margin: 10,
+//     responsiveClass: true,
+//     responsive: {
+//       0: {
+//         items: 1,
+//         nav: true
+//       },
+//       600: {
+//         items: 3,
+//         nav: false
+//       },
+//       1000: {
+//         items: 5,
+//         nav: true,
+//         loop: false
+//       }
+//     }
+//   })
+// });
 
 

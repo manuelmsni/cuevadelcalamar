@@ -1,30 +1,23 @@
-  // Ventana modal en construcción
-  $( document ).ready(function() {
-    $('#myModal').modal('toggle');
+// Ventana modal en construcción
+$(document).ready(function () {
+  $('#myModal').modal('toggle');
+
+  //Carrousel
+  let slider = tns({
+    container: '.my-slider',
+    items: 5,
+    slideBy: 'page',
+    autoplay: false,
+    mouseDrag: true,
+    swipeAngle: false,
+    nav: false,
+    controlsContainer: "#customize-controls",
+  });
+
+  // magnify("myimage", 3);
+
 });
 
-  //Cambiar title al cambiar de pestaña
-  jQuery(document).ready(function () {
-      titleCameBack();
-  });
-  function titleCameBack() {
-      jQuery(function () {
-          var message = "¡Te echamos de menos!";
-          var original;
-
-          jQuery(window).focus(function () {
-              if (original) {
-                  document.title = original;
-              }
-          }).blur(function () {
-              var title = jQuery('title').text();
-              if (title != message) {
-                  original = title;
-              }
-              document.title = message;
-          });
-      });
-  }	
 
 //abrir y cerrar menu de la izquierda
 
@@ -56,14 +49,14 @@ function showOscurecerMenu() {
 //mostrar y ocultar elementos
 
 function showGh1() {
- $("#g-h-1, #g-hidder-1").fadeIn('slow');
- $("#g-shower-1").css("display", "none");
- }
+  $("#g-h-1, #g-hidder-1").fadeIn('slow');
+  $("#g-shower-1").css("display", "none");
+}
 
 function hideGh1() {
   $("#g-shower-1").fadeIn('slow');
   $("#g-h-1, #g-hidder-1").css("display", "none");
-  }
+}
 
 function magnify(imgID, zoom) {
   var img, glass, w, h, bw;
@@ -100,10 +93,10 @@ function magnify(imgID, zoom) {
     x = pos.x;
     y = pos.y;
     /* Prevent the magnifier glass from being positioned outside the image: */
-    if (x > img.width - (w / zoom)) {x = img.width - (w / zoom);}
-    if (x < w / zoom) {x = w / zoom;}
-    if (y > img.height - (h / zoom)) {y = img.height - (h / zoom);}
-    if (y < h / zoom) {y = h / zoom;}
+    if (x > img.width - (w / zoom)) { x = img.width - (w / zoom); }
+    if (x < w / zoom) { x = w / zoom; }
+    if (y > img.height - (h / zoom)) { y = img.height - (h / zoom); }
+    if (y < h / zoom) { y = h / zoom; }
     /* Set the position of the magnifier glass: */
     glass.style.left = (x - w) + "px";
     glass.style.top = (y - h) + "px";
@@ -122,7 +115,7 @@ function magnify(imgID, zoom) {
     /* Consider any page scrolling: */
     x = x - window.pageXOffset;
     y = y - window.pageYOffset;
-    return {x : x, y : y};
+    return { x: x, y: y };
   }
 }
 
