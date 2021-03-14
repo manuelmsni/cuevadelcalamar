@@ -246,7 +246,7 @@ body {
 
  .tns-item {
     height:50px; 
-    width:50px;
+    max-width:50px;
     background:black; 
     margin-left:5px; 
     margin-right:5px;
