@@ -126,5 +126,3 @@ function magnify(imgID, zoom) {
   }
 }
 
- function nexts() { slider.goTo('next'); };  
- function prevs() { slider.goTo('prev'); };  
