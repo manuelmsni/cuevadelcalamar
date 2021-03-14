@@ -65,25 +65,6 @@ function hideGh1() {
   $("#g-h-1, #g-hidder-1").css("display", "none");
   }
 
-let slider = tns({
-  container: '.my-slider',
-  items: 3,
-  slideBy: 'page',
-  autoplay: true,
-  mousedrag: true,
-  responsive: {
-    640: {
-      items: 3
-    },
-    1000: {
-      items: 4
-    },
-    1400: {
-      items: 6
-    }
-  }
-});
-
 function magnify(imgID, zoom) {
   var img, glass, w, h, bw;
   img = document.getElementById(imgID);
