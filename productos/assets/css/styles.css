@@ -366,7 +366,7 @@ color:#fff;
   src: local('contorno'),
        local('contorno Regular'),
        local('contorno-Regular'),
-       url(../fuentes/contorno.woff) format("woff");
+       url(../../../../fuentes/contorno.woff) format("woff");
 }
 
 @media (max-width: 992px) {
