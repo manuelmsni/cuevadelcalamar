@@ -50,12 +50,10 @@
     mouseDrag: true,
     swipeAngle: false,
     nav:false,
+    controlsContainer: "#customize-controls",
      });    
   };
-  
- function nexts() { slider.goTo('next'); };  
- function prevs() { slider.goTo('prev'); };  
-    
+     
   /* Execute the magnify function: */
   magnify("myimage", 3);
   /* Specify the id of the image, and the strength of the magnifier glass: */
@@ -162,8 +160,8 @@
               </div>
               <div class="col-md-12 justify-content-center" style="background:white;height:50px;padding:0px;">
                 <table style="width:100%;">
-                  <tr>
-                    <td style="width:25px;" onclick="prevs()"></td>
+                  <tr id="customize-controls">
+                    <td style="width:25px;" aria-controls="customize" tabindex="-1" data-controls="prev"></td>
                     <td>
                       <div class="my-slider row justify-content-center">
                         <div class="slide-item img-swaper"></div>
@@ -174,7 +172,7 @@
                         <div class="slide-item img-swaper"></div>
                       </div>
                     </td>
-                   <td style="width:25px;" onclick="nexts()"></td>                                      
+                   <td style="width:25px;" aria-controls="customize" tabindex="-1" data-controls="next"></td>                                      
                   </tr>                                       
                 </table>                                     
               </div>
