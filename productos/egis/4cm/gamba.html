@@ -36,6 +36,25 @@
   <script src="https://cuevadelcalamar.com/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://cuevadelcalamar.com/productos/assets/js/script.js"></script>
   <script src="https://cuevadelcalamar.com/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  
+  <script>
+  window.onload = function() {
+    let slider = tns({
+    container: '.my-slider',
+    items: 3,
+    slideBy: 'page',
+    autoplay: true,
+    mousedrag: true,
+     });
+  };
+
+                                                                                          
+  /* Execute the magnify function: */
+  magnify("myimage", 3);
+  /* Specify the id of the image, and the strength of the magnifier glass: */
+ </script>   
     
 </head>
 
@@ -170,21 +189,9 @@
         </div>
    </footer>
 
- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
                                                                                           
- <script>
-  let slider = tns({
-  container: '.my-slider',
-  items: 3,
-  slideBy: 'page',
-  autoplay: true,
-  mousedrag: true,
-  });
-                                                                                          
-  /* Execute the magnify function: */
-  magnify("myimage", 3);
-  /* Specify the id of the image, and the strength of the magnifier glass: */
- </script>                                                                                      
+                                                                                   
                                                                                           
 </body>
 
