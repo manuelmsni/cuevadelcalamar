@@ -11,8 +11,9 @@ $(document).ready(function () {
     mouseDrag: true,
     swipeAngle: false,
     nav: false,
+    "loop": false,
     controlsContainer: "#customize-controls",
-    "responsive": {
+    responsive: {
     "900": {
       "items": 4
     }
