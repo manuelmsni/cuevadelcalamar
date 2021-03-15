@@ -258,7 +258,7 @@ body {
 
  .tns-item:hover{
     box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
-    border-color: #232F3E;
+    border-color: #232F3E #232F3E #232F3E;
   }
 
 .img-magnifier-container {
