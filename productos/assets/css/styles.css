@@ -254,6 +254,7 @@ body {
 
 .img-magnifier-container {
   position: relative;
+  padding:0px;
 }
 
 .img-magnifier-glass {
