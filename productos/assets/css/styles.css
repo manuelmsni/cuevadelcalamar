@@ -305,6 +305,14 @@ body {
 .controls .next {
     right: 0;
 }
+.miniatura-prod{
+    padding:0px;
+    margin:0px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
   /*---------------------------------------
       PIE DE PÁGINA            
   -----------------------------------------*/
