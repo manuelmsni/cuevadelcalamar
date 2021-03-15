@@ -256,8 +256,8 @@ body {
     cursor:pointer;
   }
 
- .tns-item:hover .tns-item{
-    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%)
+ .tns-item:hover{
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
     border-color: #232F3E;
   }
 
