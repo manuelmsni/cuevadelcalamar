@@ -247,7 +247,9 @@ body {
  .tns-item {
     height:50px; 
     max-width:50px;
-    background:black; 
+    border: 1px solid;
+    border-color: #a2a6ac #979aa1 #82858a;
+    border-radius: 2px;
     margin-left:5px; 
     margin-right:5px;
   }
