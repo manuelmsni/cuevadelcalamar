@@ -119,3 +119,7 @@ function magnify(imgID, zoom) {
   }
 }
 
+function SrcSet(ImageId, ThisElementSRC) {
+  var element = document.getElementById(ImageId);
+  element.src = ThisElementSRC;
+}
