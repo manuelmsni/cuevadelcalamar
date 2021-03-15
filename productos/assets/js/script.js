@@ -12,6 +12,11 @@ $(document).ready(function () {
     swipeAngle: false,
     nav: false,
     controlsContainer: "#customize-controls",
+    "responsive": {
+    "900": {
+      "items": 4
+    }
+  },
   });
 
   // magnify("myimage", 3);
