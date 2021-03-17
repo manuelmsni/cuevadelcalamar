@@ -245,21 +245,11 @@ body {
     margin-top:0px;
   }
 
- .tns-item {
-    height:50px; 
-    max-width:50px;
-    border: 1px solid;
-    border-color: #a2a6ac #979aa1 #82858a;
-    border-radius: 2px;
-    margin-left:5px; 
-    margin-right:5px;
-    cursor:pointer;
-  }
-
- .tns-item:hover{
-    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
-    border-color: #232F3E #232F3E #232F3E;
-  }
+#rowsticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;	
+}
 
 .img-magnifier-container {
   position: relative;
@@ -278,6 +268,22 @@ body {
 .capa {
   position: relative; 
 }
+
+ .tns-item {
+    height:50px; 
+    max-width:50px;
+    border: 1px solid;
+    border-color: #a2a6ac #979aa1 #82858a;
+    border-radius: 2px;
+    margin-left:5px; 
+    margin-right:5px;
+    cursor:pointer;
+  }
+
+ .tns-item:hover{
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+    border-color: #232F3E #232F3E #232F3E;
+  }
 
 .controls {
     text-align: center;
