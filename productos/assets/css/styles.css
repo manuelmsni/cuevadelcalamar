@@ -121,9 +121,11 @@ body {
     border-right: 1px solid #354d69;
     background-color: white;
     overflow: hidden;
+    margin:0px;
+    padding:0px;
   }
   
-  #menu-izquierda td {
+  #menu-izquierda .m-i-b {
     border: 1px solid #232F3E;
     background: #131921;
     text-align: center;
