@@ -125,6 +125,11 @@ body {
     padding:0px;
   }
   
+.no-m-p{
+ margin:0px;
+ padding:0px;
+}
+  
   #menu-izquierda .m-i-b {
     border: 1px solid #232F3E;
     background: #131921;
