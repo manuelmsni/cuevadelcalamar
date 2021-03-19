@@ -143,6 +143,17 @@ body {
     color: #fff;
   }
 
+   #menu-izquierda-oscurecer {
+    z-index: 10009;
+    position: fixed;
+    left: -100%;
+    top:66px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    overflow: hidden;
+  }
+
 /*---------------------------------------
       PRODUCTOS          
   -----------------------------------------*/
