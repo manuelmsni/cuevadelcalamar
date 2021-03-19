@@ -102,19 +102,26 @@ body {
     transition: 0.4s;
   }
 
-  #menu-izquierda{
+  #menu-izquierda-bg{
     z-index: 10010;
     position: fixed;
-    left: -1000px;
+    left: -200%;
     top:68px;
-    width: 365px;
+    width: 100%;
     height: 100%;
     border-right: 1px solid #354d69;
-    background-color: white;
+    background-color: rgba(0,0,0,.8);
     overflow: hidden;
     transition: 0.4s;
   }
 
+  #menu-izquierda{
+    height: 100%;
+    border-right: 1px solid #354d69;
+    background-color: white;
+    overflow: hidden;
+  }
+  
   #menu-izquierda td {
     border: 1px solid #232F3E;
     background: #131921;
@@ -123,17 +130,6 @@ body {
 
   #menu-izquierda td a{
     color: #fff;
-  }
-
-  #menu-izquierda-oscurecer{
-    z-index: 10009;
-    position: fixed;
-    left: -100%;
-    top:66px;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,.8);
-    overflow: hidden;
   }
 
 /*---------------------------------------
