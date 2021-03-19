@@ -102,7 +102,7 @@ body {
     transition: 0.4s;
   }
 
-  #menu-izquierda-bg{
+  #menu-izquierda{
     z-index: 10010;
     position: fixed;
     left: -200%;
@@ -115,7 +115,7 @@ body {
     transition: 0.4s;
   }
 
-  #menu-izquierda{
+  #menu-izquierda-content{
     height: 100%;
     border-right: 1px solid #354d69;
     background-color: white;
