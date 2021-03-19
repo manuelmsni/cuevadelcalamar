@@ -123,6 +123,10 @@ body {
     padding:0px;
     max-width:368px;
   }
+ .nav-link a {
+    color: #fff;
+ }
+
 
 @media (max-width: 425px) {
   #menu-izquierda-content {
