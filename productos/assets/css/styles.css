@@ -353,6 +353,15 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+  /*---------------------------------------
+      Descripción del producto           
+  -----------------------------------------*/
+
+#contact-colors i {
+    font: normal normal normal 29px/1 FontAwesome;
+}
+
   /*---------------------------------------
       PIE DE PÁGINA            
   -----------------------------------------*/
