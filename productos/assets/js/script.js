@@ -32,7 +32,7 @@ function showMenu() {
   if (x.style.left != "0px") {
     x.style.left = "0px";
   } else {
-    x.style.left = "-200%px";
+    x.style.left = "-200%";
   }
 }
 function showCloseMenu() {
