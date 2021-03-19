@@ -92,7 +92,7 @@ body {
   }
 
   #cerrar-menu-izquierda {
-    z-index: 10010;
+    z-index: 10011;
     position: fixed;
     height: 2rem;
     width: 2rem;
