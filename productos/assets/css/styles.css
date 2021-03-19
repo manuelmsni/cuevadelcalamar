@@ -123,6 +123,11 @@ body {
     padding:0px;
     max-width:368px;
   }
+
+@media (max-width: 425px) {
+  #menu-izquierda-content {
+   max-width:425px;
+  }
   
 .no-m-p{
  margin-left:0px;
