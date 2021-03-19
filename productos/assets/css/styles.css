@@ -492,14 +492,10 @@ color:#fff;
   }	
 }
 
-@media (max-width: 591px) {
+@media (max-width: 343px) {
   .navbar-brand{
-    font-size: 1.5rem;
-  }
-}
-@media (max-width: 496px) {
-  .navbar-brand{
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin: 0;
   }
 }
 
