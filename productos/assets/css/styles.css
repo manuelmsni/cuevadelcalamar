@@ -121,7 +121,7 @@ body {
     overflow: hidden;
     margin:0px;
     padding:0px;
-    min-width:270px;
+    max-width:376px;
   }
   
 .no-m-p{
