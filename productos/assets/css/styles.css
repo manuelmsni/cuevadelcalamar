@@ -399,6 +399,10 @@ body {
 #colores-p td{
     color: #232F3E;
   }
+#color-vientre {
+  border-top: 1px solid #d8cdcd;
+  float: left;
+  }
   /*---------------------------------------
       PIE DE PÁGINA            
   -----------------------------------------*/
