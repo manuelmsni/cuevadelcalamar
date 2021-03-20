@@ -399,6 +399,9 @@ body {
 #colores-p td{
     color: #232F3E;
   }
+#color-v {
+    border-top: 1px solid #d8cdcd;
+  }
 #color-v td{
     color: #232F3E;
   }
