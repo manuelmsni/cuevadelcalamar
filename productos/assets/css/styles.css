@@ -393,12 +393,11 @@ body {
   }
 }
 
-#colores-p tr{
-    border:1px solid #272b2f;
+#colores-p {
+    border-top: 1px solid #d8cdcd;
   }
 #colores-p td{
-    border: inherit;
-    color: #232F3E;;
+    color: #232F3E;
   }
   /*---------------------------------------
       PIE DE PÁGINA            
