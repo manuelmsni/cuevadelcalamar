@@ -362,6 +362,19 @@ body {
     font: normal normal normal 26px/1 FontAwesome;
 }
 
+@media screen and (max-width: 767px) {
+  .p-table .tg {
+  width: auto !important;
+  }
+  .p-table .tg col {
+  width: auto !important;
+  }
+  .p-table .tg-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  }
+}
+
   /*---------------------------------------
       PIE DE PÁGINA            
   -----------------------------------------*/
