@@ -140,9 +140,17 @@ function showConfig() {
   }
   else {
     document.getElementById("vientre-cb").checked = false;
-    document.getElementById("patron-cb").checked = false;
-    showPatron();
-    showVientre();
+    document.getElementById("color-v").css("display", "none");
+    if (patron.checked) {
+      var NoPricePNotChk = NoPriceP - IncrementoP;
+      var BasePrice = PriceP - IncrementoP;
+      $("#patron-pez").css("display", "none");
+      $("#no-price-p, #price-p").text(NoPricePNotChk);
+      $("#price-p").text(BasePrice);
+      document.getElementById("patron-cb").checked = false;
+    }
+    else {}
+    
     $("#p-colores, #p-vientre, #p-patron, .capa").css("display", "none");
   }
 }
