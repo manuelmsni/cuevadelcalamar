@@ -132,8 +132,15 @@ function SrcSet(ImageId, ThisElementSRC) {
 
 /* Configurador de precios */
 
-function showConfig()
-{
-    $("#color-v, #patron-pez").css("display", "none");
-    $("#p-colores, #p-vientre, #p-patrón").fadeIn('slow');
-}
+
+
+    function showConfig() {
+        personalizar = document.getElementById("diseño-cb");
+        if (personalizar.checked) {
+            $("#p-colores, #p-vientre, #p-patrón").fadeIn('slow');
+        }
+        else {
+            $("#p-colores, #p-vientre, #p-patrón").css("display", "none");
+        }
+    }
+
