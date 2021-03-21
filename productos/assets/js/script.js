@@ -1,6 +1,13 @@
 // Ventana modal en construcción
 $(document).ready(function () {
   
+   $(function() {
+     $('#colorselector').change(function(){
+       $('.colors').css("display", "none");
+       $('#' + $(this).val()).fadeIn('slow');
+     });
+   });
+  
   $('#myModal').modal('toggle');
 
   //Carrousel
@@ -147,15 +154,6 @@ function SrcSet(ImageId, ThisElementSRC) {
            $('.colors').css("display", "none");
            $('#' + $(this).val()).fadeIn('slow');
        }
-
-    $(function() {
-     $('#colorselector').change(function(){
-       $('.colors').css("display", "none");
-       $('#' + $(this).val()).fadeIn('slow');
-     });
-   });
-
-
 
     function showVientre() {
         vientre = document.getElementById("vientre-cb");
