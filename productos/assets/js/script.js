@@ -156,11 +156,11 @@ function SrcSet(ImageId, ThisElementSRC) {
         patron = document.getElementById("patron-cb");
         if (patron.checked) {
             $("#patron-pez").fadeIn('slow');
-            $("#no-price-p").text('18€');
+            $("#no-price-p, #price-p").text('18€');
         }
         else {
             $("#patron-pez").css("display", "none");
-            $("#no-price-p").text('15€');
+            $("#no-price-p, #price-p").text('15€');
         }
     }
 
