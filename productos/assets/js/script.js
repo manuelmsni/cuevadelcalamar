@@ -156,18 +156,17 @@ function SrcSet(ImageId, ThisElementSRC) {
         patron = document.getElementById("patron-cb");
         NoPriceP = $('#no-price-p').val();
         PriceP = $('#price-p').val();
+        IncrementoP = $('#incremento-p').val();
+        NoPriceIncremento = NoPriceP + IncrementoP;
+        PriceIncremento = PriceP + IncrementoP;
       
         if (patron.checked) {
             $("#patron-pez").fadeIn('slow');
-            NoPriceP += 3;
-            PriceP += 3;
-            $("#no-price-p").text(NoPriceP);
-            $("#price-p").text(PriceP);
+            $("#no-price-p").text(NoPriceIncremento);
+            $("#price-p").text(PriceIncremento);
         }
         else {
             $("#patron-pez").css("display", "none");
-            NoPriceP -= 3;
-            PriceP -= 3;
             $("#no-price-p, #price-p").text(NoPriceP);
             $("#price-p").text(PriceP);
         }
