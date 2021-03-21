@@ -140,16 +140,8 @@ function showConfig() {
   }
   else {
     $("#vientre-cb").checked = false;
-    $("#color-v").css("display", "none");
-    if (patron.checked) {
-      var NoPricePNotChk = NoPriceP - IncrementoP;
-      var BasePrice = PriceP - IncrementoP;
-      $("#patron-pez").css("display", "none");
-      $("#no-price-p, #price-p").text(NoPricePNotChk);
-      $("#price-p").text(BasePrice);
-      $("#patron-cb").checked = false;
-    }
-    $("#p-colores, #p-vientre, #p-patron, .capa").css("display", "none");
+    hidePatron()
+    $("#p-colores, #p-vientre, #p-patron, .capa, #color-v").css("display", "none");
   }
 }
 
@@ -188,5 +180,16 @@ function showPatron() {
     $("#no-price-p, #price-p").text(NoPricePNotChk);
     $("#price-p").text(BasePrice);
   }
+}
+
+function hidePatron() {
+    if (patron.checked) {
+      var NoPricePNotChk = NoPriceP - IncrementoP;
+      var BasePrice = PriceP - IncrementoP;
+      $("#patron-pez").css("display", "none");
+      $("#no-price-p, #price-p").text(NoPricePNotChk);
+      $("#price-p").text(BasePrice);
+      $("#patron-cb").checked = false;
+    } else {}  
 }
 
