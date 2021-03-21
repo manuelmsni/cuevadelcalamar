@@ -159,13 +159,17 @@ function SrcSet(ImageId, ThisElementSRC) {
       
         if (patron.checked) {
             $("#patron-pez").fadeIn('slow');
-            $("#no-price-p").text(NoPriceP ++3);
-            $("#price-p").text(PriceP ++3);
+            NoPriceP = ++3;
+            PriceP = ++3;
+            $("#no-price-p").text(NoPriceP);
+            $("#price-p").text(PriceP);
         }
         else {
             $("#patron-pez").css("display", "none");
-            $("#no-price-p, #price-p").text(NoPriceP --3);
-            $("#price-p").text(PriceP --3);
+            NoPriceP = --3;
+            PriceP = --3;
+            $("#no-price-p, #price-p").text(NoPriceP);
+            $("#price-p").text(PriceP);
         }
     }
 
