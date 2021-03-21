@@ -139,15 +139,15 @@ function showConfig() {
     $("#p-colores, #p-vientre, #p-patron, .capa").fadeIn('slow');
   }
   else {
-    document.getElementById("vientre-cb").checked = false;
-    document.getElementById("color-v").css("display", "none");
+    $("#vientre-cb").checked = false;
+    $("#color-v").css("display", "none");
     if (patron.checked) {
       var NoPricePNotChk = NoPriceP - IncrementoP;
       var BasePrice = PriceP - IncrementoP;
       $("#patron-pez").css("display", "none");
       $("#no-price-p, #price-p").text(NoPricePNotChk);
       $("#price-p").text(BasePrice);
-      document.getElementById("patron-cb").checked = false;
+      $("#patron-cb").checked = false;
     }
     $("#p-colores, #p-vientre, #p-patron, .capa").css("display", "none");
   }
