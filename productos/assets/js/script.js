@@ -139,6 +139,8 @@ function showConfig() {
     $("#p-colores, #p-vientre, #p-patron, .capa").fadeIn('slow');
   }
   else {
+    document.getElementById("vientre-cb").checked = false;
+    document.getElementById("vientre-cb").checked = false; 
     $("#p-colores, #p-vientre, #p-patron, .capa").css("display", "none");
   }
 }
@@ -159,16 +161,11 @@ function showVientre() {
 }
 
 
-
-
 function showPatron() {
-
   var NoPriceP = parseInt($('#no-price-p').text());
   var PriceP = parseInt($('#price-p').text());
   var IncrementoP = parseInt($('#incremento-p').text());
-
   var patron = document.getElementById("patron-cb");
-
   if (patron.checked) {
     var NoPricePChk = NoPriceP + IncrementoP;
     var PriceIncremented = PriceP + IncrementoP;
