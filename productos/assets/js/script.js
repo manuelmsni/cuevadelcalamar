@@ -132,8 +132,6 @@ function SrcSet(ImageId, ThisElementSRC) {
 
 /* Configurador de precios */
 
-
-
     function showConfig() {
         personalizar = document.getElementById("diseño-cb");
         if (personalizar.checked) {
@@ -141,6 +139,26 @@ function SrcSet(ImageId, ThisElementSRC) {
         }
         else {
             $("#p-colores, #p-vientre, #p-patron").css("display", "none");
+        }
+    }
+
+    function showVientre() {
+        vientre = document.getElementById("vientre-cb");
+        if (personalizar.checked) {
+            $("#color-v").fadeIn('slow');
+        }
+        else {
+            $("#color-v").css("display", "none");
+        }
+    }
+
+    function showPatron() {
+        patron = document.getElementById("patron-cb");
+        if (patron.checked) {
+            $("#patron-pez").fadeIn('slow');
+        }
+        else {
+            $("#patron-pez").css("display", "none");
         }
     }
 
