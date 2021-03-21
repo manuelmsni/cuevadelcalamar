@@ -140,7 +140,7 @@ function showConfig() {
   }
   else {
     $("#vientre-cb").checked = false;
-    $("#p-colores, #p-vientre, #p-patron, .capa, #color-v").css("display", "none");
+    $("#p-colores, #p-vientre, #p-patron, .capa").css("display", "none");
   }
 }
 
