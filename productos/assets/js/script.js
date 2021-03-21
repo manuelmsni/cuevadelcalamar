@@ -148,6 +148,70 @@ function SrcSet(ImageId, ThisElementSRC) {
      $('#D-cb-2, #D-cb-3').css("display", "none");
      $(target).fadeIn('slow');
     });
+
+    
+var flag='false';
+if(flag==='false'){
+var selected    = $("#teamSelect option:selected").val() ;
+  $('div').each(function(){
+  
+        var cla =$(this).attr("class");
+        if(selected=='1'&&cla==='one'){
+ 
+            $(this).css({display:"block"  });      
+     
+        }else
+             if(selected=='2'&&cla==='two'){
+ 
+            $(this).css({display:"block"  });      
+     
+        }else
+             if(selected=='3'&&cla==='three'){
+ 
+            $(this).css({display:"block"  });      
+     
+             }else{
+               $(this).css({display:"none"  });      
+             
+             }
+        
+        
+    });
+
+}
+
+$("#teamSelect").change(function() {
+var selected="";
+var flag='true';
+ selected    = $("#teamSelect option:selected").val() ;
+    
+    $('div').each(function(){
+  
+        var cla =$(this).attr("class");
+        if(selected=='1'&&cla==='one'){
+ 
+            $(this).css({display:"block"  });      
+     
+        }else
+             if(selected=='2'&&cla==='two'){
+ 
+            $(this).css({display:"block"  });      
+     
+        }else
+             if(selected=='3'&&cla==='three'){
+ 
+            $(this).css({display:"block"  });      
+     
+             }else{
+               $(this).css({display:"none"  });      
+             
+             }
+        
+        
+    });
+    
+});
+
    
     function showVientre() {
         vientre = document.getElementById("vientre-cb");
