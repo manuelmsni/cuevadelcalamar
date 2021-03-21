@@ -1,9 +1,9 @@
 // Ventana modal en construcción
 $(document).ready(function () {
   
-  var NoPriceP = $('#no-price-p').val();
-  var PriceP = $('#price-p').val();
-  var IncrementoP = $('#incremento-p').val();
+  NoPriceP = $('#no-price-p').val();
+  PriceP = $('#price-p').val();
+  IncrementoP = $('#incremento-p').val();
   
   $('#myModal').modal('toggle');
 
