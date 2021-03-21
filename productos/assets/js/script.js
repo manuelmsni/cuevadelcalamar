@@ -153,7 +153,7 @@ function SrcSet(ImageId, ThisElementSRC) {
 var flag='false';
 if(flag==='false'){
 var selected    = $("#teamSelect option:selected").val() ;
-  $('div').each(function(){
+  $('.c-sel-p').each(function(){
   
         var cla =$(this).attr("class");
         if(selected=='1'&&cla==='one'){
