@@ -140,7 +140,7 @@ function SrcSet(ImageId, ThisElementSRC) {
             $("#p-colores, #p-vientre, #p-patron").fadeIn('slow');
         }
         else {
-            $("#p-colores, #p-vientre, #p-patrón").css("display", "none");
+            $("#p-colores, #p-vientre, #p-patron").css("display", "none");
         }
     }
 
