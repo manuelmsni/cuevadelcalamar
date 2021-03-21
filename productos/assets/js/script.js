@@ -137,7 +137,7 @@ function SrcSet(ImageId, ThisElementSRC) {
     function showConfig() {
         personalizar = document.getElementById("diseño-cb");
         if (personalizar.checked) {
-            $("#p-colores, #p-vientre, #p-patrón").fadeIn('slow');
+            $("#p-colores, #p-vientre, #p-patron").fadeIn('slow');
         }
         else {
             $("#p-colores, #p-vientre, #p-patrón").css("display", "none");
