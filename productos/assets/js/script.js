@@ -136,6 +136,7 @@ function SrcSet(ImageId, ThisElementSRC) {
 function showConfig() {
   personalizar = document.getElementById("diseño-cb");
   if (personalizar.checked) {
+    $(".capa-top").css("display", "block");
     $("#p-colores, #p-vientre, #p-patron, .capa").fadeIn('slow');
   }
   else {
