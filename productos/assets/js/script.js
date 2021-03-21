@@ -1,6 +1,10 @@
 // Ventana modal en construcción
 $(document).ready(function () {
   
+    var NoPriceP = parseInt($('#no-price-p').text());
+    var PriceP = parseInt($('#price-p').text());
+    var IncrementoP = parseInt($('#incremento-p').text());
+  
    $(function() {
      $('#colorselector').change(function(){
        $('.colors').css("display", "none");
@@ -166,9 +170,7 @@ function SrcSet(ImageId, ThisElementSRC) {
     }
 
 
-    NoPriceP = parseInt($('#no-price-p').text());
-    PriceP = parseInt($('#price-p').text());
-    IncrementoP = parseInt($('#incremento-p').text());
+
 
     function showPatron() {
         patron = document.getElementById("patron-cb");
