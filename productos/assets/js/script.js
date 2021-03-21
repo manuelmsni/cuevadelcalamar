@@ -157,8 +157,8 @@ function SrcSet(ImageId, ThisElementSRC) {
         NoPriceP = $('#no-price-p').val();
         PriceP = $('#price-p').val();
         IncrementoP = $('#incremento-p').val();
-        NoPriceIncremento = NoPriceP + IncrementoP;
-        PriceIncremento = PriceP + IncrementoP;
+        NoPriceIncremento = $(NoPriceP + IncrementoP);
+        PriceIncremento = $(PriceP + IncrementoP);
       
         if (patron.checked) {
             $("#patron-pez").fadeIn('slow');
