@@ -142,6 +142,7 @@ function showConfig() {
     document.getElementById("vientre-cb").checked = false;
     document.getElementById("patron-cb").checked = false;
     showPatron();
+    showVientre();
     $("#p-colores, #p-vientre, #p-patron, .capa").css("display", "none");
   }
 }
