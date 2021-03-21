@@ -185,7 +185,7 @@ var selected="";
 var flag='true';
  selected    = $("#teamSelect option:selected").val() ;
     
-    $('div').each(function(){
+    $('.c-sel-p').each(function(){
   
         var cla =$(this).attr("class");
         if(selected=='1'&&cla==='one'){
