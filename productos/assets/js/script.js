@@ -149,8 +149,6 @@ function showConfig() {
       $("#price-p").text(BasePrice);
       document.getElementById("patron-cb").checked = false;
     }
-    else {}
-    
     $("#p-colores, #p-vientre, #p-patron, .capa").css("display", "none");
   }
 }
