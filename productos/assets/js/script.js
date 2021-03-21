@@ -1,6 +1,6 @@
 // Ventana modal en construcción
 $(document).ready(function () {
-  
+
   $('#myModal').modal('toggle');
 
   //Carrousel
@@ -15,10 +15,10 @@ $(document).ready(function () {
     "loop": false,
     controlsContainer: "#customize-controls",
     responsive: {
-    "900": {
-      "items": 4
-    }
-  },
+      "900": {
+        "items": 4
+      }
+    },
   });
 
   // magnify("myimage", 3);
@@ -133,55 +133,55 @@ function SrcSet(ImageId, ThisElementSRC) {
 
 /* Configurador de precios */
 
-    function showConfig() {
-        personalizar = document.getElementById("diseño-cb");
-        if (personalizar.checked) {
-            $("#p-colores, #p-vientre, #p-patron, .capa").fadeIn('slow');
-        }
-        else {
-            $("#p-colores, #p-vientre, #p-patron, .capa").css("display", "none");
-        }
-    }
+function showConfig() {
+  personalizar = document.getElementById("diseño-cb");
+  if (personalizar.checked) {
+    $("#p-colores, #p-vientre, #p-patron, .capa").fadeIn('slow');
+  }
+  else {
+    $("#p-colores, #p-vientre, #p-patron, .capa").css("display", "none");
+  }
+}
 
-    function showColorTable() {
-           $('.colors').css("display", "none");
-           $('#' + $(this).val()).fadeIn('slow');
-       }
+function showColorTable() {
+  $('.colors').css("display", "none");
+  $('#' + $("#colorselector").val()).fadeIn('slow');
+}
 
-    function showVientre() {
-        vientre = document.getElementById("vientre-cb");
-        if (vientre.checked) {
-            $("#color-v").fadeIn('slow');
-        }
-        else {
-            $("#color-v").css("display", "none");
-        }
-    }
+function showVientre() {
+  vientre = document.getElementById("vientre-cb");
+  if (vientre.checked) {
+    $("#color-v").fadeIn('slow');
+  }
+  else {
+    $("#color-v").css("display", "none");
+  }
+}
 
 
 
 
 function showPatron() {
 
-        var NoPriceP = parseInt($('#no-price-p').text());
-        var PriceP = parseInt($('#price-p').text());
-        var IncrementoP = parseInt($('#incremento-p').text());
+  var NoPriceP = parseInt($('#no-price-p').text());
+  var PriceP = parseInt($('#price-p').text());
+  var IncrementoP = parseInt($('#incremento-p').text());
 
-        var patron = document.getElementById("patron-cb");
+  var patron = document.getElementById("patron-cb");
 
-        if (patron.checked) {
-            var NoPricePChk = NoPriceP + IncrementoP;
-            var PriceIncremented = PriceP + IncrementoP;
-            $("#patron-pez").fadeIn('slow');
-            $("#no-price-p").text(NoPricePChk);
-            $("#price-p").text(PriceIncremented);
-        }
-        else {
-            var NoPricePNotChk = NoPriceP - IncrementoP;
-            var BasePrice = PriceP - IncrementoP;
-            $("#patron-pez").css("display", "none");
-            $("#no-price-p, #price-p").text(NoPricePNotChk);
-            $("#price-p").text(BasePrice);
-        }
-    }
+  if (patron.checked) {
+    var NoPricePChk = NoPriceP + IncrementoP;
+    var PriceIncremented = PriceP + IncrementoP;
+    $("#patron-pez").fadeIn('slow');
+    $("#no-price-p").text(NoPricePChk);
+    $("#price-p").text(PriceIncremented);
+  }
+  else {
+    var NoPricePNotChk = NoPriceP - IncrementoP;
+    var BasePrice = PriceP - IncrementoP;
+    $("#patron-pez").css("display", "none");
+    $("#no-price-p, #price-p").text(NoPricePNotChk);
+    $("#price-p").text(BasePrice);
+  }
+}
 
