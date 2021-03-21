@@ -144,7 +144,7 @@ function SrcSet(ImageId, ThisElementSRC) {
 
     function showVientre() {
         vientre = document.getElementById("vientre-cb");
-        if (personalizar.checked) {
+        if (vientre.checked) {
             $("#color-v").fadeIn('slow');
         }
         else {
