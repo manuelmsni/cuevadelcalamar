@@ -181,14 +181,3 @@ function showPatron() {
   }
 }
 
-function hidePatron() {
-    if (patron.checked) {
-      var NoPricePNotChk = NoPriceP - IncrementoP;
-      var BasePrice = PriceP - IncrementoP;
-      $("#patron-pez").css("display", "none");
-      $("#no-price-p, #price-p").text(NoPricePNotChk);
-      $("#price-p").text(BasePrice);
-      $("#patron-cb").checked = false;
-    } else {}  
-}
-
