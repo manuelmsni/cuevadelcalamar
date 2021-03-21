@@ -129,3 +129,11 @@ function SrcSet(ImageId, ThisElementSRC) {
   var element = document.getElementById(ImageId);
   element.src = ThisElementSRC;
 }
+
+/* Configurador de precios */
+
+function showConfig()
+{
+    $("#color-v, #patron-pez").css("display", "none");
+    $("#p-colores, #p-vientre, #p-patrón").fadeIn('slow');
+}
