@@ -145,7 +145,7 @@ function SrcSet(ImageId, ThisElementSRC) {
 
     function showColorTable() {
            $('.colors').css("display", "none");
-           $('#' + $(this).val()).show();
+           $('#' + $(this).val()).fadeIn('slow');
        }
 
 
