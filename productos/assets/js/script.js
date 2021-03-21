@@ -1,5 +1,10 @@
 // Ventana modal en construcción
 $(document).ready(function () {
+  
+  var NoPriceP = $('#no-price-p').val();
+  var PriceP = $('#price-p').val();
+  var IncrementoP = $('#incremento-p').val();
+  
   $('#myModal').modal('toggle');
 
   //Carrousel
@@ -151,10 +156,6 @@ function SrcSet(ImageId, ThisElementSRC) {
             $("#color-v").css("display", "none");
         }
     }
-
-    var NoPriceP = $('#no-price-p').val();
-    var PriceP = $('#price-p').val();
-    var IncrementoP = $('#incremento-p').val();
 
     function showPatron() {
         patron = document.getElementById("patron-cb");
