@@ -145,8 +145,8 @@ function SrcSet(ImageId, ThisElementSRC) {
 
     $('[data-target]').click(function() {
      const target = $(this).data('target');
-     $('.info').removeClass('active');
-     $(target).addClass('active');
+     $('#D-cb-2, #D-cb-2').css("display", "none");
+     $(target).fadeIn('slow');
     });
    
     function showVientre() {
