@@ -376,6 +376,9 @@ body {
   }		
 }
 
+#p-colores, #p-vientre, #p-patron {
+  display:none;
+  }
 
 .tg  {border-collapse:collapse;border-color:#aeb2b8;border-spacing:0;}
 .tg td{background-color:#f3f7ff;border-color:#bbb;border-style:solid;border-width:1px;color:#272b2f;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
