@@ -182,7 +182,7 @@ function showPatron() {
 }
 
 function ColorSrcSet(ImageId) {
-  var imagID = document.getElementById(ImageId);
+  var imgID = document.getElementById(ImageId);
   var optionValue = $(this).attr("value");
-  imagID.src = optionValue;
+  imgID.src = optionValue;
 }
