@@ -155,7 +155,7 @@ function SrcSet(ImageId, ThisElementSRC) {
     function showPatron() {
         patron = document.getElementById("patron-cb");
         NoPriceP = $('#no-price-p').val();
-        PriceP = $('price-p').val();
+        PriceP = $('#price-p').val();
       
         if (patron.checked) {
             $("#patron-pez").fadeIn('slow');
