@@ -300,6 +300,8 @@ body {
 .capa {
   position: relative; 
   display:none;
+  top: -100%;
+  height: 0px;
 }
 
  .tns-item {
