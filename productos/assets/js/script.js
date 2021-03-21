@@ -145,7 +145,7 @@ function SrcSet(ImageId, ThisElementSRC) {
 
     $('[data-target]').click(function() {
      const target = $(this).data('target');
-     $('#D-cb-2, #D-cb-2').css("display", "none");
+     $('#D-cb-2, #D-cb-3').css("display", "none");
      $(target).fadeIn('slow');
     });
    
