@@ -366,11 +366,11 @@ body {
     font: normal normal normal 26px/1 FontAwesome;
 }
 
-.p-title {
+.product-title {
   text-align: justify;
   }
 @media screen and (max-width: 424px) {
-.p-title {
+.product-title {
   text-align: center;
   }		
 }
@@ -411,8 +411,7 @@ body {
     text-align: center;
     background: #f8f8f8;
     padding-top: 7px;
-    border-bottom: 1px solid #d8cdcd;
-    border-top: 1px solid #d8cdcd;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
 }
   /*---------------------------------------
       PIE DE PÁGINA            
