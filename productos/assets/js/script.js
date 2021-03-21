@@ -158,8 +158,8 @@ function SrcSet(ImageId, ThisElementSRC) {
 
     function showPatron() {
         patron = document.getElementById("patron-cb");
-        NoPriceIncremento = $(NoPriceP + IncrementoP);
-        PriceIncremento = $(PriceP + IncrementoP);
+        NoPriceIncremento = NoPriceP + IncrementoP;
+        PriceIncremento = PriceP + IncrementoP;
         if (patron.checked) {
             $("#patron-pez").fadeIn('slow');
             $("#no-price-p").text(NoPriceIncremento);
