@@ -159,15 +159,15 @@ function SrcSet(ImageId, ThisElementSRC) {
       
         if (patron.checked) {
             $("#patron-pez").fadeIn('slow');
-            NoPriceP = NoPriceP + 3;
-            PriceP = PriceP + 3;
+            NoPriceP += 3;
+            PriceP += 3;
             $("#no-price-p").text(NoPriceP);
             $("#price-p").text(PriceP);
         }
         else {
             $("#patron-pez").css("display", "none");
-            NoPriceP = NoPriceP - 3;
-            PriceP = PriceP - 3;
+            NoPriceP -= 3;
+            PriceP -= 3;
             $("#no-price-p, #price-p").text(NoPriceP);
             $("#price-p").text(PriceP);
         }
