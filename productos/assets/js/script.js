@@ -140,7 +140,7 @@ function showConfig() {
   }
   else {
     document.getElementById("vientre-cb").checked = false;
-    document.getElementById("vientre-cb").checked = false; 
+    document.getElementById("patron-cb").checked = false; 
     $("#p-colores, #p-vientre, #p-patron, .capa").css("display", "none");
   }
 }
