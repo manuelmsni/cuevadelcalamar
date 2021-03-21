@@ -32,6 +32,10 @@ th{
   font-weight: 100;
 }
 
+td{
+    color: #232F3E;
+  }
+
 .bg-black {
   background-color: #000 !important;
 }
@@ -400,16 +404,6 @@ body {
   -webkit-overflow-scrolling: touch;
   }
 }
-
-#colores-p td{
-    color: #232F3E;
-  }
-#color-v td{
-    color: #232F3E;
-  }
-#patron-pez td{
-    color: #232F3E;
-  }
 
 .p-title {
     text-align: center;
