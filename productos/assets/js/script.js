@@ -181,3 +181,7 @@ function showPatron() {
   }
 }
 
+function ColorSrcSet(ImageId) {
+  var element = document.getElementById(ImageId);
+  element.src = $(this).val());
+}
