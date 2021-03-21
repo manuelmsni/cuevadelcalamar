@@ -166,9 +166,9 @@ function SrcSet(ImageId, ThisElementSRC) {
     }
 
 
-    NoPriceP = parseInt($('#no-price-p').text(), 10);
-    PriceP = parseInt($('#price-p').text(), 10);
-    IncrementoP = parseInt($('#incremento-p').text(), 10);
+    NoPriceP = parseInt($('#no-price-p').text());
+    PriceP = parseInt($('#price-p').text());
+    IncrementoP = parseInt($('#incremento-p').text());
 
     function showPatron() {
         patron = document.getElementById("patron-cb");
