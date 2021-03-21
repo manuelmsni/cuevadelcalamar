@@ -299,6 +299,7 @@ body {
 }
 .capa {
   position: relative; 
+  display:none;
 }
 
  .tns-item {
