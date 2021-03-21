@@ -152,11 +152,13 @@ function SrcSet(ImageId, ThisElementSRC) {
         }
     }
 
+    NoPriceP = $('#no-price-p').val();
+    PriceP = $('#price-p').val();
+    IncrementoP = $('#incremento-p').val();
+
     function showPatron() {
         patron = document.getElementById("patron-cb");
-        NoPriceP = $('#no-price-p').val();
-        PriceP = $('#price-p').val();
-        IncrementoP = $('#incremento-p').val();
+
         NoPriceIncremento = $(NoPriceP + IncrementoP);
         PriceIncremento = $(PriceP + IncrementoP);
       
