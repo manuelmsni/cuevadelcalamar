@@ -184,5 +184,5 @@ function showPatron() {
 function ColorSrcSet(ImageId) {
   var imgID = document.getElementById(ImageId);
   var optionValue = $(this).attr("value");
-  imgID.src = optionValue;
+  imgID.attr("src") = optionValue;
 }
