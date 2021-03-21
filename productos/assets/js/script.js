@@ -1,17 +1,6 @@
 // Ventana modal en construcción
 $(document).ready(function () {
   
-    var NoPriceP = parseInt($('#no-price-p').text());
-    var PriceP = parseInt($('#price-p').text());
-    var IncrementoP = parseInt($('#incremento-p').text());
-  
-   $(function() {
-     $('#colorselector').change(function(){
-       $('.colors').css("display", "none");
-       $('#' + $(this).val()).fadeIn('slow');
-     });
-   });
-  
   $('#myModal').modal('toggle');
 
   //Carrousel
@@ -172,19 +161,27 @@ function SrcSet(ImageId, ThisElementSRC) {
 
 
 
-    function showPatron() {
-        patron = document.getElementById("patron-cb");
-        NoPriceIncremento = NoPriceP + IncrementoP;
-        PriceIncremento = PriceP + IncrementoP;
+function showPatron() {
+
+        var NoPriceP = parseInt($('#no-price-p').text());
+        var PriceP = parseInt($('#price-p').text());
+        var IncrementoP = parseInt($('#incremento-p').text());
+
+        var patron = document.getElementById("patron-cb");
+
         if (patron.checked) {
+            var NoPricePChk = NoPriceP + IncrementoP;
+            var PriceIncremented = PriceP + IncrementoP;
             $("#patron-pez").fadeIn('slow');
-            $("#no-price-p").text(NoPriceIncremento);
-            $("#price-p").text(PriceIncremento);
+            $("#no-price-p").text(NoPricePChk);
+            $("#price-p").text(PriceIncremented);
         }
         else {
+            var NoPricePNotChk = NoPriceP - IncrementoP;
+            var BasePrice = PriceP - IncrementoP;
             $("#patron-pez").css("display", "none");
-            $("#no-price-p, #price-p").text(NoPriceP);
-            $("#price-p").text(PriceP);
+            $("#no-price-p, #price-p").text(NoPricePNotChk);
+            $("#price-p").text(BasePrice);
         }
     }
 
