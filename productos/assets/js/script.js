@@ -148,6 +148,14 @@ function SrcSet(ImageId, ThisElementSRC) {
            $('#' + $(this).val()).fadeIn('slow');
        }
 
+    $(function() {
+     $('#colorselector').change(function(){
+       $('.colors').css("display", "none");
+       $('#' + $(this).val()).fadeIn('slow');
+     });
+   });
+
+
 
     function showVientre() {
         vientre = document.getElementById("vientre-cb");
