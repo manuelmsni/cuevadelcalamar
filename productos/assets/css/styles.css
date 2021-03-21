@@ -19,6 +19,10 @@ h6 {
   color:#131921;
 }
 
+table {
+  margin-bottom: 10px;
+  }
+
 .pointer {
   cursor: pointer;
 }
