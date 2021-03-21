@@ -136,10 +136,10 @@ function SrcSet(ImageId, ThisElementSRC) {
     function showConfig() {
         personalizar = document.getElementById("diseño-cb");
         if (personalizar.checked) {
-            $("#p-colores, #p-vientre, #p-patron").fadeIn('slow');
+            $("#p-colores, #p-vientre, #p-patron, .capa").fadeIn('slow');
         }
         else {
-            $("#p-colores, #p-vientre, #p-patron").css("display", "none");
+            $("#p-colores, #p-vientre, #p-patron, .capa").css("display", "none");
         }
     }
 
