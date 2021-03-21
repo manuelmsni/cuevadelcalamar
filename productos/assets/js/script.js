@@ -143,6 +143,12 @@ function SrcSet(ImageId, ThisElementSRC) {
         }
     }
 
+    $('[data-target]').click(function() {
+     const target = $(this).data('target');
+     $('.info').removeClass('active');
+     $(target).addClass('active');
+    });
+   
     function showVientre() {
         vientre = document.getElementById("vientre-cb");
         if (vientre.checked) {
@@ -153,11 +159,12 @@ function SrcSet(ImageId, ThisElementSRC) {
         }
     }
 
-    NoPriceP = $('#no-price-p').val();
-    PriceP = $('#price-p').val();
-    IncrementoP = $('#incremento-p').val();
+
 
     function showPatron() {
+        const NoPriceP = $('#no-price-p').val();
+        const PriceP = $('#price-p').val();
+        const IncrementoP = $('#incremento-p').val();
         patron = document.getElementById("patron-cb");
         NoPriceIncremento = NoPriceP + IncrementoP;
         PriceIncremento = PriceP + IncrementoP;
