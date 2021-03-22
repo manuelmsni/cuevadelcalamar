@@ -456,13 +456,6 @@ color:#fff;
        url(../../../../fuentes/contorno.woff) format("woff");
 }
 
-@media (max-width: 992px) {
-.h2-p {
-  font-size: 24px;	
- }
-}
-
-
 @media (max-width: 1240px) {
   .container{
     min-width: 100%;
