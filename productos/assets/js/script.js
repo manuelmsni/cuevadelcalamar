@@ -146,8 +146,8 @@ function showConfig() {
 }
 
 function showColorTable() {
-  var blankSRC = $('imgdefault').src;
-  $('#product-c-3, #product-c-4, #product-c-5').src = blankSRC;  
+  var blankSRC = $('#imgdefault').src;
+  $('#product-c-3, #product-c-4, #product-c-5').src = $('imgdefault').src;  
   $('.colors').css("display", "none");
   $('#' + $("#colorselector").val()).fadeIn('slow');
 }
