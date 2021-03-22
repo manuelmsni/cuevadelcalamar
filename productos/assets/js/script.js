@@ -146,8 +146,8 @@ function showConfig() {
 }
 
 function showColorTable() {
-  $('.colors').css("display", "none");
   $('#product-c-3, #product-c-4, #product-c-5').src = "https://cuevadelcalamar.com/img/default.png";  
+  $('.colors').css("display", "none");
   $('#' + $("#colorselector").val()).fadeIn('slow');
 }
 
