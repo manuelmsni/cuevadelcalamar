@@ -172,7 +172,7 @@ body {
   }
 
   #cerrar-menu-izquierda {
-    z-index: 10010;
+    z-index: 10011;
     position: fixed;
     height: 2rem;
     width: 2rem;
@@ -185,17 +185,43 @@ body {
   #menu-izquierda{
     z-index: 10010;
     position: fixed;
-    left: -1000px;
-    top:68px;
-    width: 365px;
+    left: -200%;
+    top:67px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: 0.4s;
+    margin:0px;
+  }
+
+  #menu-izquierda-content{
     height: 100%;
     border-right: 1px solid #354d69;
     background-color: white;
     overflow: hidden;
-    transition: 0.4s;
+    margin:0px;
+    padding:0px;
+    max-width:368px;
   }
+ .nav-link {
+    color: #fff;
+ }
 
-  #menu-izquierda td {
+
+@media (max-width: 425px) {
+  #menu-izquierda-content {
+   max-width:425px;
+  }
+}
+  
+.no-m-p{
+ margin-left:0px;
+ margin-right:0px;
+ padding-left:0px;
+ padding-right:0px;
+}
+  
+  #menu-izquierda .m-i-b {
     border: 1px solid #232F3E;
     background: #131921;
     text-align: center;
@@ -205,7 +231,7 @@ body {
     color: #fff;
   }
 
-  #menu-izquierda-oscurecer{
+   #menu-izquierda-oscurecer {
     z-index: 10009;
     position: fixed;
     left: -100%;
