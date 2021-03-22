@@ -137,11 +137,13 @@ function showConfig() {
   personalizar = document.getElementById("diseño-cb");
   if (personalizar.checked) {
     $(".capa-top").css("display", "block");
-    $("#p-colores, #p-vientre, #p-patron, .capa").fadeIn('slow');
+    $("#p-colores, #p-vientre, #p-patron, .capa, #generated").fadeIn('slow');
+    $("#freegenerated").css("display", "none");
   }
   else {
     $("#vientre-cb").checked = false;
-    $("#p-colores, #p-vientre, #p-patron, .capa").css("display", "none");
+    $("#p-colores, #p-vientre, #p-patron, .capa, #generated").css("display", "none");
+    $("#freegenerated").fadeIn('slow');
   }
 }
 
