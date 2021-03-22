@@ -151,6 +151,7 @@ function showColorTable() {
   $('#product-c-3, #product-c-4, #product-c-5').attr("src","https://cuevadelcalamar.com/img/default.png");  
   $('.colors').css("display", "none");
   $('#' + $("#colorselector").val()).fadeIn('slow');
+  $("#cs1-1, #cs2-1, #cs2-2, #cs3-1, #cs3-2, #cs3-3, option[value='https://cuevadelcalamar.com/img/default.png']").attr("selected", true);
 }
 
 function showVientre() {
