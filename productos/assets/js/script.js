@@ -186,13 +186,6 @@ function showPatron() {
   }
 }
 
-/*
-function ColorSrcSet(ImageId) {
-  var imgID = document.getElementById(ImageId);
-  var optionValue = $(this).val();
-  imgID.src = optionValue;
-} */
-
 function ColorSrcSet(ImageId, selectVal) {
    document.getElementById(ImageId).src = selectVal;     
 }
