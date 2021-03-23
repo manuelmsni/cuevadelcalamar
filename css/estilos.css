@@ -788,7 +788,7 @@ background: #0000001c;
 }
 
 @media (max-width: 992px) {
-/*	
+
   p {
    font-size: 24px;
    line-height: 150%;
@@ -797,6 +797,7 @@ background: #0000001c;
   font-size: 24px;
   line-height: 150%;
   }
+/*	
   .navbar-custom {
    padding-top: 2rem;
    padding-bottom: 2rem;
