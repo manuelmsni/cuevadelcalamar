@@ -162,10 +162,10 @@ function showVientre() {
   vientre = document.getElementById("vientre-cb");
   if (vientre.checked) {
     $("#color-v").fadeIn('slow');
-    $('#product-c-6').attr("src","https://cuevadelcalamar.com/img/default.png");  
   }
   else {
     $("#color-v").css("display", "none");
+    $('#product-c-6').attr("src","https://cuevadelcalamar.com/img/default.png");  
   }
 }
 
