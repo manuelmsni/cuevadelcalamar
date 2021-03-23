@@ -83,34 +83,40 @@
 
   <!-- ======= Menú izquierda ======= -->
 
-  <div id="cerrar-menu-izquierda">
+ <div id="cerrar-menu-izquierda">
     <button onclick="showMenu(); showCloseMenu(); showOscurecerMenu()"
-      style="background: transparent; border: transparent;"><img
+      style="background: transparent; border: transparent;"><img id="cerr"
         src="https://cuevadelcalamar.com/img/cerrar.png"></button>
   </div>
 
-  <div id="menu-izquierda">
-    <table style="width: 100%;">
-      <tr>
-        <td>
-          <a class="nav-link" href="https://cuevadelcalamar.com/index.html#productos"
-            onclick="showMenu(); showCloseMenu(); showOscurecerMenu()">Productos</a>
-        </td>
-        <td>
-          <a class="nav-link" href="https://cuevadelcalamar.com/info.html"
+<div id="menu-izquierda" class="row">   
+  
+  <div id="menu-izquierda-content" class="col-md-7">
+    
+    <div style="width: 100%;" class="row no-m-p">
+        <div class="col-md-4 m-i-b no-m-p">
+          <a class="nav-link no-m-p" href="https://cuevadelcalamar.com" onclick="showMenu(); showCloseMenu(); showOscurecerMenu()">Productos</a>
+        </div>
+      
+        <div class="col-md-4 m-i-b no-m-p">
+          <a class="nav-link no-m-p" href="https://cuevadelcalamar.com/info.html"
             onclick="showMenu(); showCloseMenu(); showOscurecerMenu()">Información</a>
-        </td>
-        <td>
+        </div>
+      
+        <div class="col-md-4 m-i-b no-m-p">
           <a class="nav-link" href="https://cuevadelcalamar.com/contacto.html">Contacto</a>
-        </td>
-      </tr>
-    </table>
+        </div>
+      
+      </div>
+    </div>
+  
+    <div id="menu-izquierda-space" class="col-md-8" style="height:100%;" onclick="showMenu(); showCloseMenu(); showOscurecerMenu()">
+    </div>
   </div>
 
   <div id="menu-izquierda-oscurecer" onclick="showMenu(); showCloseMenu(); showOscurecerMenu()">
   </div>
 
-  <hr size="8px" color="#91dfbd" />
 
   <!-- ======= Contacto ======= -->
 
