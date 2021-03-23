@@ -151,6 +151,7 @@ function showColorTable() {
   $('#product-c-3, #product-c-4, #product-c-5').attr("src","https://cuevadelcalamar.com/img/default.png");  
   $('.colors').css("display", "none");
   $('#' + $("#colorselector").val()).fadeIn('slow');
+  /* Lo de abajo no funciona */
   $("#cs1-1 option[value='https://cuevadelcalamar.com/img/default.png']").attr("selected", true);
   $("#cs2-1 option[value='https://cuevadelcalamar.com/img/default.png']").attr("selected", true);
   $("#cs2-2 option[value='https://cuevadelcalamar.com/img/default.png']").attr("selected", true);
@@ -161,6 +162,7 @@ function showVientre() {
   vientre = document.getElementById("vientre-cb");
   if (vientre.checked) {
     $("#color-v").fadeIn('slow');
+    $('#product-c-6').attr("src","https://cuevadelcalamar.com/img/default.png");  
   }
   else {
     $("#color-v").css("display", "none");
