@@ -136,7 +136,7 @@ function showMenu() {
   if (x.style.left != "0px") {
     x.style.left = "0px";
   } else {
-    x.style.left = "-1000px";
+    x.style.left = "-100%";
   }
 }
 function showCloseMenu() {
