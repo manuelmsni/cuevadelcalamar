@@ -281,7 +281,7 @@
               <div id="personalizar-color">
                 <div class="p-title">
                   <p style="display: inline-block;margin-bottom: 6px;">Colores</p>
-                    <select id="colorselector" style="display:inline-block;" onchange="showColorTable();">
+                    <select id="colorselector" style="display:inline-block;" onchange="showColorTable(), code()">
                       <option value="colores-p-1">1</option>
                       <option value="colores-p-2">2</option>
                       <option value="colores-p-3">3</option>
@@ -292,7 +292,7 @@
                     <tr>
                       <td style="padding-top: 10px;">Color: </td>
                       <td style="padding-top: 10px;">
-                          <select id="cs1-1" class="colorSRC1" style="display:inline-block;" onchange="ColorSrcSet('product-c-3', this.value);">
+                          <select id="cs1-1" class="colorSRC1" style="display:inline-block;" onchange="ColorSrcSet('product-c-3', this.value), code()">
                             <option value="https://cuevadelcalamar.com/img/default.png">Blanco</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/colors/1/amarillo.png">Amarillo</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/colors/1/naranja.png">Naranja</option>
@@ -313,7 +313,7 @@
                     <tr>
                       <td style="padding-top: 10px;">Izquierda: </td>
                       <td style="padding-top: 10px;">
-                          <select id="cs2-1" class="colorSRC1" style="display:inline-block;" onchange="ColorSrcSet('product-c-3', this.value);">
+                          <select id="cs2-1" class="colorSRC1" style="display:inline-block;" onchange="ColorSrcSet('product-c-3', this.value), code()">
                             <option value="https://cuevadelcalamar.com/img/default.png">Blanco</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/colors/2/i/amarillo.png">Amarillo</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/colors/2/i/naranja.png">Naranja</option>
@@ -329,7 +329,7 @@
                     <tr>
                       <td>Derecha: </td>
                       <td>
-                          <select id="cs2-2" class="colorSRC2" style="display:inline-block;" onchange="ColorSrcSet('product-c-4', this.value);">
+                          <select id="cs2-2" class="colorSRC2" style="display:inline-block;" onchange="ColorSrcSet('product-c-4', this.value), code()">
                             <option value="https://cuevadelcalamar.com/img/default.png">Blanco</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/colors/2/d/amarillo.png">Amarillo</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/colors/2/d/naranja.png">Naranja</option>
@@ -350,7 +350,7 @@
                     <tr>
                       <td style="padding-top: 10px;">Izquierda: </td>
                       <td style="padding-top: 10px;">
-                          <select id="cs3-1" class="colorSRC1" style="display:inline-block;" onchange="ColorSrcSet('product-c-4', this.value);">
+                          <select id="cs3-1" class="colorSRC1" style="display:inline-block;" onchange="ColorSrcSet('product-c-4', this.value), code()">
                             <option value="https://cuevadelcalamar.com/img/default.png">Blanco</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/colors/3/i/amarillo.png">Amarillo</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/colors/3/i/naranja.png">Naranja</option>
@@ -366,7 +366,7 @@
                     <tr>
                       <td>Centro: </td>
                       <td>
-                          <select id="cs3-2" class="colorSRC2" style="display:inline-block;" onchange="ColorSrcSet('product-c-3', this.value);">
+                          <select id="cs3-2" class="colorSRC2" style="display:inline-block;" onchange="ColorSrcSet('product-c-3', this.value), code()">
                             <option value="https://cuevadelcalamar.com/img/default.png">Blanco</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/colors/3/m/amarillo.png">Amarillo</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/colors/3/m/naranja.png">Naranja</option>
@@ -382,7 +382,7 @@
                     <tr>
                       <td>Derecha: </td>
                       <td>
-                          <select id="cs3-3" class="colorSRC3" style="display:inline-block;" onchange="ColorSrcSet('product-c-5', this.value);">
+                          <select id="cs3-3" class="colorSRC3" style="display:inline-block;" onchange="ColorSrcSet('product-c-5', this.value), code()">
                             <option value="https://cuevadelcalamar.com/img/default.png">Blanco</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/colors/3/d/amarillo.png">Amarillo</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/colors/3/d/naranja.png">Naranja</option>
@@ -407,7 +407,7 @@
               <div id="p-vientre" class="col-lg-4" style="max-width: 212px;">
                 <div class="p-title">
                   <p style="margin-bottom: 0px;">
-                    <input type="checkbox" id="vientre-cb" name="vientre-cb" value="1" onchange="showVientre();">
+                    <input type="checkbox" id="vientre-cb" name="vientre-cb" value="1" onchange="showVientre(), code()">
                     <label for="vientre-cb" style="color:#232F3E; margin-bottom: 6px;"> Vientre</label>
                   </p>
                 </div>
@@ -416,7 +416,7 @@
                     <tr>
                       <td style="padding-top: 10px;">Color</td>
                       <td style="padding-top: 10px;">
-                          <select id="vientreSRC" style="display:inline-block;" onchange="ColorSrcSet('product-c-6', this.value);">
+                          <select id="vientreSRC" style="display:inline-block;" onchange="ColorSrcSet('product-c-6', this.value), code()">
                             <option value="https://cuevadelcalamar.com/productos/egis/4cm/gamba/img/vientre/blanco.png">Blanco</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/4cm/gamba/img/vientre/amarillo.png">Amarillo</option>
                             <option value="https://cuevadelcalamar.com/productos/egis/4cm/gamba/img/vientre/naranja.png">Naranja</option>
@@ -435,7 +435,7 @@
               <div id="p-patron" class="col-lg-4" style="max-width: 212px;">
                 <div class="p-title">
                 <p style="margin-bottom: 0px;">
-                  <input type="checkbox" id="patron-cb" name="patron-cb" value="1" onchange="showPatron();">
+                  <input type="checkbox" id="patron-cb" name="patron-cb" value="1" onchange="showPatron(), code()">
                   <label for="patron-cb" style="color:#232F3E; margin-bottom: 6px;"> Patrón (+<b id="incremento-p" style="font-weight: 500;">3</b>€)</label>
                 </p>
                 </div>              
@@ -444,7 +444,7 @@
                     <tr>
                       <td style="padding-top: 10px;">Tipo</td>
                       <td style="padding-top: 10px;">
-                          <select style="display:inline-block;">
+                          <select style="display:inline-block, code()">
                             <option value="1">Rayas</option>
                             <option value="2">Escamas</option>
                             <option value="3">Nombre</option>
@@ -455,7 +455,7 @@
                       <td>Color</td>
                       <td>
                         <form>
-                          <select style="display:inline-block;" onchange="ColorSrcSet('product-c-7', this.value);">
+                          <select style="display:inline-block;" onchange="ColorSrcSet('product-c-7', this.value), code()">
                             <option value="https://cuevadelcalamar.com/img/default.png">Amarillo</option>
                             <option value="https://cuevadelcalamar.com/img/default.png">Naranja</option>
                             <option value="https://cuevadelcalamar.com/img/default.png">Rosa</option>
