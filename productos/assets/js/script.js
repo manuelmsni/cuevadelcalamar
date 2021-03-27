@@ -148,14 +148,16 @@ function showConfig() {
 }
 
 function showColorTable() {
+  colorSRC1 = $(".colorSRC1.active").val();
+  colorSRC2 = $(".colorSRC2.active").val();
+  colorSRC3 = $(".colorSRC3.active").val();
   $('#product-c-3, #product-c-4, #product-c-5').attr("src","https://cuevadelcalamar.com/img/default.png");  
   $('.colors').css("display", "none");
-  $('#' + $("#colorselector").val()).fadeIn('slow');
-  /* Lo de abajo no funciona */
-  $("#cs1-1 option[value='https://cuevadelcalamar.com/img/default.png']").attr("selected", true);
-  $("#cs2-1 option[value='https://cuevadelcalamar.com/img/default.png']").attr("selected", true);
-  $("#cs2-2 option[value='https://cuevadelcalamar.com/img/default.png']").attr("selected", true);
-  $("#cs1-1, #cs2-1, #cs2-2, #cs3-1, #cs3-2, #cs3-3, option[value='https://cuevadelcalamar.com/img/default.png']").attr("selected", true);
+  $('#' + $("#colorselector").val()).fadeIn('slow').addClass( "active" );
+  $('#product-c-3').attr("src", colorSRC1);
+  $('#product-c-4').attr("src", colorSRC2);
+  $('#product-c-5').attr("src", colorSRC3);
+  $('#' + $("#colorselector").val()).removeClass( "active" );
 }
 
 function showVientre() {
