@@ -160,10 +160,10 @@ function showColorTable() {
 
 function showVientre() {
   vientre = document.getElementById("vientre-cb");
-  vientreBlancoSRC = $("#vientreBlancoSRC").val();
+  vientreSRC = $("#vientreSRC").val();
   if (vientre.checked) {
     $("#color-v").fadeIn('slow');
-    $('#product-c-6').attr("src", vientreBlancoSRC);  
+    $('#product-c-6').attr("src", vientreSRC);  
   }
   else {
     $("#color-v").css("display", "none");
