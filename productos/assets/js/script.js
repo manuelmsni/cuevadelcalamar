@@ -148,17 +148,14 @@ function showConfig() {
 }
 
 function showColorTable() {
-
   $(".colors").removeClass( "active" );
   $('#product-c-3, #product-c-4, #product-c-5').attr("src","https://cuevadelcalamar.com/img/default.png");  
   $('.colors').css("display", "none");
   $('#' + $("#colorselector").val()).fadeIn('slow');
   $('#' + $("#colorselector").val()).addClass( "active" );
-  
   colorSRC1 = $(".colors.active .colorSRC1").val();
   colorSRC2 = $(".colors.active .colorSRC2").val();
   colorSRC3 = $(".colors.active .colorSRC3").val();
-  
   $('#product-c-3').attr("src", colorSRC1);
   $('#product-c-4').attr("src", colorSRC2);
   $('#product-c-5').attr("src", colorSRC3);
@@ -200,5 +197,10 @@ function showPatron() {
 }
 
 function ColorSrcSet(ImageId, selectVal) {
-   document.getElementById(ImageId).src = selectVal;     
+   document.getElementById(ImageId).src = selectVal;
+}
+
+function code() {
+  codigo = $( $("#tituloproducto").attr("name") + $(".colors.active .colorSRC1").find('option:selected').attr("name") + $(".colors.active .colorSRC2").find('option:selected').attr("name") + $(".colors.active .colorSRC3").find('option:selected').attr("name") + $("#vientreSRC").find('option:selected').attr("name"));
+  
 }
