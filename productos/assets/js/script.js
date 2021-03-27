@@ -148,9 +148,6 @@ function showConfig() {
 }
 
 function showColorTable() {
-  colorSRC1 = $(".colorSRC1.active").val();
-  colorSRC2 = $(".colorSRC2.active").val();
-  colorSRC3 = $(".colorSRC3.active").val();
   /* Hay que conseguir que esta clase se la quite a los select de dentro de la tabla */
   $(".colors").removeClass( "active" );
   /**/
@@ -160,6 +157,11 @@ function showColorTable() {
   /* Hay que conseguir que esta clase se la de a los select de dentro de la tabla */
   $('#' + $("#colorselector").val()).addClass( "active" );
   /**/
+  
+  colorSRC1 = $(".colors.active .colorSRC1").val();
+  colorSRC2 = $(".colors.active .colorSRC2").val();
+  colorSRC3 = $(".colors.active .colorSRC3").val();
+  
   $('#product-c-3').attr("src", colorSRC1);
   $('#product-c-4').attr("src", colorSRC2);
   $('#product-c-5').attr("src", colorSRC3);
