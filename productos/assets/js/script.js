@@ -153,7 +153,8 @@ function showColorTable() {
   colorSRC3 = $(".colorSRC3.active").val();
   $('#product-c-3, #product-c-4, #product-c-5').attr("src","https://cuevadelcalamar.com/img/default.png");  
   $('.colors').css("display", "none");
-  $('#' + $("#colorselector").val()).fadeIn('slow').addClass( "active" );
+  $('#' + $("#colorselector").val()).fadeIn('slow');
+  $('#' + $("#colorselector").val()).addClass( "active" );
   $('#product-c-3').attr("src", colorSRC1);
   $('#product-c-4').attr("src", colorSRC2);
   $('#product-c-5').attr("src", colorSRC3);
