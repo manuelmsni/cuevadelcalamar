@@ -415,6 +415,7 @@ body {
 #productID {
   border:1px solid black;
   cursor:pointer;
+  display: inline;
 }
 #productID::hover {
   border:1px solid grey;
