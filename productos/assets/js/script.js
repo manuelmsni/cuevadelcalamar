@@ -202,5 +202,5 @@ function ColorSrcSet(ImageId, selectVal) {
 
 function code() {
   codigo = $( $("#tituloproducto").attr("name") + $(".colors.active .colorSRC1").find('option:selected').attr("name") + $(".colors.active .colorSRC2").find('option:selected').attr("name") + $(".colors.active .colorSRC3").find('option:selected').attr("name") + $("#vientreSRC").find('option:selected').attr("name"));
-  
+  $("#productID").text(codigo);
 }
