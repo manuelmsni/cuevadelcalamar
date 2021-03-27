@@ -148,15 +148,12 @@ function showConfig() {
 }
 
 function showColorTable() {
-  /* Hay que conseguir que esta clase se la quite a los select de dentro de la tabla */
+
   $(".colors").removeClass( "active" );
-  /**/
   $('#product-c-3, #product-c-4, #product-c-5').attr("src","https://cuevadelcalamar.com/img/default.png");  
   $('.colors').css("display", "none");
   $('#' + $("#colorselector").val()).fadeIn('slow');
-  /* Hay que conseguir que esta clase se la de a los select de dentro de la tabla */
   $('#' + $("#colorselector").val()).addClass( "active" );
-  /**/
   
   colorSRC1 = $(".colors.active .colorSRC1").val();
   colorSRC2 = $(".colors.active .colorSRC2").val();
