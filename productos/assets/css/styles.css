@@ -411,6 +411,15 @@ body {
     box-shadow: 0px 2px 15px rgb(0 0 0 / 13%);
     border: 1px solid rgb(0 0 0 / 5%);
 }
+
+#productID {
+  border:1px solid black;
+  cursor:pointer;
+}
+#productID::hover {
+  border:1px solid grey;
+}
+
   /*---------------------------------------
       PIE DE PÁGINA            
   -----------------------------------------*/
