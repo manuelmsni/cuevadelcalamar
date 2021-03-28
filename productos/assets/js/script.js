@@ -203,13 +203,14 @@ function ColorSrcSet(ImageId, selectVal) {
 }
 
 function code() {
-  if ($("#vientre-cb").checked) {
-  vientre = $("#vientreSRC").find('option:selected').attr('name');
+  vientre = document.getElementById("vientre-cb");
+  if (vientre.checked) {
+  vientr = $("#vientreSRC").find('option:selected').attr('name');
   }
   else {
-  vientre = "XX";
+  vientr = "XX";
   }
-  codigo = "#" + $("#tituloproducto").attr('name') + "-" + $(".colors.active .colorSRC1").find('option:selected').attr('name') + $(".colors.active .colorSRC2").find('option:selected').attr('name') + $(".colors.active .colorSRC3").find('option:selected').attr('name') + "-" + vientre;
+  codigo = "#" + $("#tituloproducto").attr('name') + "-" + $(".colors.active .colorSRC1").find('option:selected').attr('name') + $(".colors.active .colorSRC2").find('option:selected').attr('name') + $(".colors.active .colorSRC3").find('option:selected').attr('name') + "-" + vientr;
   $("#productID").text(codigo);
 }
 
