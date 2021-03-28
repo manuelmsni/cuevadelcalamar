@@ -211,4 +211,6 @@ function copiarAlPortapapeles(id_elemento) {
   $temp.val($(id_elemento).text()).select();
   document.execCommand("copy");
   $temp.remove();
+  $("#copiedID").fadeIn('slow');
+  $("#copiedID").delay(3000).fadeOut('slow');
 }
