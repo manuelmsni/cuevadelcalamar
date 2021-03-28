@@ -483,9 +483,12 @@ color:#fff;
     min-width: 100%;
     margin:0px:
   }
-  .product-title{
+  .nomovil{
     display:none;
-  }	
+  }
+  .movil{
+    display:block;
+  }		
 }
 
 @media (max-width: 343px) {
