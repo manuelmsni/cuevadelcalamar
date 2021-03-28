@@ -416,7 +416,10 @@ body {
   border: 1px solid rgba(0,0,0,.1);
   cursor:pointer;
   display: inline;
-  padding:2px;
+  padding:3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  user-select: text;
 }
 #productID:hover {
   border:1px solid rgb(75, 186, 170);
