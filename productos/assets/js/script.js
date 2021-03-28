@@ -210,7 +210,7 @@ function code() {
   else {
   vientr = "XX";
   }
-  codigo = "#" + $("#tituloproducto").attr('name') + "-" + $(".colors.active .colorSRC1").find('option:selected').attr('name') + $(".colors.active .colorSRC2").find('option:selected').attr('name') + $(".colors.active .colorSRC3").find('option:selected').attr('name') + "-" + vientr;
+  codigo = "#" + $("#tituloproducto").attr('name') + "·" + $(".colors.active .colorSRC1").find('option:selected').attr('name') + $(".colors.active .colorSRC2").find('option:selected').attr('name') + $(".colors.active .colorSRC3").find('option:selected').attr('name') + "·" + vientr;
   $("#productID").text(codigo);
 }
 
