@@ -206,10 +206,9 @@ function code() {
 }
 
 function copiarAlPortapapeles(id_elemento) {
-  var aux = document.createElement("input");
-  aux.setAttribute("value", document.getElementById(id_elemento));
-  document.body.appendChild(aux);
-  aux.select();
+  var $temp = $("<input>")
+  $("body").append($temp);
+  $temp.val($(id_elemento).text()).select();
   document.execCommand("copy");
-  document.body.removeChild(aux);
+  $temp.remove();
 }
