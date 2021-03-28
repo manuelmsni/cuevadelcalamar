@@ -207,7 +207,7 @@ function code() {
 
 function copiarAlPortapapeles(id_elemento) {
   var aux = document.createElement("input");
-  aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
+  aux.setAttribute("value", document.getElementById(id_elemento));
   document.body.appendChild(aux);
   aux.select();
   document.execCommand("copy");
