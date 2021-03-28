@@ -139,11 +139,13 @@ function showConfig() {
     $(".capa-top").css("display", "block");
     $("#p-colores, #p-vientre, #p-patron, .capa, #generated").fadeIn('slow');
     $("#freegenerated").css("display", "none");
+    $("#codebox").fadeIn('slow');
   }
   else {
     $("#vientre-cb").checked = false;
     $("#p-colores, #p-vientre, #p-patron, .capa, #generated").css("display", "none");
     $("#freegenerated").fadeIn('slow');
+    $("#codebox").css("display", "none");
   }
 }
 
