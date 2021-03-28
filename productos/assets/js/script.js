@@ -214,5 +214,5 @@ function copiarAlPortapapeles(id_elemento) {
   document.execCommand("copy");
   $temp.remove();
   $("#copiedID").css("display", "inline");
-  $("#copiedID").delay(3000).fadeOut('slow');
+  $("#copiedID").delay(2000).fadeOut('slow');
 }
