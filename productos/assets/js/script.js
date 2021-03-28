@@ -207,7 +207,7 @@ function code() {
   vientre =  $("#vientreSRC").find('option:selected').attr('name');
   }
   else {
-  vientre = XX;
+  vientre = "XX";
   }
   /*
   codigo = $( $("#tituloproducto").attr('name') + $(".colors.active .colorSRC1").find('option:selected').attr('name') + $(".colors.active .colorSRC2").find('option:selected').attr('name') + $(".colors.active .colorSRC3").find('option:selected').attr('name') + $("#vientreSRC").find('option:selected').attr('name'));
