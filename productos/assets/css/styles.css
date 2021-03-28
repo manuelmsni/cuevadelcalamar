@@ -418,7 +418,7 @@ body {
   display: inline;
   padding:2px;
 }
-#productID::hover {
+#productID:hover {
   border:1px solid rgb(75, 186, 170);
   background: #9bffc159;
 }
