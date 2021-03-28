@@ -210,9 +210,9 @@ function code() {
   vientre = "XX";
   }
   
-  codigo = $( $("#tituloproducto").attr('name') + $(".colors.active .colorSRC1").find('option:selected').attr('name') + $(".colors.active .colorSRC2").find('option:selected').attr('name') + $(".colors.active .colorSRC3").find('option:selected').attr('name') + vientre);
+  codigo = $( "@" + $("#tituloproducto").attr('name') + "/" + $(".colors.active .colorSRC1").find('option:selected').attr('name') + $(".colors.active .colorSRC2").find('option:selected').attr('name') + $(".colors.active .colorSRC3").find('option:selected').attr('name') + "/" + vientre);
   /*
-  codigo = $( $("#tituloproducto").attr('name') + $(".colors.active .colorSRC1 option:selected").attr('name') + $(".colors.active .colorSRC2 option:selected").attr('name') + $(".colors.active .colorSRC3 option:selected").attr('name') + vientre);
+  codigo = $( "@" + $("#tituloproducto").attr('name') + "/" + $(".colors.active .colorSRC1 option:selected").attr('name') + $(".colors.active .colorSRC2 option:selected").attr('name') + $(".colors.active .colorSRC3 option:selected").attr('name') + "/" + vientre);
   */
   $("#productID").text(codigo);
 }
