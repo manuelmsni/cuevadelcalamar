@@ -492,3 +492,16 @@ color:#fff;
   }
 }
 
+  @keyframes ColorPride {
+    0% {color: #FFD800}
+    25% {color: #FF3C35;}
+    50% {color: #A33EFF;}
+    75% {color: #42B0FF;}
+    85% {color: #60FFAA;}
+    100% {color: #FFD800;}
+  }
+
+.pride {
+    animation: ColorPride 4s ease infinite;
+}
+
