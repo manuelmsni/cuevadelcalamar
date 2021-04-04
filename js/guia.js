@@ -5,12 +5,13 @@ $(document).ready(function () {
 
 
 //abrir y cerrar menu de la izquierda
+
 function showMenu() {
   var x = document.getElementById("menu-izquierda");
   if (x.style.left != "0px") {
     x.style.left = "0px";
   } else {
-    x.style.left = "-1000px";
+    x.style.left = "-100%";
   }
 }
 function showCloseMenu() {
