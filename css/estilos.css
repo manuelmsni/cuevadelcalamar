@@ -59,7 +59,7 @@ th{
 @media (min-width: 1150px){
 .navbar-nav {
     margin-right: 0px!important;
-
+    transform: translate(0,0);
 }
 }
 
