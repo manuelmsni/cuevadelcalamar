@@ -36,6 +36,33 @@ th{
   background-color:#131921;
 }
 
+.header-box{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    transform: translate(-160px,0);
+}
+
+@media (min-width: 1050px){
+.navbar-nav {
+    margin-right: 0px!important;
+
+}
+}
+
 .navbar-brand {
   text-transform: uppercase;
   font-size: 1rem;
