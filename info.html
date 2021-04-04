@@ -45,17 +45,18 @@
 <body>
 
   <!-- ======= Barra de navegación ======= -->
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-    <div class="container align-items-center" style="margin-left: 0px;margin-right: 0px; width: 100%;">
-      <button onclick="showMenu(); showCloseMenu(); showOscurecerMenu()" type="button"
-        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation" style="background: transparent; border: 0px;"><span
-          class="navbar-toggler-icon"></span></button>
-      <a class="navbar-brand" href="https://cuevadelcalamar.com">La cueva del Calamar</a>
+ <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" style="">
+    <div class="align-items-center header-box">
+
+
+      <button onclick="showMenu(); showCloseMenu(); showOscurecerMenu()" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: transparent; border: 0px;"><span class="navbar-toggler-icon"></span></button>
+      <a class="navbar-brand" href="#hero">La cueva del Calamar</a>
+
+
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="https://cuevadelcalamar.com/index.html#productos">Productos</a>
+            <a class="nav-link" href="#productos">Productos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://cuevadelcalamar.com/info.html">Información</a>
@@ -63,25 +64,24 @@
           <li class="nav-item">
             <a class="nav-link" href="https://cuevadelcalamar.com/contacto.html">Contacto</a>
           </li>
-        </ul>
-        <div>
-          <ul class="navbar-nav">
-            <li style="margin-right: 1rem;margin-left: 0.5rem;">
-              <i class="icofont-instagram pointer" style="font-size: 21px;"
-                onclick="window.open('https://www.instagram.com/lacuevadelcalamar','mywindow');"></i>
+          <li class="nav-item">
+            <a class="nav-link" href="https://cuevadelcalamar.com/guia/pesca-del-calamar">Guías</a>
+          </li>
+            <li style="margin-right: 1rem;margin-left: 0.5rem;transform: translate(0,4px);">
+              <i class="icofont-instagram pointer" style="font-size: 21px;" onclick="window.open('https://www.instagram.com/lacuevadelcalamar','mywindow');"></i>
             </li>
-            <li style="margin-right: 1rem;">
-              <i class="icofont-whatsapp pointer" style="font-size: 22px"
-                onclick="window.open('https://api.whatsapp.com/send?phone=34696816551','mywindow');"></i>
+            <li style="margin-right: 1rem;margin-bottom: 0;transform: translate(0,4px);">
+              <i class="icofont-whatsapp pointer" style="font-size: 22px" onclick="window.open('https://api.whatsapp.com/send?phone=34696816551','mywindow');"></i>
             </li>
-            <li>
-              <i class="icofont-envelope pointer" style="font-size: 22px"
-                onclick="window.open('mailto:cuevadelcalamar@gmail.com','mywindow');"></i>
+            <li style="margin-bottom: 0;transform: translate(0,4px);">
+              <i class="icofont-envelope pointer" style="font-size: 22px" onclick="window.open('mailto:cuevadelcalamar@gmail.com','mywindow');"></i>
             </li>
           </ul>
-        </div>
+
       </div>
-  </nav>
+  </div>
+</nav>
+
 
   <!-- ======= Menú izquierda ======= -->
 
