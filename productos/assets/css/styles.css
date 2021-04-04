@@ -40,6 +40,16 @@ td{
   background-color: #000 !important;
 }
 
+.header-box{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
