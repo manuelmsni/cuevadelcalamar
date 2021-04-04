@@ -46,7 +46,7 @@ th{
     justify-content: space-between;
 }
 
-.navbar-nav {
+.navbar-navs {
     display: flex;
     padding-left: 0;
     margin-bottom: 0;
@@ -57,7 +57,7 @@ th{
 }
 
 @media (min-width: 1150px){
-.navbar-nav {
+.navbar-navs {
     margin-right: 0px!important;
     transform: translate(0,0);
 }
