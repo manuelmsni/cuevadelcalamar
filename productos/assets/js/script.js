@@ -135,26 +135,39 @@ function SrcSet(ImageId, ThisElementSRC) {
 
 function showConfig() {
   personalizar = document.getElementById("diseño-cb");
+  var patron = document.getElementById("patron-cb");
   if (personalizar.checked) {
     $(".capa-top").css("display", "block");
     $("#p-colores, #p-vientre, #p-patron, .capa, #generated").fadeIn('slow');
     $("#freegenerated").css("display", "none");
     $("#codebox").fadeIn('slow');
+
+    if (patron.checked) {
+      showPatron();
+    }
+
   }
   else {
     $("#vientre-cb").checked = false;
     $("#p-colores, #p-vientre, #p-patron, .capa, #generated").css("display", "none");
     $("#freegenerated").fadeIn('slow');
     $("#codebox").css("display", "none");
+
+    if (patron.checked) {
+      patron.checked = false;
+      showPatron();
+      patron.checked = true;
+    }
+
   }
 }
 
 function showColorTable() {
-  $(".colors").removeClass( "active" );
-  $('#product-c-3, #product-c-4, #product-c-5').attr("src","https://cuevadelcalamar.com/img/default.png");  
+  $(".colors").removeClass("active");
+  $('#product-c-3, #product-c-4, #product-c-5').attr("src", "https://cuevadelcalamar.com/img/default.png");
   $('.colors').css("display", "none");
   $('#' + $("#colorselector").val()).fadeIn('slow');
-  $('#' + $("#colorselector").val()).addClass( "active" );
+  $('#' + $("#colorselector").val()).addClass("active");
   colorSRC1 = $(".colors.active .colorSRC1").val();
   colorSRC2 = $(".colors.active .colorSRC2").val();
   colorSRC3 = $(".colors.active .colorSRC3").val();
@@ -168,11 +181,11 @@ function showVientre() {
   vientreSRC = $("#vientreSRC").val();
   if (vientre.checked) {
     $("#color-v").fadeIn('slow');
-    $('#product-c-6').attr("src", vientreSRC);  
+    $('#product-c-6').attr("src", vientreSRC);
   }
   else {
     $("#color-v").css("display", "none");
-    $('#product-c-6').attr("src","https://cuevadelcalamar.com/img/default.png");  
+    $('#product-c-6').attr("src", "https://cuevadelcalamar.com/img/default.png");
   }
 }
 
@@ -199,16 +212,16 @@ function showPatron() {
 }
 
 function ColorSrcSet(ImageId, selectVal) {
-   document.getElementById(ImageId).src = selectVal;
+  document.getElementById(ImageId).src = selectVal;
 }
 
 function code() {
   vientre = document.getElementById("vientre-cb");
   if (vientre.checked) {
-  vientr = $("#vientreSRC").find('option:selected').attr('name');
+    vientr = $("#vientreSRC").find('option:selected').attr('name');
   }
   else {
-  vientr = "XX";
+    vientr = "XX";
   }
   codigo = "#" + $("#tituloproducto").attr('name') + "·" + $(".colors.active .colorSRC1").find('option:selected').attr('name') + $(".colors.active .colorSRC2").find('option:selected').attr('name') + $(".colors.active .colorSRC3").find('option:selected').attr('name') + "·" + vientr;
   $("#productID").text(codigo);
