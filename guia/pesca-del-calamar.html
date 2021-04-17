@@ -368,7 +368,7 @@
             <h3>Otoño</h3>
             
             <!-- Principio slider -->
-              <div class="slider-egis-2 justify-content-left" style="padding-left: 10px;">
+              <div class="slider-egis-1 justify-content-left" style="padding-left: 10px;">
               
                 <div class="slide-item">
                   <div>
@@ -574,25 +574,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
   
   <script>
-
-        //Carrousel 1
-
-        let slider = tns({
-          container: '.slider-egis-1',
-          items: 4,
-          slideBy: 'page',
-          autoplay: false,
-          mouseDrag: true,
-          swipeAngle: false,
-          nav: true,
-          controls: false,
-          "loop": false,
-         });
     
-        //Carrousel 2
-
-        let slider = tns({
-          container: '.slider-egis-2',
+    document.querySelectorAll('.slider-egis-1').forEach(slider => {
+      tns({
+          container: slider
           items: 4,
           slideBy: 'page',
           autoplay: false,
@@ -601,7 +586,9 @@
           nav: true,
           controls: false,
           "loop": false,
-         });
+      });
+    });
+
 
   </script>
           
