@@ -664,7 +664,30 @@ font-family: contorno;
   line-height: 150%;
   display: inline;
   }
-  
+
+.controls {
+    text-align: center;
+}
+
+.controls li {
+    display: block;
+    position: absolute;
+    top: 50%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: -30px;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.controls .prev {
+    left: 0;
+}
+
+.controls .next {
+    right: 0;
+}
   
 /*---------------------------------------
       CONTACTO             
