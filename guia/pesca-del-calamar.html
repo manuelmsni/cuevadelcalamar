@@ -488,20 +488,23 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
   
   <script>
-    
-  //Carrousel 1
+    $(document).ready(function(){
+      
+        //Carrousel 1
 
-  let slider = tns({
-    container: '#slider-egis-1',
-    items: 5,
-    slideBy: 'page',
-    autoplay: false,
-    mouseDrag: true,
-    swipeAngle: false,
-    nav: false,
-    "loop": false,
-  });
-  
+        let slider = tns({
+          container: '#slider-egis-1',
+          items: 5,
+          slideBy: 'page',
+          autoplay: false,
+          mouseDrag: true,
+          swipeAngle: false,
+          nav: false,
+          "loop": false,
+         });
+      
+      
+    )};
   </script>
           
 </body>
