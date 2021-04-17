@@ -22,7 +22,7 @@ function hideGh1() {
   let slider = tns({
     "container": "#slider-egis-1",
     "items": 3,
-    "slideBy": 'page',
+    "slideBy": "page",
     "autoplay": false,
     "mouseDrag": true,
     "swipeAngle": false,
