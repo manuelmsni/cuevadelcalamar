@@ -683,6 +683,10 @@ font-family: contorno;
 .tns-nav > .tns-nav-active {
     background: #999;
 }
+
+#info .slide-item:hover {
+border: 1px solid #beccdb;
+}
   
 /*---------------------------------------
       CONTACTO             
