@@ -691,6 +691,10 @@ font-family: contorno;
    overflow: hidden;	  
 }
 
+#info .slide-item {
+transition: 2s;
+}
+
 #info .slide-item:hover {
 border: 1px solid #beccdb;
 }
