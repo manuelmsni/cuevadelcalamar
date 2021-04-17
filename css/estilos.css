@@ -692,7 +692,7 @@ font-family: contorno;
 }
 
 #info .slide-item {
-transition: 2s;
+transition: 1s;
 }
 
 #info .slide-item:hover {
@@ -700,7 +700,7 @@ border: 1px solid #beccdb;
 }
 
 #info .slide-item .ofh img{
-transition: 2s;
+transition: 1.5s;
 }
 
 #info .slide-item:hover .ofh img{
