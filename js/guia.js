@@ -11,14 +11,6 @@ function hideGh1() {
   $("#g-h-1, #g-hidder-1").css("display", "none");
 }
 
-  //Carrousel importar funcion tns
-
-  var scriptjsimport = require('scriptjsimport');
-
-  scriptjsimport('https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js', function() {
-    L.mapbox.accessToken = 'tns';
-  });
-
   //Carrousel 1
 
   let slider = tns({
