@@ -665,28 +665,18 @@ font-family: contorno;
   display: inline;
   }
 
-.controls {
-    text-align: center;
+.tns-nav > [aria-controls] {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: #ddd;
+    border: 0;
 }
 
-.controls li {
-    display: block;
-    position: absolute;
-    top: 50%;
-    height: 60px;
-    line-height: 60px;
-    margin-top: -30px;
-    padding: 0 15px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.controls .prev {
-    left: 0;
-}
-
-.controls .next {
-    right: 0;
+.tns-nav > .tns-nav-active {
+    background: #999;
 }
   
 /*---------------------------------------
