@@ -578,13 +578,26 @@
     document.querySelectorAll('.myslider').forEach(slider => {
       tns({
           container: slider,
-          items: 4,
           slideBy: 'page',
           autoplay: false,
           mouseDrag: true,
           swipeAngle: false,
           nav: true,
           controls: false,
+          "responsive": {
+    "500": {
+      "items": 1
+    },
+    "650": {
+      "items": 2
+    },
+    "850": {
+      "items": 3
+    },
+    "1200": {
+      "items": 4
+    }
+  },
           "loop": false,
       });
     });
