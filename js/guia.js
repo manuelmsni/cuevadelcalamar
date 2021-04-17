@@ -1,35 +1,9 @@
+// Abrir mensaje modal al cargar la página
+
 $(document).ready(function () {
   // Ventana modal en construcción
   $('#myModal').modal('toggle');
 });
-
-
-//abrir y cerrar menu de la izquierda
-
-function showMenu() {
-  var x = document.getElementById("menu-izquierda");
-  if (x.style.left != "0px") {
-    x.style.left = "0px";
-  } else {
-    x.style.left = "-100%";
-  }
-}
-function showCloseMenu() {
-  var x = document.getElementById("cerrar-menu-izquierda");
-  if (x.style.left != "366px") {
-    x.style.left = "366px";
-  } else {
-    x.style.left = "-1000px";
-  }
-}
-function showOscurecerMenu() {
-  var x = document.getElementById("menu-izquierda-oscurecer");
-  if (x.style.left != "0px") {
-    x.style.left = "0px";
-  } else {
-    x.style.left = "-100%";
-  }
-}
 
 //mostrar y ocultar elementos
 
@@ -43,28 +17,15 @@ function hideGh1() {
   $("#g-h-1, #g-hidder-1").css("display", "none");
 }
 
+//Carrousel 1
 
-// $(document).ready(function () {
-//   $('.owl-carousel').owlCarousel({
-//     loop: true,
-//     margin: 10,
-//     responsiveClass: true,
-//     responsive: {
-//       0: {
-//         items: 1,
-//         nav: true
-//       },
-//       600: {
-//         items: 3,
-//         nav: false
-//       },
-//       1000: {
-//         items: 5,
-//         nav: true,
-//         loop: false
-//       }
-//     }
-//   })
-// });
-
-
+  let slider = tns({
+    container: '#slider-egis-1',
+    items: 3,
+    slideBy: 'page',
+    autoplay: false,
+    mouseDrag: true,
+    swipeAngle: false,
+    nav: false,
+    "loop": false,
+  });
