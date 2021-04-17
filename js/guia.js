@@ -19,6 +19,8 @@ function hideGh1() {
     L.mapbox.accessToken = 'tns';
   });
 
+  //Carrousel 1
+
   let slider = tns({
     container: '#slider-egis-1',
     items: 5,
