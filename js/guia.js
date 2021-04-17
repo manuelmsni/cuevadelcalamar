@@ -20,12 +20,12 @@ function hideGh1() {
 //Carrousel 1
 
   let slider = tns({
-    container: '#slider-egis-1',
-    items: 3,
-    slideBy: 'page',
-    autoplay: false,
-    mouseDrag: true,
-    swipeAngle: false,
-    nav: false,
+    "container": "#slider-egis-1",
+    "items": 3,
+    "slideBy": 'page',
+    "autoplay": false,
+    "mouseDrag": true,
+    "swipeAngle": false,
+    "nav": false,
     "loop": false,
   });
