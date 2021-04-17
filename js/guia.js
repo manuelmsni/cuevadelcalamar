@@ -1,9 +1,3 @@
-// Abrir mensaje modal al cargar la página
-
-$(document).ready(function () {
-  // Ventana modal en construcción
-  $('#myModal').modal('toggle');
-});
 
 //mostrar y ocultar elementos
 
