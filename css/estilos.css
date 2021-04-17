@@ -694,6 +694,11 @@ font-family: contorno;
 #info .slide-item:hover {
 border: 1px solid #beccdb;
 }
+
+#info .slide-item .ofh img{
+transition: 2s;
+}
+
 #info .slide-item:hover .ofh img{
 transform: scale(1.3);
 }
