@@ -794,6 +794,30 @@
           "loop": false,
       });
     });
+    
+     document.querySelectorAll('.afiliate-slider').forEach(slider => {
+      tns({
+          container: slider,
+          slideBy: 'page',
+          autoplay: false,
+          mouseDrag: true,
+          swipeAngle: false,
+          nav: true,
+          controls: false,
+          "responsive": {
+    "650": {
+      "items": 2
+    },
+    "800": {
+      "items": 3
+    },
+    "1200": {
+      "items": 4
+    }
+  },
+          "loop": false,
+      });
+    });
 
 
   </script>
