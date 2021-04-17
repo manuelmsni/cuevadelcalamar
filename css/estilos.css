@@ -665,6 +665,11 @@ font-family: contorno;
   display: inline;
   }
 
+.tns-nav {
+    text-align: center;
+    margin: 10px 0;
+}
+
 .tns-nav > [aria-controls] {
     width: 9px;
     height: 9px;
