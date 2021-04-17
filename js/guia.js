@@ -14,7 +14,7 @@ function hideGh1() {
   //Carrousel
 
   let slider = tns({
-    container: '.my-slider',
+    container: '#slider-egis-1',
     items: 5,
     slideBy: 'page',
     autoplay: false,
