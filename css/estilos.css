@@ -699,11 +699,15 @@ transition: 1s;
 border: 1px solid #beccdb;
 }
 
-#info .slide-item .ofh img{
+#info .slide-item img{
 transition: 1.5s;
 }
 
 #info .slide-item:hover .ofh img{
+transform: scale(1.1);
+}
+
+#info .slide-item:hover .ofhc img{
 transform: scale(1.3);
 }
 
