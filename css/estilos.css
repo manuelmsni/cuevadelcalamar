@@ -687,7 +687,7 @@ font-family: contorno;
 .tac{
    text-align: center;  
  }
-.ofh{
+.ofh, .ofhc {
    overflow: hidden;	  
 }
 
