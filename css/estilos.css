@@ -626,6 +626,14 @@ margin-top:0;
 /*---------------------------------------
       Guia          
   -----------------------------------------*/
+
+.guias-titles {
+width:100%;
+color:#fff;
+text-transform: uppercase;
+font-family: contorno;
+}
+
 .guia-title {
 width:100%;
 position: absolute;
