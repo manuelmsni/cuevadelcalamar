@@ -635,6 +635,7 @@ margin-top:0;
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    min-height: 100px;
 }
 
 .guias-titles {
