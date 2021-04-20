@@ -1,0 +1,12 @@
+.a-link{
+    animation: a-links 4s ease infinite;
+}
+
+@keyframes a-links {
+    0% {color: #498ce4;}
+    25% {color: #497abb;}
+    50% {color: #5788ca;}
+    75% {color: #5c93dc;}
+    85% {color: #516d92;}
+    100% {color: #5498f1;}
+  }
