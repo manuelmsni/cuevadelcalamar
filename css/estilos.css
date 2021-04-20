@@ -639,6 +639,11 @@ margin-top:0;
     cursor:pointer;
 }
 
+.guia-link:hover {
+transform: scale(1.01);
+border: 1px solid #beccdb;	
+}
+	
 .guias-titles {
 width:100%;
 color:#fff;
