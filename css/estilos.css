@@ -627,6 +627,14 @@ margin-top:0;
       Guia          
   -----------------------------------------*/
 
+.guia-link {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: no-repeat center center;
+    background-size: cover;
+}
+
 .guias-titles {
 width:100%;
 color:#fff;
