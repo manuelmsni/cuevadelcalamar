@@ -13,5 +13,5 @@ function hideGh1() {
 
 function ShowHide(MostrarClase, OcultarClase) {
   document.getElementByClassName(MostrarClase).fadeIn('slow');
-  document.getElementByClassName(OcultarClase)Ocultar.css("display", "none");
+  document.getElementByClassName(OcultarClase).css("display", "none");
 }
