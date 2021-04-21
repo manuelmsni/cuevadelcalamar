@@ -12,6 +12,6 @@ function hideGh1() {
 }
 
 function ShowHide(ShowClass, HideClass) {
-  document.getElementsByClassName(ShowClass).css("display", "block");
-  document.getElementsByClassName(HideClass).css("display", "none");
+  $(`.${ShowClass}`).show();
+  $(`.${HideClass}`).hide();
 }
