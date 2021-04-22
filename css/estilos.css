@@ -1014,9 +1014,11 @@ background: #13192106;
 
 }
 
-.bot-shadow{
+.bot-shadow::after{
   animation: botShadow 4s ease infinite;
 }
+
+
 
 @keyframes botShadow {
 0% {
