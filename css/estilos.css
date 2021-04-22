@@ -759,8 +759,8 @@ transform: scale(1.3);
     font-size: 1.1rem;
 }
 
-.GH1hidden, .GCEhidden, {
-  display:none;
+.GH1hidden , .GCEhidden {
+  display: none;
 }
   
 /*---------------------------------------
