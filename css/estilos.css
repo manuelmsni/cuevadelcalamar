@@ -733,6 +733,7 @@ font-family: contorno;
 
 #info .slide-item {
 transition: 1s;
+border: 1px solid transparent;
 }
 
 #info .slide-item:hover {
