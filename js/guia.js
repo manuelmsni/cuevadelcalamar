@@ -12,6 +12,6 @@ function hideGh1() {
 }
 
 function ShowHide(ShowClass, HideClass) {
-  $(`.${ShowClass}`).show();
+  $(`.${ShowClass}`).fadeIn('slow');
   $(`.${HideClass}`).hide();
 }
