@@ -5,16 +5,10 @@ function showMenu() {
   if (x.style.left != "0px") {
     x.style.left = "0px";
      $(".navbar-toggler-icon").css("background-image", "url('https://cuevadelcalamar.com/img/cerrar.png')");
+     $("#menu-izquierda-oscurecer").style.left = "0px";
   } else {
     x.style.left = "-100%";
     $(".navbar-toggler-icon").css("background-image", "url('https://cuevadelcalamar.com/img/hamburguesa.png')");
-  }
-}
-function showOscurecerMenu() {
-  var x = document.getElementById("menu-izquierda-oscurecer");
-  if (x.style.left != "0px") {
-    x.style.left = "0px";
-  } else {
-    x.style.left = "-100%";
+    $("#menu-izquierda-oscurecer").style.left = "-100%";
   }
 }
