@@ -4,6 +4,7 @@ function showMenu() {
   var x = document.getElementById("menu-izquierda");
   if (x.style.left != "0px") {
     x.style.left = "0px";
+     $(".navbar-dark.navbar-toggler-icon").css("background-image", "url('https://cuevadelcalamar.com/img/cerrar.png')");
   } else {
     x.style.left = "-100%";
   }
