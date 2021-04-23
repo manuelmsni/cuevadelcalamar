@@ -472,6 +472,68 @@
             </div>
           </div>
           <hr>
+          <div class="col-md-12">
+            <!-- Principio slider -->
+              <div class="myslider justify-content-left" style="padding-left: 10px;">
+              
+                <div class="slide-item">
+                  <div>
+                    <a href=""><img src="https://cuevadelcalamar.com/productos/egis/4cm/gamba/img/gamba.png" class="img-fluid" alt="la pesca de calamares que meses son buenos"></a>
+                  </div>
+                  <div>
+                    <p class="tac">Egi artesano 5cm </p>
+                  </div>
+                </div>
+                
+                <div class="slide-item">
+                  <div>
+                    <a href=""><img src="https://cuevadelcalamar.com/productos/egis/4cm/gamba/img/gambarosa.png" class="img-fluid miniatura-prod" alt="mejores poteras para pesca calamar"></a>
+                  </div>
+                  <div>
+                    <p class="tac">Egi Quisquilla 5 cm</p>
+                  </div>
+                </div>
+              
+                <div class="slide-item">
+                  <div>
+                    <a href=""><img src="https://cuevadelcalamar.com/productos/egis/4cm/gamba/img/gamba.png" class="img-fluid"></a>
+                  </div>
+                  <div>
+                    <p class="tac">Egi Asturiano 4 cm</p>
+                  </div>
+                </div>
+                
+                 <div class="slide-item">
+                  <div>
+                    <a href=""><img src="https://cuevadelcalamar.com/productos/egis/4cm/gamba/img/gambarosa.png" class="img-fluid miniatura-prod"></a>
+                  </div>
+                  <div>
+                    <p class="tac">Egi 5cm</p>
+                  </div>
+                </div>
+                
+                <div class="slide-item">
+                  <div>
+                    <a href=""><img src="https://cuevadelcalamar.com/productos/egis/4cm/gamba/img/gamba.png" class="img-fluid"></a>
+                  </div>
+                  <div>
+                    <p class="tac">Egi 5cm</p>
+                  </div>
+                </div>
+                
+                <div class="slide-item">
+                  <div>
+                    <a href=""><img src="https://cuevadelcalamar.com/productos/egis/4cm/gamba/img/gambarosa.png" class="img-fluid"></a>
+                  </div>
+                  <div>
+                    <p class="tac">Egi 5cm</p>
+                  </div>
+                </div>
+                
+              </div>
+            
+            <!-- Final slider -->
+          </div>
 <!--
           <div class="row justify-content-center" style="width:100%;margin:0px;">
             <div class="col-lg-12" style="margin-bottom: 10px;border-bottom: 1px solid rgba(0,0,0,.1);padding-bottom: 5px;">
@@ -721,9 +783,36 @@
     </div>
   </footer>
 
-
-
-
+  <!-- Tiny slider Js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  
+  <script>
+    
+    document.querySelectorAll('.myslider').forEach(slider => {
+      tns({
+          container: slider,
+          slideBy: 'page',
+          autoplay: false,
+          mouseDrag: true,
+          swipeAngle: false,
+          nav: true,
+          controls: false,
+          "responsive": {
+    "650": {
+      "items": 2
+    },
+    "800": {
+      "items": 3
+    },
+    "1200": {
+      "items": 4
+    }
+  },
+          "loop": false,
+      });
+    });
+    
+  </script>
 
 </body>
 
