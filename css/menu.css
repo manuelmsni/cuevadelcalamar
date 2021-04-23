@@ -1,15 +1,87 @@
+/*---------------------------------------
+      Menú izquierda          
+  -----------------------------------------*/
 
+  #hamburguesa {
+    z-index: 10010;
+    position: fixed;
+    height: 2rem;
+    width: 2rem;
+    padding: 2px;
+    left:1rem;
+    top:1rem;
+  }
 
+  #cerrar-menu-izquierda {
+    z-index: 10011;
+    position: fixed;
+    height: 2rem;
+    width: 2rem;
+    padding: 2px;
+    left:-1000px;
+    top:70px;
+    transition: 0.4s;
+  }
 
-#menu-izquierda-content {
+  #menu-izquierda{
+    z-index: 10010;
+    position: fixed;
+    left: -200%;
+    top:67px;
+    width: 100%;
     height: 100%;
-    border-right: 1px solid #213853;
+    overflow: hidden;
+    transition: 0.4s;
+    margin:0px;
+  }
+
+  #menu-izquierda-content{
+    height: 100%;
+    border-right: 1px solid #354d69;
     background-color: #2a3135;
     overflow: hidden;
-    margin: 0px;
-    padding: 0px;
-    max-width: 368px;
+    margin:0px;
+    padding:0px;
+    max-width:368px;
+  }
+ .nav-link {
+    color: #fff;
+ }
+
+
+@media (max-width: 425px) {
+  #menu-izquierda-content {
+   max-width:425px;
+  }
 }
+  
+.no-m-p{
+ margin-left:0px;
+ margin-right:0px;
+ padding-left:0px;
+ padding-right:0px;
+}
+  
+  #menu-izquierda .m-i-b {
+    border: 1px solid #232F3E;
+    background: #131921;
+    text-align: center;
+  }
+
+  #menu-izquierda td a{
+    color: #fff;
+  }
+
+   #menu-izquierda-oscurecer {
+    z-index: 10009;
+    position: fixed;
+    left: -100%;
+    top:66px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    overflow: hidden;
+  }
 
 .guia-link {
 margin: 0;
