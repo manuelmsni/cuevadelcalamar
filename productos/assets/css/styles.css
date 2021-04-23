@@ -334,7 +334,7 @@ body {
   height: 0px;
 }
 
- .tns-item {
+ #rowsticky .tns-item {
     height:50px; 
     max-width:50px;
     border: 1px solid;
@@ -345,12 +345,12 @@ body {
     cursor:pointer;
   }
 
- .tns-item:hover{
+ #rowsticky .tns-item:hover{
     box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
     border-color: #232F3E #232F3E #232F3E;
   }
 
-.controls {
+ #rowsticky .controls {
     text-align: center;
     margin: 0;
     padding: 0;
@@ -362,7 +362,7 @@ body {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
-.controls li {
+ #rowsticky .controls li {
     text-align: -webkit-match-parent;
     list-style: none;
     margin: 0;
@@ -377,13 +377,13 @@ body {
     cursor: pointer;
     transition: background 0.3s;
 }
-.controls .prev {
+ #rowsticky .controls .prev {
     left: 0;
 }
-.controls .next {
+ #rowsticky .controls .next {
     right: 0;
 }
-.miniatura-prod{
+ #rowsticky .miniatura-prod{
     padding:0px;
     margin:0px;
     position: relative;
