@@ -1,7 +1,15 @@
 
 
 
-
+#menu-izquierda-content {
+    height: 100%;
+    border-right: 1px solid #213853;
+    background-color: #2a3135;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    max-width: 368px;
+}
 
 .guia-link {
 margin: 0;
