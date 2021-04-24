@@ -126,8 +126,7 @@
 
 /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
 .menu-content::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 4px;
+background: #20242a;
 }
 
 /* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
@@ -143,8 +142,7 @@
 
 /* Ponemos un color de fondo y redondeamos las esquinas del track */
 .menu-content::-webkit-scrollbar-track {
-    background: #e1e1e1;
-    border-radius: 4px;
+background: #373c3e;
 }
 
 /* Cambiamos el fondo cuando esté en active o hover */
