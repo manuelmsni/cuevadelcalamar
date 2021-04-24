@@ -16,7 +16,7 @@ $(document).ready(function () {
   /*
     function titleComeBack() {
       jQuery(function () {
-        var message = "¡Te echamos de menos!";
+        var message izquierda= "¡Te echamos de menos!";
         var original;
   
         jQuery(window).focus(function () {
