@@ -508,6 +508,11 @@ transform: scale(1.3);
   background: #9bffc159;
 }
 
+.contact-info {
+    padding: 1rem;
+    border: 1px solid #beccdb;
+    background: #13192106;
+}
   /*---------------------------------------
       PIE DE PÁGINA            
   -----------------------------------------*/
