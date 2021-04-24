@@ -14,7 +14,7 @@ function heightmenu() {
     var bot = $('#botonera_izquierda').height();
     //var cont = $("#menu-izquierda").height();
     
-    var height_cont = win - nav - bot;
+    var height_cont = win - nav - bot -32;
 
     $(".menu-content").height(height_cont);
 
