@@ -10,11 +10,11 @@ $(document).ready(function () {
 
 function heightmenu() {
     var win = $(window).height(); //this = window
-    var nav = $('#menu_arriba').height();
+    var nav = $('#menu_arriba').outerHeight();
     var bot = $('#botonera_izquierda').height();
     //var cont = $("#menu-izquierda").height();
     
-    var height_cont = win - nav - bot -32;
+    var height_cont = win - nav - bot;
 
     $(".menu-content").height(height_cont);
 
