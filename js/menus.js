@@ -1,7 +1,14 @@
 //abrir y cerrar menu de la izquierda
 
 $(document).ready(function () {
+  heightmenu();
   $(window).on('resize', function () {
+   heightmenu();
+  });
+});
+
+
+function heightmenu() {
     var win = $(window).height(); //this = window
     var nav = $('#menu_arriba').height();
     var bot = $('#botonera_izquierda').height();
@@ -11,9 +18,8 @@ $(document).ready(function () {
 
     $(".menu-content").height(height_cont);
 
-  });
+  };
 
-});
 
 /*
 $(document).ready(function () {
