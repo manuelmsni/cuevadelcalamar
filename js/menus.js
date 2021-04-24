@@ -12,3 +12,8 @@ function showMenu() {
     $("#menu-izquierda-oscurecer").css("left", "-100%");
   }
 }
+
+function SrcSet(ImageId, ThisElementSRC) {
+  var element = document.getElementById(ImageId);
+  element.src = ThisElementSRC;
+}
