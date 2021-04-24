@@ -121,7 +121,7 @@
 }
 
 .menu-content::-webkit-scrollbar {
-    display: none;
+    display: block;
 }
 
 /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
