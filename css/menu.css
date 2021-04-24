@@ -172,7 +172,6 @@ margin-bottom: 1rem;
 min-height: 130px;
 cursor:pointer;
 display:table;
-
 }
 
 .guia-link::before {
@@ -190,6 +189,11 @@ transform: scale(1.01);
 border: 1px solid #beccdb;
 box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
 }
+
+.menu-content .guia-link {
+margin-top: 1px;
+margin-bottom: 0px;
+}	
 	
 .guias-titles {
 width: 100%;
