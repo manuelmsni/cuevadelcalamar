@@ -4,6 +4,22 @@ $(document).ready(function () {
   $(window).on('resize', function () {
     var win = $(window).height(); //this = window
     var nav = $('#menu_arriba').height();
+    var bot = $('#botonera_izquierda').height();
+    //var cont = $("#menu-izquierda").height();
+    
+    var height_cont = win - nav - bot;
+
+    $(".menu-content").height(height_cont);
+
+  });
+
+});
+
+/*
+$(document).ready(function () {
+  $(window).on('resize', function () {
+    var win = $(window).height(); //this = window
+    var nav = $('#menu_arriba').height();
     //var cont = $("#menu-izquierda").height();
     
     var height_cont = win - nav;
@@ -13,6 +29,7 @@ $(document).ready(function () {
   });
 
 });
+*/
 
 function showMenu() {
   var x = document.getElementById("menu-izquierda");
