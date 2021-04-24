@@ -120,6 +120,10 @@
     padding-left: 2px;
 }
 
+.menu-content::-webkit-scrollbar {
+    display: none;
+}
+
 
 @media (max-width: 425px) {
   #menu-izquierda-content {
