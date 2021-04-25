@@ -281,12 +281,14 @@ body {
     margin-right: 0;
   }
   .productos-wrap img{
-    transition: 1s;
+    transition: 0.4s;
+    filter: drop-shadow(2px 2px 5px #232f3e);
+    -webkit-filter: drop-shadow(2px 2px 5px #232f3e);
   }
   .productos-item:hover img{
     transform: scale(1.1);
-    filter: drop-shadow(2px 2px 5px #232f3e);
-    -webkit-filter: drop-shadow(2px 2px 5px #232f3e);
+    filter: none;
+    -webkit-filter: none;
   }
 
   .productos .productos-item {
