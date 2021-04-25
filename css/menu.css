@@ -97,27 +97,29 @@
     margin:0px;
   }
 
-  #menu-izquierda-content{
-    height: 100%;
-    border-right: 1px solid #354d69;
-    background-color: #2a3135;
-    overflow: hidden;
-    margin:0px;
-    padding:0px;
-    max-width:368px;
-  }
- .nav-link {
-    color: #fff;
- }
+#menu-izquierda-content{
+ height: 100%;
+ border-right: 1px solid #354d69;
+ background-color: #2a3135;
+ overflow: hidden;
+ margin:0px;
+ padding:0px;
+ max-width:368px;
+}
+
+.nav-link {
+ color: #fff;
+ font-size: 1rem;
+}
 
 .menu-content {
-    overflow-y: auto;
-    overflow-x: hidden;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    padding-right: 3px;
-    padding-left: 2px;
+ overflow-y: auto;
+ overflow-x: hidden;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ padding-right: 3px;
+ padding-left: 2px;
 }
 
 .menu-content::-webkit-scrollbar {
@@ -131,13 +133,13 @@ background: #20242a;
 
 /* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
 .menu-content::-webkit-scrollbar-thumb:hover {
-    background: #b3b3b3;
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+ background: #b3b3b3;
+ box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Cambiamos el fondo cuando esté en active */
 .menu-content::-webkit-scrollbar-thumb:active {
-    background-color: #999999;
+ background-color: #999999;
 }
 
 /* Ponemos un color de fondo y redondeamos las esquinas del track */
@@ -150,13 +152,6 @@ background: #373c3e;
 .menu-content::-webkit-scrollbar-track:active {
   background: #d4d4d4;
 }
-
-
-
-
-
-
-
 
 
 @media (max-width: 425px) {
@@ -172,97 +167,97 @@ background: #373c3e;
  padding-right:0px;
 }
   
-  #menu-izquierda .m-i-b {
-    border: 1px solid #232F3E;
-    background: #131921;
-    text-align: center;
-  }
+#menu-izquierda .m-i-b {
+ border: 1px solid #232F3E;
+ background: #131921;
+ text-align: center;
+}
 
-  #menu-izquierda td a{
-    color: #fff;
-  }
+#menu-izquierda td a{
+ color: #fff;
+}
 
-   #menu-izquierda-oscurecer {
-    z-index: 10009;
-    position: fixed;
-    left: -100%;
-    top:66px;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,.8);
-    overflow: hidden;
-  }
+#menu-izquierda-oscurecer {
+ z-index: 10009;
+ position: fixed;
+ left: -100%;
+ top:66px;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0,0,0,.8);
+ overflow: hidden;
+}
 
 .guia-link {
-margin: 0;
-padding: 0;
-padding-left: 5px;
-padding-right: 5px;
-text-align: center;
-background: no-repeat center center;
-background-size: cover;
-margin-top: 1rem;
-margin-bottom: 1rem;
-min-height: 130px;
-max-height: 140px;
-cursor:pointer;
-display:table;
+ margin: 0;
+ padding: 0;
+ padding-left: 5px;
+ padding-right: 5px;
+ text-align: center;
+ background: no-repeat center center;
+ background-size: cover;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+ min-height: 130px;
+ max-height: 140px;
+ cursor:pointer;
+ display:table;
 }
 
 .guia-link::before {
-content: "";
-position: absolute;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
-background: rgba(14, 16, 17, 0.4);
+ content: "";
+ position: absolute;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ background: rgba(14, 16, 17, 0.4);
 }
 
 .guia-link:hover {
-transform: scale(1.01);
-border: 1px solid #beccdb;
-box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+ transform: scale(1.01);
+ border: 1px solid #beccdb;
+ box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
 }
 
 .menu-content .guia-link {
-margin-top: 1px;
-margin-bottom: 0px;
+ margin-top: 1px;
+ margin-bottom: 0px;
 }	
 	
 .guias-titles {
-width: 100%;
-color: #fff;
-text-transform: uppercase;
-font-family: contorno;
-position: relative;
-display: table-cell;
-vertical-align: middle;
+ width: 100%;
+ color: #fff;
+ text-transform: uppercase;
+ font-family: contorno;
+ position: relative;
+ display: table-cell;
+ vertical-align: middle;
 }
 
   /*---------------------------------------
       PIE DE PÁGINA            
   -----------------------------------------*/
 .footer {
-  background: #131921;
-  color: #ffffff;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-top: 1px solid #232F3E;
+ background: #131921;
+ color: #ffffff;
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+ border-top: 1px solid #232F3E;
 }
 
 .footer p {
-color:#fff;
+ color:#fff;
 }
 
 .footer .container li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0px 15px 0px 15px;
-  font-size: 30px;
-  line-height: 1;
-  color: #fff;
-  transition: all 0.3s ease-in-out;
+ cursor: pointer;
+ display: inline-block;
+ padding: 0px 15px 0px 15px;
+ font-size: 30px;
+ line-height: 1;
+ color: #fff;
+ transition: all 0.3s ease-in-out;
 }
 
 .footer .container li a {
