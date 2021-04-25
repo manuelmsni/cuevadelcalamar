@@ -280,9 +280,6 @@ body {
   .productos #productos-flters li:last-child {
     margin-right: 0;
   }
-  .productos-wrap{
-    overflow: hidden;
-  }
   .productos-wrap img{
     transition: 1s;
   }
@@ -322,7 +319,9 @@ body {
 */
 
   .productos .productos-item:hover{
-    background-color: #E7F3F3;
+    background-color: #232f3e03;
+    background: url(https://cuevadelcalamar.com/img/productos/señuelos/product-shadow.png) center center;
+    background-size: cover;
   }
 /*
   .productos .productos-item:hover::before{
@@ -349,9 +348,10 @@ body {
   color: #fff;font-size: 1rem;font-weight: 400;line-height: 1.5;margin:0px;	
 }
   
-  .productos .productos-item:hover .productos-stock{
-    border: 1px solid #232F3E;
-  }
+  .productos .productos-item:hover .productos-stock {
+    border-top: 1px solid #232f3e3b;
+    box-shadow: 1px 5px 20px 1px rgb(68 88 144 / 10%);
+}
 
   .productos .productos-item:hover .h2-prod-title{
     color: #232F3E;
