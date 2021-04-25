@@ -200,7 +200,7 @@ transform: scale(1.3);
   display:none;
   }
 
-.tg  {border-collapse:collapse;border-color: 1px solid var(--dark-grey);border-spacing:0;}
+.tg  {border-collapse:collapse;border: 1px solid var(--dark-grey);border-spacing:0;}
 .tg td{background-color:var(--fondo-tabla-especificaciones);color:var(--dark-blue);font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-c3ow{border-color:inherit;text-align:center;}
 .tg .tg-56tm{background-color:#fff;border-color:inherit;text-align:left;}
