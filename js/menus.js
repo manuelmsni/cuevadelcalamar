@@ -16,7 +16,7 @@ function heightmenu() {
     
     var height_cont = win - nav - bot;
 
-    $(".menu-content").height(height_cont);
+    $(".menu-content").css({"maxHeight": height_cont });
 
   };
 
