@@ -296,7 +296,7 @@ body {
     padding-left: 0px;
     transition: 0.3s;
   }
-
+/*
   .productos .productos-item::before {
     position: absolute;
     top: 3%;
@@ -319,11 +319,12 @@ body {
     border-right: 1px solid#232F3E;
     transition: 0.4s;
   }
+*/
 
   .productos .productos-item:hover{
     background-color: #E7F3F3;
   }
-
+/*
   .productos .productos-item:hover::before{
     top: 0%;
     left: 0%;
@@ -336,7 +337,7 @@ body {
     right: 0%;
     height: 100%;
   }
-  
+  */
   .productos-stock{
     padding: 3px 5px 3px 6px;
     border-right: 1px solid #fff;
