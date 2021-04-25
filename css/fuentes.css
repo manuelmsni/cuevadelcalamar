@@ -21,8 +21,17 @@ html{
 --grey: #e5e5e5;
 --light-grey: #f9fafa;      
 --paperboard: #b99c76;
-	
---fondo-tabla-especificaciones:#f3f7ff;     
+
+--borde-menu-izquierda: #2c3e54;
+--fondo-menu-izquierda: #2a3135;
+--oscurecer-menu-izquierda: rgba(0,0,0,.8);
+--fondo-barra-scroll: #20242a;
+--color-barra-scrol: #373c3e;
+--hover-fondo-barra-scroll: #b3b3b3;
+--hover-fondo-barra-scroll-2: #999999;
+--hover-fondo-barra-scroll-3: #d4d4d4;
+
+--fondo-tabla-especificaciones: #f3f7ff;     
 }
 
 p , .h2-p {
