@@ -70,7 +70,7 @@
     <div class="align-items-center header-box">
 
 
-      <button onclick="showMenu(); showCloseMenu(); showOscurecerMenu()" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: transparent; border: 0px;"><span class="navbar-toggler-icon"></span></button>
+      <button onclick="showMenu();" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: transparent; border: 0px;"><span class="navbar-toggler-icon"></span></button>
       <a class="navbar-brand" href="https://cuevadelcalamar.com/#hero">La cueva del Calamar</a>
 
 
@@ -101,46 +101,48 @@
 </nav>
 
 
-  <!-- ======= Menú izquierda ======= -->
-
- <div id="cerrar-menu-izquierda">
-    <button onclick="showMenu(); showCloseMenu(); showOscurecerMenu()"
-      style="background: transparent; border: transparent;"><img id="cerr"
-        src="https://cuevadelcalamar.com/img/cerrar.png"></button>
-  </div>
+ <!-- ======= Menú izquierda ======= -->
 
 <div id="menu-izquierda" class="row">   
   
   <div id="menu-izquierda-content" class="col-md-7">
-    
-    <div style="width: 100%;" class="row no-m-p">
-        <div class="col-md-4 m-i-b no-m-p">
-          <a class="nav-link no-m-p" href="https://cuevadelcalamar.com" onclick="showMenu(); showCloseMenu(); showOscurecerMenu()">Productos</a>
+
+      <div style="width: 100%;" class="row no-m-p">
+        
+        <div id="botonera_izquierda" class="col-md-12 row no-m-p">
+        
+          <div class="col-md-4 m-i-b no-m-p">
+            <a class="nav-link no-m-p" href="https://cuevadelcalamar.com" onclick="showMenu();">Productos</a>
+          </div>
+      
+          <div class="col-md-4 m-i-b no-m-p">
+            <a class="nav-link no-m-p" href="https://cuevadelcalamar.com/info.html" onclick="showMenu();">Información</a>
+          </div>
+      
+          <div class="col-md-4 m-i-b no-m-p">
+            <a class="nav-link" href="https://cuevadelcalamar.com/contacto.html" onclick="showMenu();">Contacto</a>
+          </div>
+          
         </div>
       
-        <div class="col-md-4 m-i-b no-m-p">
-          <a class="nav-link no-m-p" href="https://cuevadelcalamar.com/info.html"
-            onclick="showMenu(); showCloseMenu(); showOscurecerMenu()">Información</a>
-        </div>
+        <div class="col-md-12 row menu-content">
       
-        <div class="col-md-4 m-i-b no-m-p">
-          <a class="nav-link" href="https://cuevadelcalamar.com/contacto.html">Contacto</a>
+          <div class="col-md-12 guia-link" style="background-image: url(https://cuevadelcalamar.com/img/pescadelcalamar.jpg);" onclick="location.href='https://cuevadelcalamar.com/guia/pesca-del-calamar.html';">
+              <h1 class="guias-titles">Cómo pescar a <b>Eging</b></h1>
+          </div>
+       
         </div>
-      
-        <div class="col-md-12 guia-link" style="background-image: url(https://cuevadelcalamar.com/img/pescadelcalamar.jpg);" onclick="location.href='https://cuevadelcalamar.com/guia/pesca-del-calamar.html';">
-            <h1 class="guias-titles">Cómo pescar a <b>Eging</b></h1>
-        </div>
-      
+        
+          
       </div>
     </div>
   
-    <div id="menu-izquierda-space" class="col-md-8" style="height:100%;" onclick="showMenu(); showCloseMenu(); showOscurecerMenu()">
+    <div id="menu-izquierda-space" class="col-md-8" style="height:100%;" onclick="showMenu();">
     </div>
   </div>
 
-  <div id="menu-izquierda-oscurecer" onclick="showMenu(); showCloseMenu(); showOscurecerMenu()">
+  <div id="menu-izquierda-oscurecer" onclick="showMenu();">
   </div>
-
 
   <!-- ======= Contacto ======= -->
 
