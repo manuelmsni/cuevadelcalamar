@@ -1,18 +1,28 @@
+html{
+ scroll-behavior: smooth;
+ overflow-x: hidden;
+ user-select:none;
+}
+
 /*---------------------------------------
       Variables color CSS3 
    (Para usar escribir)  
-.ejemplo: var(--black-blue);        
+.ejemplo: var(--dark-blue);        
 -----------------------------------------*/
 :root {
 --black-blue: #131921;
 --dark-blue: #232F3E;
+--blue: #005cc5;
 --mint-green: #9be8b9;
 --light-mint-green: #dcffe9;
 --dark-mint-green: #009688;
 --dark-red: #c95d5d;
 --dark-grey:#b5b5b5;
---grey:#e5e5e5;
---paperboard:#b99c76;
+--grey: #e5e5e5;
+--light-grey: #e5e5e50C;      
+--paperboard: #b99c76;
+-light-shadow: 0px 2px 15px #1319211e;
+      
 }
 
 p , .h2-p {
@@ -29,8 +39,22 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--black-blue);
 }
 
+ h1 {
+	 line-height: 120%;
+	 margin-bottom: 30px;
+}
+
 .bold {
  font-weight: bolder;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+ .text-header {
+	 font-size: 50px;
+	 text-align: center;
 }
 
 /*---------------------------------------
