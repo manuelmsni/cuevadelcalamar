@@ -15,8 +15,8 @@
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #232F3E;
-  background-color:#131921;
+  border-bottom: 1px solid var(--dark-blue);
+  background-color: var(--black-blue);
 }
 
 .navbar-nav {
@@ -105,8 +105,8 @@
 
 #menu-izquierda-content{
  height: 100%;
- border-right: 1px solid #2c3e54;
- background-color: #2a3135;
+ border-right: 1px solid var(--borde-menu-izquierda);
+ background-color: var(--fondo-menu-izquierda);
  overflow: hidden;
  margin:0px;
  padding:0px;
@@ -134,29 +134,29 @@
 
 /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
 .menu-content::-webkit-scrollbar-thumb {
-background: #20242a;
+background: var(--fondo-barra-scroll);
 }
 
 /* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
 .menu-content::-webkit-scrollbar-thumb:hover {
- background: #b3b3b3;
+ background: var(--hover-fondo-barra-scroll);
  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Cambiamos el fondo cuando esté en active */
 .menu-content::-webkit-scrollbar-thumb:active {
- background-color: #999999;
+ background-color: var(--hover-fondo-barra-scroll-2);
 }
 
 /* Ponemos un color de fondo y redondeamos las esquinas del track */
 .menu-content::-webkit-scrollbar-track {
-background: #373c3e;
+background: var(--color-barra-scrol);
 }
 
 /* Cambiamos el fondo cuando esté en active o hover */
 .menu-content::-webkit-scrollbar-track:hover,
 .menu-content::-webkit-scrollbar-track:active {
-  background: #d4d4d4;
+  background: var(--hover-fondo-barra-scroll-3);
 }
 
 
@@ -174,8 +174,8 @@ background: #373c3e;
 }
   
 #menu-izquierda .m-i-b {
- border: 1px solid #232F3E;
- background: #131921;
+ border: 1px solid var(--dark-blue);
+ background: var(--black-blue);
  text-align: center;
 }
 
@@ -190,7 +190,7 @@ background: #373c3e;
  top:66px;
  width: 100%;
  height: 100%;
- background-color: rgba(0,0,0,.8);
+ background-color: var(--oscurecer-menu-izquierda);
  overflow: hidden;
 }
 
