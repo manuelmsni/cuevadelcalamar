@@ -202,6 +202,7 @@ background: #373c3e;
  max-height: 140px;
  cursor:pointer;
  display:table;
+ border: 1px solid rgba(14, 16, 17, 0.4);
 }
 
 .guia-link::before {
