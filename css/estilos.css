@@ -106,6 +106,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
   background-size: 400% 300%;
   animation: BgGradient 5s ease infinite;
+  background-clip: text;
   -webkit-background-clip: text;  
   -webkit-text-fill-color: transparent;  
 }
@@ -324,7 +325,7 @@ body {
 
   .productos .productos-item:hover{
     background-color: #232f3e03;
-    background: url(https://cuevadelcalamar.com/img/productos/señuelos/product-shadow.png) center center;
+    background: url(../img/productos/señuelos/product-shadow.png) center center;
     background-size: cover;
   }
 /*
@@ -443,18 +444,21 @@ body {
 
   .Ct7-0034 {
     background: radial-gradient(circle at 30% 107%, #FF0A74 0%, #FF0A74 30%, #ffffff 45%,#10a4df 60%,#10a4df 90%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .Ct1-0043 {
     background: radial-gradient(circle at 30% 107%, #ff2d26 0%, #ff8d0b 30%, #e0d20a 45%,#10a4df 60%,#10a4df 90%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .Ct7-0032 {
     background: radial-gradient(circle at 30% 107%, #FF0A74 0%, #FF0A74 30%, #ffffff 45%,#ff8d0b 60%,#ff8d0b 90%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -490,6 +494,7 @@ body {
   background: rgb(255,226,6);
   border: 1px solid #757575;
   background: linear-gradient(180deg,  rgba(248,75,228,1) 0%, rgba(255,226,6,1) 80%);
+  background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -498,6 +503,7 @@ body {
   background: rgb(23,204,214);
   border: 1px solid #757575;
   background: linear-gradient(180deg, rgba(23,204,214,1) 16%, rgba(32,226,112,1) 35%, rgba(255,226,6,1) 52%, rgba(248,75,228,1) 100%);
+  background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -533,7 +539,7 @@ margin-top:0;
 .info-info {
   padding: 1rem;
   border: 1px solid #beccdb;
-  background: url('https://cuevadelcalamar.com/img/fondo-info.png');
+  background: url('../img/fondo-info.png');
   margin-top: 1rem;
   text-align: justify;
   margin-bottom: 1rem;
@@ -562,7 +568,7 @@ font-family: contorno;
 .guia-info {
   padding: 1rem;
   border: 1px solid #beccdb;
-  background: url('https://cuevadelcalamar.com/img/fondo-guia.png');
+  background: url('../img/fondo-guia.png');
   margin-top: 1rem;
   text-align: justify;
   margin-bottom: 1rem;
@@ -831,7 +837,7 @@ background: #13192106;
 @media (max-width: 767px) {
   .container{
     min-width: 100%;
-    margin:0px:
+    margin:0px;
   }
 
 }
