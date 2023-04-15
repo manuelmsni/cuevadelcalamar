@@ -164,7 +164,7 @@ function showConfig() {
 
 function showColorTable() {
   $(".colors").removeClass("active");
-  $('#product-c-3, #product-c-4, #product-c-5').attr("src", "https://cuevadelcalamar.com/img/default.png");
+  $('#product-c-3, #product-c-4, #product-c-5').attr("src", "../../../img/default.png");
   $('.colors').css("display", "none");
   $('#' + $("#colorselector").val()).fadeIn('slow');
   $('#' + $("#colorselector").val()).addClass("active");
@@ -185,7 +185,7 @@ function showVientre() {
   }
   else {
     $("#color-v").css("display", "none");
-    $('#product-c-6').attr("src", "https://cuevadelcalamar.com/img/default.png");
+    $('#product-c-6').attr("src", "../../../img/default.png");
   }
 }
 
